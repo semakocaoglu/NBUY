@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psuedo Elements</title>
+    <style>
+        p::first-line{
+            font-weight: bold;
+            color:red;
+            word-spacing: 3px;
+            letter-spacing: 2px;
+        }
+        p.myClass::first-line{
+            color:green;
+        }
+        ::selection{
+            background-color: yellow;
+            color: navy;
+            font-weight: bold;/*etki etmez*/
+            font-size:30px;/*etki etmez*/
+        }
+        p.myClass::first-letter{
+            font-size: 48px;
+        }
+        p::after{
+            content:"Bu yeni eklendi!";
+            font-size:48px;
+        }
+        p::before{
+            content:"Bu da before ile yapıldı!";
+            font-size:28px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque corrupti aut mollitia quo minima nihil error
+        veniam, unde perferendis debitis, laborum libero ad? Nostrum molestias debitis, quas blanditiis sint illum!</p>
+    <p class="myClass">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, repellat quaerat exercitationem
+        delectus distinctio nam ab velit! Libero illum, eveniet architecto a ab magni id. Rerum numquam debitis quas
+        optio!</p>
+</body>
+
+</html>

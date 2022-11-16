@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            font-size: 20px;
+        }
+
+        div {
+            font-size: 3rem;
+            border: 1px solid black;
+        }
+
+        #top-div {
+            font-size: 2rem;
+            border: 1px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Bu sayfanın yazı tipi boyutu 20 pikseldir.</p>
+
+    <div id="top-div">
+        Bu div elemanının yazı tipi boyutu 2rem'dir ve bu, tarayıcının yazı tipi boyutunun 2 katı anlamına gelir.
+        <div>Bu div elemanının yazı tipi boyutu 3rem'dir. Ayrıca, ebeveyn elemanının yazı tipi boyutundan miras
+            almadığını da gösterir.</div>
+    </div>
+
+    <p>rem birimi, yazı tipi boyutunu tarayıcının temel yazı tipi boyutuna göre ayarlar ve ebeveynlerinden miras almaz.
+    </p>
+</body>
+
+</html>

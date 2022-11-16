@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        body {
+            margin: 5px;
+            height: 400px;
+        }
+
+        #page-title {
+            background-color: red;
+            width: 200px;
+            /* Burada belirtilen kısa yazım tekniği sadece margin ile ilgili DEĞİLDİR */
+            /* margin: 30px 50px 30px 50px; */
+            /* margin: 30px 50px; */
+            /* margin: 30px 50px 70px; */
+            margin: 0px auto;
+        }
+
+        #page-subtitle {
+            background-color: blue;
+            margin-top: 30px;
+            margin-right: 50px;
+            margin-bottom: 70px;
+            margin-left: 90px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 
+        margin-kutunun kenar çizgisinin dışındaki mesafe
+        padding-kutunun kenar çizgisinin içerikle arasındaki mesafe
+        border-kutunun kenar çizgisi
+    -->
+    <main>
+        <section id="page-title">
+            <h1>Hoş geldiniz</h1>
+        </section>
+        <section id="page-subtitle">
+            <h2>Nasıl Çalışıyoruz?</h2>
+        </section>
+    </main>
+</body>
+
+</html>

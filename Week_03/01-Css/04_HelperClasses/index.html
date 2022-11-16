@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helper Classes</title>
+    <style>
+        /* Bu class tüm butonlarımızın ORTAK ÖZELLİKLERİNİ tanımlayacak */
+        .btn {
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            padding: 7px 15px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 3px;
+            transition-duration: .5s;
+        }
+
+        .btn-primary {
+            background-color: #DD5353;
+            color: #EDDBC0;
+            border: 2px solid #DD5353;
+        }
+
+        .btn-primary:hover {
+            background-color: #EDDBC0;
+            color: #DD5353;
+        }
+    </style>
+</head>
+
+<body>
+    <a class="btn btn-primary" href="#">Button</a>
+    <label for="" class="btn btn-primary">Button</label>
+</body>
+
+</html>

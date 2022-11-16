@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating Images</title>
+    <style>
+        p {
+            border: 2px solid red;
+            padding: 5px;
+        }
+
+        img.resim {
+            width: 300px;
+            float: left;
+            margin-right: 10px;
+        }
+
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas corrupti, repudiandae, itaque quod doloribus
+        magni amet, iusto est labore nesciunt nemo? Voluptate porro consequatur sequi molestias eius asperiores cumque
+        provident.</p>
+    <p class="clearfix">
+        <img class="resim" src="/00_Images/features.jpeg" alt="">
+        <span>
+            Resim buradan başlıyor ipsum dolor sit amet consectetur adipisicing elit. Quam sit error, nihil, nesciunt
+            eius eos deserunt dolores totam voluptas deleniti placeat, amet dignissimos ad odio asperiores assumenda
+            omnis! Corrupti, praesentium.
+        </span>
+        <span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, incidunt laboriosam ab eum illum
+            cumque iste et dolor. Sint, exercitationem. Totam ad beatae excepturi, explicabo repellat esse ab dolore
+            incidunt!
+            <span>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non sapiente veniam perspiciatis facilis
+                voluptates autem, eius, illo, laudantium laboriosam dicta quos suscipit molestiae temporibus iusto
+                possimus quasi nobis dolore et?
+            </span>
+        </span>
+    </p>
+
+</body>
+
+</html>

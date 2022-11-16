@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            font-size: 16px;
+            line-height: 2em;
+        }
+
+        p#second-paragraph {
+            font-size: 30px;
+            line-height: 1.5em;
+        }
+
+        div.container-div {
+            font-size: 30px;
+            border: 1px solid black;
+        }
+
+        div.item-div {
+            font-size: 2em;
+            border: 1px solid black;
+        }
+
+        span {
+            font-size: 0.5em;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Bu paragrafın yazı tipi boyutu 16px, satır yüksekliği ise 2x16px=32px</p>
+    <p id="second-paragraph">Bu paragrafın yazı tipi boyutu 30px, satır yüksekliği ise 1.5x30px=45px</p>
+    <div class="container-div">Bu div elemanının yazı tipi büyüklüğü 30px.
+        <span>Bu span elemanının yazı tipi büyüklüğü, ebeveyn elemanının yazı tipi büyüklüğüne göre hesaplanmış olup
+            0.5x30=15px
+        </span>.
+        <div class="item-div">
+            Bu div elemanının yazı tipi büyüklüğü de, ebeveyn elemanının yazı tipi büyüklüğüne göre hesaplanmış olup
+            2x30px=60px
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class-Id Selectors</title>
+    <style>
+        #page-footer {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 20px;
+        }
+
+        .anaBaslik {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: brown;
+            background-color: aqua;
+        }
+
+        .buton {
+            /* width: 150px; */
+            height: 40px;
+            background-color: red;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            text-align: center;
+            border-radius: 50%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-top: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="anaBaslik">
+        <h1>Ders Notları</h1>
+    </div>
+    <div>
+        <h1>Html'e giriş</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum incidunt modi aut, laboriosam suscipit
+            mollitia, harum, eaque labore amet sapiente odio nisi laborum nam quo quasi? Reprehenderit ducimus mollitia
+            qui laborum at ut fugit nesciunt ullam, laboriosam numquam sequi adipisci vero optio illo sed. Cum similique
+            neque quos minus natus?</p>
+    </div>
+    <div id="page-footer">
+        <h1 class="buton">JavaScript'e giriş</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum incidunt modi aut, laboriosam suscipit
+            mollitia, harum, eaque labore amet sapiente odio nisi laborum nam quo quasi? Reprehenderit ducimus mollitia
+            qui laborum at ut fugit nesciunt ullam, laboriosam numquam sequi adipisci vero optio illo sed. Cum similique
+            neque quos minus natus?</p>
+    </div>
+    <div id="page-footer">
+        <h1 class="anaBaslik">Css'e giriş</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum incidunt modi aut, laboriosam suscipit
+            mollitia, harum, eaque labore amet sapiente odio nisi laborum nam quo quasi? Reprehenderit ducimus mollitia
+            qui laborum at ut fugit nesciunt ullam, laboriosam numquam sequi adipisci vero optio illo sed. Cum similique
+            neque quos minus natus?</p>
+    </div>
+    <div class="buton">Kaydet</div>
+    <p class="buton">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quam labore, nulla numquam
+        tenetur atque magnam provident officiis aspernatur voluptatem. Nesciunt, repellat minus veritatis corrupti nisi
+        eaque deleniti exercitationem a.</p>
+    <label id="page-footer">Selam</label>
+    <div id="page-footer">
+        Bu sayfa Wissen Akademie İşKur Eğitimi sırasında tasarlanmıştır.
+
+    </div>
+
+    <script>
+        console.log(document.getElementsByClassName("buton"));
+        console.log(document.getElementById("page-footer"));
+    </script>
+</body>
+
+</html>
