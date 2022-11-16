@@ -13,7 +13,8 @@
             <th>Name</th>
             <th>Description</th>
             <th>Price</th>
-            <th>CategoryId</th>
+            <th>Category</th>     
+            @* Product.cs'e Categroy eklendikten sonra *@
 
 
         </tr>
@@ -26,7 +27,7 @@
             <td>@p.Name</td>
             <td>@p.Desc</td>
             <td>@p.Price</td>
-            <td>@p.CategoryId</td>
+            <td>@p.Category.Name</td>
 
             </tr>
 

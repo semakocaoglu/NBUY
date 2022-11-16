@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Proje05_MVC_EfCore.CodeFirst.Models;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace Proje05_MVC_EfCore.CodeFirst.Controllers
 {
@@ -17,7 +19,11 @@ namespace Proje05_MVC_EfCore.CodeFirst.Controllers
         public IActionResult Index() //sağ tuş add view
         {
             MyDbContext context = new MyDbContext(); //ctrl+.
-            List<Product> products=context.Products.ToList();
+            List<Product> products=context
+            .Products
+            .Include(p=> p.Category) //Join olmuş oldu.
+            .ToList();
+
             return View(products);
         }
 

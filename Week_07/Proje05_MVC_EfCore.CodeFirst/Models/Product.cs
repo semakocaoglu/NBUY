@@ -12,6 +12,7 @@ namespace Proje05_MVC_EfCore.CodeFirst.Models
         public string Desc { get; set; }
         public decimal Price { get; set; }
         public int CategoryId { get; set; }
+        public Category Category { get; set; } //CategoryId'si 1 olan ürünleri getirmeyi sağlar. Join apmaya gerek kalmaz.
 
 
 
