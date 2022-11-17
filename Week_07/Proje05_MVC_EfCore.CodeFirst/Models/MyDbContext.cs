@@ -60,6 +60,7 @@ namespace Proje05_MVC_EfCore.CodeFirst.Models
 
 
 
+
  //entity ve dbcontext oluşturuduktan sonra terminalden kodlar girilir"  
     //1. dotnet tool install --global dotnet-ef --version 6.0.11
     //2.dotnet ef migrations add InitialDb
