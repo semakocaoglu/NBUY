@@ -1,0 +1,68 @@
+@model Product
+@{
+    ViewData["Title"] = "CreateProduct";
+}
+<h1 class="display-6">Create Product</h1>
+<hr>
+<form asp-controller="Home" asp-action="CreateProduct" method="post">
+    <div class="row mb-2">
+        <div class="col-2">
+            <label>Product Name:</label>
+            
+        </div>
+        <div class="col-4">
+            <input class="form-control" type="text" asp-for="Name"> 
+            @* asp-for'dan önce name vardı *@
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-2">
+            <label>Product Category:</label>
+            
+        </div>
+        <div class="col-4">
+            <input class="form-control" type="text" asp-for="Category">
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-2">
+            <label>Product Price:</label>
+            
+        </div>
+        <div class="col-4">
+            <input class="form-control" type="text" asp-for="Price"> 
+           
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-2">
+            <label class="form-check-label"> Is Approved:</label>
+            
+        </div>
+        <div class="col-4">
+            <input class="form-check-input" type="checkbox" asp-for="IsApproved"> 
+           
+        </div>
+    </div>
+    <div class="row">
+        
+        <div class="col-6  text-end">
+            <input  class="btn btn-success btn-lg" type="submit" value="Create">
+        </div>
+    </div>
+</form>
+@if (Model != null)
+{
+   <hr>
+    <div>
+        <p class="text-danger">@Model.Name eklendi</p>
+        <p>@(Model.IsApproved ? "Approved" : "Not Approved")</p>
+    </div>
+}
+
+
+<hr>
+<div>
+    <p class="text-danger">@Model.Name</p>  
+    @* modelden gelen Name *@
+</div>

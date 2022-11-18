@@ -1216,7 +1216,6 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Microsoft.EntityFrameworkCore >= 6.0.11",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.11",
       "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.11"
     ]
@@ -1227,11 +1226,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\KitabeviApp\\KitabeviApp.csproj",
+      "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\KitabeviApp\\KitabeviApp.csproj",
       "projectName": "KitabeviApp",
-      "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\KitabeviApp\\KitabeviApp.csproj",
+      "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\KitabeviApp\\KitabeviApp.csproj",
       "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\KitabeviApp\\obj\\",
+      "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\KitabeviApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1260,10 +1259,6 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": {
-            "target": "Package",
-            "version": "[6.0.11, )"
-          },
           "Microsoft.EntityFrameworkCore.Design": {
             "target": "Package",
             "version": "[6.0.11, )"

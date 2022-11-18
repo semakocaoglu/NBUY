@@ -54,8 +54,20 @@ public class HomeController : Controller
     }
     public IActionResult Detay(int id) //return yapılmazsa hata verir.
      {
-        var kitap = context.Kitaplar.Where(k=>k.Id==id).Include(k=>k.Kitap.Ozet).FirstOrDefault();
+        var kitap = context
+        .Kitaplar
+            .Where(k => k.Id == id)
+            .Include(k => k.Yazar)
+            .Include(k => k.Kategori)
+            .FirstOrDefault();
         return View(kitap); //sağ tuş -addview
+     }
+
+     public IActionResult Get(int id, string ad)   //id'nin int olmasna gerek olmadığı anlaşılması için
+                                                    //MWüde link verdik
+     {
+
+        return View();
      }
 }
 

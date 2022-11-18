@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Proje06_ModelBinding_Form.props" />
+</Project>
