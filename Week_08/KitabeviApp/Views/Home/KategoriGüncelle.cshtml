@@ -1,0 +1,30 @@
+@model Kategori
+@{
+    ViewData["Title"] = "Kategori Güncelle";
+}
+
+<h1 class="display-6">Kategori Güncelle</h1>
+<hr>
+<form asp-controller="Home" asp-action="KategoriGüncelle" method="post">
+    <div class="row mb-2">
+        <div class="col-2">
+            <label class="form-label" asp-for="Ad"></label>
+        </div>
+        <div class="col-4">
+            <input class="form-control" type="text" asp-for="Ad">
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-2">
+            <label class="form-label" asp-for="Aciklama"></label>
+        </div>
+        <div class="col-4">
+            <input class="form-control" type="text" asp-for="Aciklama">
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-4 offset-2">
+            <input class="btn btn-primary" type="submit" value="Güncelle">
+        </div>
+    </div>
+</form>
