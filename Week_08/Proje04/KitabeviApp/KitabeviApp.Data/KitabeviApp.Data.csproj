@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  I<ItemGroup>
+    <ProjectReference Include="../KitabeviApp.Web.Entity/KitabeviApp.Entity.csproj">
+  </ItemGroup>
+
+</Project>

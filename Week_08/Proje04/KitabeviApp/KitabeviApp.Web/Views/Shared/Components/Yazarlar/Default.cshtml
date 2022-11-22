@@ -1,0 +1,17 @@
+@model List<Kategori>
+<div class="px-2">
+    <h1 class="display-6 fs-3 text-primary">Yazarlar</h1>
+</div>
+<div class="list-group">
+    @foreach (var y in Model)
+    {
+        <a 
+            class="list-group-item list-group-item-action @(ViewBag.SeciliKategori==y.Id ? "active" : "")
+            asp-controller="Home"
+            asp-action="KategoriyeGoreKitapListesi"
+            asp-route-id =@y.Id>
+            @y.Ad
+        </a>
+    }
+
+</div>
