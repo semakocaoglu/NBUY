@@ -8,11 +8,10 @@ namespace KitabeviApp.Data.EfCore.Abstract
 {
     public interface IKategoriRepository
     {
-        List<Kategori>KategoriListele();
-
+        List<Kategori> KategoriListele();
         void KategoriEkle(Kategori kategori);
         void KategoriGuncelle(Kategori kategori);
-
-        Kategori KategoriGetir(int id);
+        void KategoriSil(Kategori kategori);
+        public Kategori KategoriGetir(int id);
     }
 }

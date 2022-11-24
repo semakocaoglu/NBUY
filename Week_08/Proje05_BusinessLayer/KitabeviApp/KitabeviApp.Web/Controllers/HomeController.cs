@@ -4,7 +4,6 @@ using KitabeviApp.Data.EfCore;
 using KitabeviApp.Entity;
 using Microsoft.EntityFrameworkCore;
 using KitabeviApp.Data.EfCore.Concrete;
-using KitabeviApp.Data.EfCore.Abstract;
 using KitabeviApp.Business.Concrete;
 
 namespace KitabeviApp.Web.Controllers;
@@ -12,7 +11,7 @@ namespace KitabeviApp.Web.Controllers;
 public class HomeController : Controller
 {
     KitabeviContext context = new KitabeviContext();
-     EfCoreKategoriRepository kategoriRepository= new EfCoreKategoriRepository();
+    EfCoreKategoriRepository kategoriRepository = new EfCoreKategoriRepository();
     public IActionResult Index()
     {
         List<Kitap> kitaplar = context
@@ -32,11 +31,11 @@ public class HomeController : Controller
             }).ToList();
         return View(kitapListViewModels);
     }
-    #region Kategoriİşlemleri
+    #region KATEGORİ İŞLEMLERİ
     public IActionResult KategoriListesi()
     {
         var kategoriManager = new KategoriManager();
-        var kategoriler = context.Kategoriler.ToList();
+        var kategoriler = kategoriManager.KategoriListele();
         return View(kategoriler);
     }
     public IActionResult KategoriEkle()
@@ -46,16 +45,15 @@ public class HomeController : Controller
     [HttpPost]
     public IActionResult KategoriEkle(Kategori kategori)
     {
-        kategoriRepository.KategoriEkle(kategori); // Globalde yukarda tanmladk.
+        var kategoriManager = new KategoriManager(); // kategoriRepository ile erişimi sağlamak istemiyoruz
+        kategoriManager.KategoriEkle(kategori);
         return RedirectToAction("KategoriListesi");
     }
     public IActionResult KategoriGuncelle(int id)
     {
-        // Kategori kategori = context.Kategoriler.Where(k=>k.Id==id).FirstOrDefault();
-        kategoriRepository.KategoriGetir(id);
-        return View(id);
+        Kategori kategori = kategoriRepository.KategoriGetir(id);
+        return View(kategori);
     }
-
     [HttpPost]
     public IActionResult KategoriGuncelle(Kategori kategori)
     {
@@ -64,20 +62,25 @@ public class HomeController : Controller
     }
     public IActionResult KategoriSil(int id)
     {
-        Kategori kategori = context.Kategoriler.Find(id);
+        Kategori kategori = kategoriRepository.KategoriGetir(id);
         return View(kategori);
     }
     [HttpPost]
     public IActionResult KategoriSil(Kategori kategori)
     {
-        context.Kategoriler.Remove(kategori);
-        context.SaveChanges();
+        kategoriRepository.KategoriSil(kategori);
         return RedirectToAction("KategoriListesi");
     }
-        
+
     #endregion
-    #region Yazarİşlemleri
-            public IActionResult YazarEkle()
+    #region YAZAR İŞLEMLERİ
+    public IActionResult YazarListesi()
+    {
+        var yazarRepository = new EfCoreYazarRepository();
+        var yazarlar = yazarRepository.YazarListesi();
+        return View(yazarlar);
+    }
+    public IActionResult YazarEkle()
     {
         return View();
     }
@@ -104,7 +107,6 @@ public class HomeController : Controller
         Yazar yazar = context.Yazarlar.Find(id);
         return View(yazar);
     }
-
     [HttpPost]
     public IActionResult YazarGuncelle(Yazar yazar)
     {
@@ -112,8 +114,6 @@ public class HomeController : Controller
         context.SaveChanges();
         return RedirectToAction("YazarListesi");
     }
-    
-
     public IActionResult YazarSil(int id)
     {
         Yazar yazar = context.Yazarlar.Find(id);
@@ -127,22 +127,12 @@ public class HomeController : Controller
         return RedirectToAction("YazarListesi");
     }
 
-    public IActionResult YazarListesi()
-    {
-        var yazarRepository = new EfCoreYazarRepository();
-        var yazarlar = context.Yazarlar.ToList();
-        return View(yazarlar);
-    }
-
     #endregion
-    
+    #region KİTAP İŞLEMLERİ
     public IActionResult KitapListesi(int? id = null)
     {
         var kitapRepository = new EfCoreKitapRepository();
-        List<Kitap>kitaplar =kitapRepository.KitapListesi(id);
- 
-
-
+        List<Kitap> kitaplar = kitapRepository.KitapListesi(id);
         List<KitapListViewModel> kitapListViewModels = kitaplar
             .Select(k => new KitapListViewModel()
             {
@@ -155,21 +145,6 @@ public class HomeController : Controller
             }).ToList();
         return View(kitapListViewModels);
     }
-
-    public IActionResult Detay(int id)
-    {
-        var kitap = context
-            .Kitaplar
-            .Where(k => k.Id == id)
-            .Include(k => k.Yazar)
-            .Include(k => k.Kategori)
-            .FirstOrDefault();
-        return View(kitap);
-    }
-    
-
-    
-
     public IActionResult KitapEkle()
     {
         ViewBag.Kategoriler = context.Kategoriler.ToList();
@@ -183,10 +158,6 @@ public class HomeController : Controller
         context.SaveChanges();
         return RedirectToAction("KitapListesi");
     }
-
-    
-
-    
     public IActionResult KitapGuncelle(int id)
     {
         Kitap kitap = context.Kitaplar.Find(id);
@@ -203,7 +174,6 @@ public class HomeController : Controller
         };
         return View(kitapViewModel);
     }
-
     [HttpPost]
     public IActionResult KitapGuncelle(Kitap kitap)
     {
@@ -211,8 +181,6 @@ public class HomeController : Controller
         context.SaveChanges();
         return RedirectToAction("KitapListesi");
     }
-
-
     public IActionResult KitapSil(int id)
     {
         Kitap kitap = context.Kitaplar.Find(id);
@@ -227,7 +195,6 @@ public class HomeController : Controller
         context.SaveChanges();
         return RedirectToAction("KitapListesi");
     }
-
     public IActionResult KategoriyeGoreKitapListesi(int id)
     {
         List<Kitap> kitaplar = context
@@ -274,5 +241,15 @@ public class HomeController : Controller
         return View("Index", kitapListViewModels);
 
     }
-
+    public IActionResult Detay(int id)
+    {
+        var kitap = context
+            .Kitaplar
+            .Where(k => k.Id == id)
+            .Include(k => k.Yazar)
+            .Include(k => k.Kategori)
+            .FirstOrDefault();
+        return View(kitap);
+    }
+    #endregion
 }

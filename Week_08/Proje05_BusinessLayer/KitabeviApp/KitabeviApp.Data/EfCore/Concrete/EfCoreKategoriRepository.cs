@@ -9,6 +9,13 @@ namespace KitabeviApp.Data.EfCore.Concrete
 {
     public class EfCoreKategoriRepository : IKategoriRepository
     {
+        public List<Kategori> KategoriListele()
+        {
+            using (var context = new KitabeviContext())
+            {
+                return context.Kategoriler.ToList();
+            }
+        }
         public void KategoriEkle(Kategori kategori)
         {
             using (var context = new KitabeviContext())
@@ -17,31 +24,27 @@ namespace KitabeviApp.Data.EfCore.Concrete
                 context.SaveChanges();
             }
         }
-
         public void KategoriGuncelle(Kategori kategori)
         {
             using (var context = new KitabeviContext())
             {
-                context.Update(kategori);
+                context.Kategoriler.Update(kategori);
                 context.SaveChanges();
             }
         }
-
-
-        public List<Kategori>KategoriListele()
-        {
-        using (var context = new KitabeviContext())
-        {
-            return context.Kategoriler.ToList();
-        }
-        }
-
-        Kategori IKategoriRepository.KategoriGetir(int id)
+        public void KategoriSil(Kategori kategori)
         {
             using (var context = new KitabeviContext())
             {
-                
+                context.Kategoriler.Remove(kategori);
                 context.SaveChanges();
+            }
+        }
+        public Kategori KategoriGetir(int id)
+        {
+            using (var context = new KitabeviContext())
+            {
+                return context.Kategoriler.Find(id);
             }
         }
     }

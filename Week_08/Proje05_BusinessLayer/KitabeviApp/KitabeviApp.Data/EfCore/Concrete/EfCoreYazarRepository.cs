@@ -9,11 +9,11 @@ namespace KitabeviApp.Data.EfCore.Concrete
 {
     public class EfCoreYazarRepository : IYazarRepository
     {
-        public List<Yazar> YazarListele()
+        public List<Yazar> YazarListesi()
         {
-            using (var context = new KitabeviContext())     
+            using (var context = new KitabeviContext())
             {
-                List<Yazar> sonuc = context.Yazarlar.ToList();
+                List<Yazar> sonuc= context.Yazarlar.ToList();
                 return sonuc;
             }
         }

@@ -8,6 +8,6 @@ namespace KitabeviApp.Data.EfCore.Abstract
 {
     public interface IYazarRepository
     {
-        List<Yazar> YazarListele();
+        List<Yazar> YazarListesi();
     }
 }

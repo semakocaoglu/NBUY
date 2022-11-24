@@ -8,7 +8,6 @@ namespace KitabeviApp.Data.EfCore.Abstract
 {
     public interface IKitapRepository
     {
-        List<Kitap> KitapListesi(int? id=null);
-       
+        List<Kitap> KitapListesi(int? id = null);
     }
 }

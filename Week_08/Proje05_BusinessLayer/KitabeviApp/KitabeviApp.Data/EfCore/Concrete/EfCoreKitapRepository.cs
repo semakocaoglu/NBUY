@@ -17,24 +17,20 @@ namespace KitabeviApp.Data.EfCore.Concrete
                 if (id == null)
                 {
                     return context
-                    .Kitaplar
-                    .Include(kitap => kitap.Kategori)
-                    .Include(kitap => kitap.Yazar)
-                    .ToList();
+                        .Kitaplar
+                        .Include(kitap => kitap.Kategori)
+                        .Include(kitap => kitap.Yazar)
+                        .ToList();
                 }
+
                 return context
-                .Kitaplar
+                    .Kitaplar
                     .Where(kitap => kitap.KategoriId == id)
                     .Include(kitap => kitap.Kategori)
                     .Include(kitap => kitap.Yazar)
-
                     .ToList();
-
             }
-
-
-
-
         }
+
     }
 }
