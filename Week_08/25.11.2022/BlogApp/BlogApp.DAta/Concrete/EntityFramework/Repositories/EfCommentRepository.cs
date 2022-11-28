@@ -1,4 +1,5 @@
-﻿using BlogApp.Shared.Data.Concrete.EntityFramework;
+﻿using BlogApp.Entities.Concrete;
+using BlogApp.Shared.Data.Concrete.EntityFramework;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,8 +9,11 @@ using System.Threading.Tasks;
 
 namespace BlogApp.Data.Concrete.EntityFramework.Repositories
 {
-    public interface EfCommentRepository : EfEntityRepositoryBase<Comment>
+    public class EfCommentRepository : EfEntityRepositoryBase<Comment>
     {
-        public EfCommentRepository(DbContext context)
+        public EfCommentRepository(DbContext context) : base(context)
+        {
+
+        }
     }
 }
