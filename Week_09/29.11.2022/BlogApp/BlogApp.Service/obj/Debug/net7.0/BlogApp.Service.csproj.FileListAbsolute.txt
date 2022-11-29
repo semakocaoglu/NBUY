@@ -1,0 +1,5 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\Week_09\29.11.2022\BlogApp\BlogApp.Service\obj\Debug\net7.0\BlogApp.Service.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\Week_09\29.11.2022\BlogApp\BlogApp.Service\obj\Debug\net7.0\BlogApp.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\Week_09\29.11.2022\BlogApp\BlogApp.Service\obj\Debug\net7.0\BlogApp.Service.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\Week_09\29.11.2022\BlogApp\BlogApp.Service\obj\Debug\net7.0\BlogApp.Service.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\Week_09\29.11.2022\BlogApp\BlogApp.Service\obj\Debug\net7.0\BlogApp.Service.csproj.CoreCompileInputs.cache
