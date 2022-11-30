@@ -13,6 +13,11 @@ namespace BlogApp.Service.Abstract
     {
         //Get, GetAll, Add, Delete, Update, HardDelete, GetAllByNonDeleted, GetAllByNonDeletedAndActive, GetAllByCategory(categoryId)
 
+        Task<IDataResult<ArticleDto>> GetArticle(int articleId);
+        Task<IDataResult<ArticleDto>> GetArticle();
+
+        Task<IDataResult<ArticleListDto>> GetAllByNonDeleted();
+        Task<IDataResult<ArticleListDto>> GetAllByNonDeletedAndActive();
         Task<IResult> Add(ArticleAddDto articleAddDto, string createdByName);
         Task<IResult> Update(ArticleUpdateDto articleUpdateDto, string modifiedByName);
     }

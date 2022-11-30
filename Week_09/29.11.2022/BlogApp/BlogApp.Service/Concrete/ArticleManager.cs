@@ -44,9 +44,51 @@ namespace BlogApp.Service.Concrete
 
         }
 
+        public Task<IDataResult<ArticleListDto>> GetAllByNonDeleted()
+        {
+            var article = await _unitOfWork.Articles.GetAsync(a => a.Id == CategoryId, a => a.Id == UserId);
+            if (CategoryId != null)
+            {
+                return new DataResult<Article>(ResultStatus.Success, article);
+
+            }
+            return new DataResult<ArticleListDto>(ResultStatus.Error, "Hiç makale bulunamadı", null);
+
+        public async Task<IDataResult<ArticleListDto>> GetAllByNonDeletedAndActive()
+        {
+            var article = await _u
+        }
+
+        public Task<IDataResult<ArticleDto>> GetArticle(int articleId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<IDataResult<ArticleDto>> GetArticle()
+        {
+            throw new NotImplementedException();
+        }
+
         public Task<IResult> Update(ArticleUpdateDto articleUpdateDto, string modifiedByName)
         {
             throw new NotImplementedException();
         }
     }
-}
+
+        public Task<IDataResult<ArticleListDto>> GetAllByNonDeletedAndActive()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<IDataResult<ArticleDto>> GetArticle(int articleId)
+        {
+            throw new NotImplementedException();
+        }
+
+       
+
+        public Task<IResult> Update(ArticleUpdateDto articleUpdateDto, string modifiedByName)
+        {
+            throw new NotImplementedException();
+        }
+    }

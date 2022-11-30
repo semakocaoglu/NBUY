@@ -2,7 +2,6 @@
 using BlogApp.Entities.Concrete;
 using BlogApp.Entities.Dtos;
 using BlogApp.Service.Abstract;
-using BlogApp.Services.Abstract;
 using BlogApp.Shared.Utilities.Result.Abstract;
 using BlogApp.Shared.Utilities.Result.ComplexTypes;
 using BlogApp.Shared.Utilities.Result.Concrete;
@@ -58,27 +57,46 @@ namespace BlogApp.Services.Concrete
 
         public Task<IDataResult<CategoryListDto>> GetAll()
         {
-            var categories = await _unitOfWork.Categories.GetAllAsync(null, c => c.Articles);
+            var categories = await _unitOfWork.Categories.GetAsync(null, c => c.Articles);
             if(categories.Count>0)
             {
-                return new DataResult<IListCategoryListDto>(ResultStatus.Success, new CategoryListDto
+                return new DataResult<IList>CategoryListDto>(ResultStatus.Success, new CategoryListDto
                 {
                     Categories = categories,
-                    ResultStatus = ResultStatus.Success,
+                    ResultStatus = ResultStatus.Success
                 });
                 
             }
             return new DataResult<CategoryListDto>(ResultStatus.Error, "Hiç kategori bulunamadı", null);
         }
 
-        public Task<IDataResult<CategoryListDto>> GetAllByNonDeleted()
+        public async Task<IDataResult<CategoryListDto>> GetAllByNonDeleted()
         {
-            throw new NotImplementedException();
+            var categories = await _unitOfWork.Categories.GetAllAsync(c => !c.IsDeleted && c.IsActive, c => c.Articles);
+            if(categories.Count>0) 
+            {
+                return new DataResult<CategoryListDto>(ResultStatus.Success, new CategoryListDto)
+                {
+                    Categories = categories,
+                    ResultStatus = ResultStatus.Success
+                });
+            }
+            return new DataResult<CategoryListDto>(ResultStatus.Error, "Hiç kategori bulunamadı", null);
         }
 
-        public Task<IDataResult<CategoryListDto>> GetAllByNonDeletedAndActive()
+        public async Task<IDataResult<CategoryListDto>> GetAllByNonDeletedAndActive()
         {
-            throw new NotImplementedException();
+            var categories = await _unitOfWork.Categories.GetAllAsync(c=>!c.IsDeleted, c=>c.Articles );
+            if (categories.Count>0)
+            {
+                return new DataResult<CategoryListDto>(ResultStatus.Success, new CategoryListDto
+                {
+                    Categories = categories,
+                    ResultStatus = ResultStatus.Success,
+
+                });
+            }
+            return new DataResult<CategoryListDo>(ResultStatus.Error, "Hiç kategori bulunamadı", null);
         }
 
         public Task<IDataResult<CategoryDto>> GetCategory(string categoryId)
@@ -108,6 +126,11 @@ namespace BlogApp.Services.Concrete
                 return new Result(ResultStatus.Success, $"{categoryUpdateDto.Name} adlı kategori başarıyla güncellenmiştir.");
             }
             return new Result(ResultStatus.Error, "Böyle bir kategori bulunamadı");
+        }
+
+        Task<IDataResult<CategoryDto>> ICategoryService.GetAll()
+        {
+            throw new NotImplementedException();
         }
     }
 }
