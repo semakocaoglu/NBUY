@@ -70,6 +70,7 @@ C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\Week_09\30-11-2022-MVC\BlogApp\BlogApp
 C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\Week_09\30-11-2022-MVC\BlogApp\BlogApp.Mvc\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\Week_09\30-11-2022-MVC\BlogApp\BlogApp.Mvc\obj\Debug\net7.0\staticwebassets.development.json
 C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\Week_09\30-11-2022-MVC\BlogApp\BlogApp.Mvc\obj\Debug\net7.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\Week_09\30-11-2022-MVC\BlogApp\BlogApp.Mvc\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\Week_09\30-11-2022-MVC\BlogApp\BlogApp.Mvc\obj\Debug\net7.0\scopedcss\bundle\BlogApp.Mvc.styles.css
 C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\Week_09\30-11-2022-MVC\BlogApp\BlogApp.Mvc\obj\Debug\net7.0\scopedcss\projectbundle\BlogApp.Mvc.bundle.scp.css
 C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\Week_09\30-11-2022-MVC\BlogApp\BlogApp.Mvc\obj\Debug\net7.0\BlogApp.Mvc.csproj.CopyComplete
