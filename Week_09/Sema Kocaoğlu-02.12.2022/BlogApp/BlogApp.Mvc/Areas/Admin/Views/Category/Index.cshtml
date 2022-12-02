@@ -1,0 +1,165 @@
+﻿@using BlogApp.Shared.Utilities.Result.ComplexTypes
+@using BlogApp.Entities.Dtos
+@model CategoryListDto
+@{
+    Layout = "_Layout";
+    ViewBag.Title = "Kategoriler Anasayfa";
+}
+@if (Model.ResultStatus == ResultStatus.Success)
+{
+    @*Kategoriler listelenecek*@
+    <div id="modalPlaceHolder" aria-hidden="true"></div>
+    <h1 class="mt-4">Admin Kategoriler</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
+        <li class="breadcrumb-item active">Kategoriler</li>
+    </ol>
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-table mr-1"></i>
+            Kategoriler
+        </div>
+        <button class="btn btn-success" id="btnEkle">Ekle</button>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="categoriesTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Ad</th>
+                            <th>Açıklama</th>
+                            <th>Aktif mi?</th>
+                            <th>Silinmiş mi?</th>
+                            <th>Not</th>
+                            <th>Oluşturulma Tarihi</th>
+                            <th>Oluşturan Kullanıcı</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var category in Model.Categories)
+                        {
+                            <tr>
+                                <td>@category.Id</td>
+                                <td>@category.Name</td>
+                                <td>@category.Description</td>
+                                <td>@category.IsActive</td>
+                                <td>@category.IsDeleted</td>
+                                <td>@category.Note</td>
+                                <td>@category.CreatedDate.ToShortDateString()</td>
+                                <td>@category.CreatedByName</td>
+                               
+                            </tr>
+                        }
+    
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            $('#categoriesTable').DataTable({
+
+                dom: "<'row'<'col-sm-3'l><'col-sm-6 text-center'B><'col-sm-3'f>>" +
+                    "<'row'<'col-sm-12'tr>>" +
+                    "<'row'<'col-sm-5'i><'col-sm-7'p>>",
+                buttons: [
+                    {
+                        text: 'Ekle',
+                        attr: {
+                            id:'btnAdd'
+                        },
+                        action: function(e, dt, node, config){
+                            
+                        },
+                        className:'btn btn-success'
+                    },
+                    {
+                        text: 'Yenile',
+                        action: function (e, dt, node, config) {
+                            alert('Yenile butonuna tıklandı');
+                        },
+                        className:'btn btn-warning'
+                    }
+                ],
+                language: {
+                    url: 'https://cdn.datatables.net/plug-ins/1.13.1/i18n/tr.json'
+                }
+            });
+            //Datatable burada bitiyor
+
+            
+            $(function(){
+                const url = '@Url.Action("Add","Category")';
+                const placeHolderDiv = $('#modalPlaceHolder');
+
+                //Ajax'la partial viewmızi ekrana getirdik.
+                $('#btnAdd').click(function(){ //Ekle butonuna tıklandığında
+                    $.get(url).done(function(data){
+                        placeHolderDiv.html(data);
+                        placeHolderDiv.find(".modal").modal('show'); //modal classındakilerin görünmesini sağlar
+                    });
+                });
+                //Ajax'la partial viewmızi ekrana getirme bitti.
+
+
+                //Ajax'la POST işlemleri
+                placeHolderDiv.on('click','#btnSave', funtion(event){ 
+                    event.preventDefault(); //form kaydedildiğinde kaybolmasını engeller.(preventDefault)
+                    const form = $('#form-category-add'); //tıklandığında form-category-add id'li formu çağırır.
+                    console.log(form);
+                    const actionUrl= form.attr('action');
+                    console.log(dataToSend);
+                    const dataToSend= form.serialize();
+                    $.post(actionUrl, dataToSend).done(function(data){
+                        const categoryAddAjaxModel = jQuery.parseJSON(data);//Parse edilerek Json verilerinin ayrıştrılıp categoryAddAjaxModel'a dönüştürülmesini sağlar
+                        const newFormBody = $('.modal-body', categoryAddAjaxModel.CategoryAddPartial); //modal-body ismindeki classtan newFormBody oluşturulur.
+                        placeHolderDiv.find('.modal-body').replacewith(newFormBody); //modal-body , newFormBody ile replace edilir.
+                        const isValid =newFormBody.find('[name="IsValid"]'). val() === 'True'; //IsValid True ise if satırına iner
+                        if(isValid){
+
+
+                            //AddAjaxModel'in içindeki dönüştürülmüş bilgileri kullanarak, kategorideki bilgileri tabloya çevirmemizi sağlar.
+                            const newTableRow=`
+                            
+                            <tr> 
+                                <td>${category.AddAjaxModel.CategoryDto.Category.Id}</td> 
+                                <td>${category.AddAjaxModel.CategoryDto.Category.Name}</td>
+                                <td>${category.AddAjaxModel.CategoryDto.Category.Description}</td>
+                                <td>${convertFirstLetterToUpperCase(category.AddAjaxModel.CategoryDto.Category.IsActive)}</td>
+                                <td>${convertFirstLetterToUpperCase(category.AddAjaxModel.CategoryDto.Category.IsDeleted)}</td>
+                                <td>${category.AddAjaxModel.CategoryDto.Category.Note ?? ""}</td>
+                                <td>${convertFirstLetterToShortDate(category.AddAjaxModel.CategoryDto.Category.CreatedDate)}</td>
+                                <td>${category.AddAjaxModel.CategoryDto.Category.CreatedByName}</td>
+                                         
+
+                            </tr> 
+                            
+                            
+                            `;
+                            const newTableRowObject = $(newTableRow); //
+                            newTableRowObject.hide();
+                            $('#categoriesTable').append(newTableRowObject);
+                            newTableRowObject.fadeIn(3000); //3 sn görünmesini sağlar.
+                            toastr.success('${categoryAddAjaxModel.CategoryDto.Message}', 'Başarılı'); //toastr yöntemiyle kayt işlemi gerçekleştiğinde başarılı yazısı ekranın sağ üstünde görünür.
+                            placeHolderDiv.find(".modal").modal('hide'); //modal classındakilerin gizlenmesini sağlar.
+                        }else{
+                            let summaryText='<br>';
+                            $('#validation-summary > ul > li') , each(function(){ //validatiın-summary id'li kısmın içindeki ul'lerin iiçindeki li'lerin yazdırlmasını sağlar
+                                let liText = $(this).text();
+                                summaryText += `*${liText} <br> <br>`;
+                            });
+                            toastr.warning(summaryText , 'Dikkat')
+
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+}
