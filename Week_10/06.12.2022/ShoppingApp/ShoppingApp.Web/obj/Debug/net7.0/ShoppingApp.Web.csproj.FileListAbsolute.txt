@@ -1,0 +1,8 @@
+C:\Users\SABAH\Desktop\06.12.2022\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ShoppingApp.Web.csproj.AssemblyReference.cache
+C:\Users\SABAH\Desktop\06.12.2022\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ShoppingApp.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Desktop\06.12.2022\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ShoppingApp.Web.AssemblyInfoInputs.cache
+C:\Users\SABAH\Desktop\06.12.2022\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ShoppingApp.Web.AssemblyInfo.cs
+C:\Users\SABAH\Desktop\06.12.2022\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ShoppingApp.Web.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Desktop\06.12.2022\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ShoppingApp.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\SABAH\Desktop\06.12.2022\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ShoppingApp.Web.RazorAssemblyInfo.cache
+C:\Users\SABAH\Desktop\06.12.2022\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ShoppingApp.Web.RazorAssemblyInfo.cs
