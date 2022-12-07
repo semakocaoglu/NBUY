@@ -1,0 +1,42 @@
+﻿@using ShoppingApp.Entity.Concrete
+@model List<Product>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<div class="card">
+    
+        <thead class="card-header">
+            <tr class="bg-danger text-white">
+                <th>Id</th>
+                <th>Ürün Adı</th>
+                <th>Ürün Fiyatı</th>
+                <th>Eklenme Tarihi</th>
+              
+            </tr>
+        </thead>
+        <tbody class="card-body">
+            @foreach (var productDto in Model)
+            {
+                <tr class="bg-dangertext-white">
+                    <td>@productDto.Id</td>
+                    <td>@productDto.Name</td>
+                    <td>@productDto.Price</td>
+                    <td>@productDto.DateAdded</td>
+                </tr>
+            }
+
+            <tr>
+
+            </tr>
+        </tbody>
+
+   
+    
+</div>
