@@ -1,0 +1,67 @@
+﻿@model CardDto
+<h6 class="display-6">Sepet</h6>
+<hr />
+@if (Model.CardItems.Count == 0)
+{
+    <div class="row">
+        <div class="alert alert-warning">Sepetinizde ürün bulunmamaktır</div>
+    </div>
+}
+else
+{
+    <div class="row">
+        <div class="col-8">
+            <h6>Ürünler</h6>
+            <table class="table table-sm">
+                <thead>
+                    <tr>
+                        <th>Resim</th>
+                        <th>Ürün</th>
+                        <th>Fiyat</th>
+                        <th>Adet</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var cardItem in Model.CardItems)
+                    {
+                        <tr>
+                            <td>
+                                <img src="~/images/@cardItem.ImageUrl" width="50" />
+                            </td>
+                            <td>@cardItem.ProductName</td>
+                            <td>@cardItem.ItemPrice</td>
+                            <td>@cardItem.Quantity</td>
+                            <td>
+                                @(cardItem.ItemPrice * cardItem.Quantity)
+                            </td>
+
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="col-4">
+            <h6>Özet Bilgiler</h6>
+            <table class="table table-sm">
+                <tbody>
+                    <tr>
+                        <th>Sepet Toplamı:</th>
+                        <th>@Model.TotalPrice()</th>
+                    </tr>
+                    <tr>
+                        <th>Kargo:</th>
+                        <th>Ücretsiz</th>
+                    </tr>
+                </tbody>
+
+            </table>
+
+
+            <div>
+                <a href="/" class="btn btn-success">Alışverişe Devam Et</a>
+                <a href="/" class="btn btn-primary">Satın Al</a>
+            </div>
+        </div>
+    </div>
+}
