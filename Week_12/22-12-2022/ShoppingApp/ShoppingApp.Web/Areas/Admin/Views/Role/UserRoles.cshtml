@@ -1,0 +1,66 @@
+@model UserRolesDto
+@{
+    ViewData["Title"] = "Rol Atama";
+}
+<form id="formRoleList" asp-area="Admin" asp-controller="Role" asp-action="GetUsers">
+    <select class="form-select" asp-for="RoleId" asp-items="@Model.SelectRoleList"
+        onchange="document.getElementById('formRoleList').submit()">
+        <option value="" disabled selected>Lütfen bir rol seçiniz..</option>
+    </select>
+</form>
+
+@if (Model.RoleDetailsDto != null)
+{
+    <form asp-area="Admin" asp-controller="Role" asp-action="Edit" method="post">
+        <input type="hidden" name="RoleId" value="@Model.RoleDetailsDto.Role.Id">
+        <input type="hidden" name="RoleName" value="@Model.RoleDetailsDto.Role.Name">
+
+        <div class="row">
+            <div class="col-6">
+                <h6 class="bg-success text-white p-3">@Model.RoleDetailsDto.Role.Name Rolüne Ekle</h6>
+
+                @if (Model.RoleDetailsDto.NonMembers.Count == 0)
+                {
+                    <div class="alert alert-warning">Tüm kullanıcıar zaten @Model.RoleDetailsDto.Role.Name rolünde.</div>
+                }
+                else
+                {
+                    <table class="table table-sm table-bordered">
+
+                        @foreach (var user in Model.RoleDetailsDto.NonMembers)
+                        {
+                            <tr>
+                                <td>
+                                    <input type="checkbox" class="form-check-input" name="IdsToAdd" value="@user.Id">
+                                    @user.UserName
+                                </td>
+                            </tr>
+                        }
+                    </table>
+                }
+            </div>
+            <div class="col-6">
+                <h6 class="bg-danger text-white p-3">@Model.RoleDetailsDto.Role.Name Rolünden Çıkar</h6>
+                @if (Model.RoleDetailsDto.Members.Count == 0)
+                {
+                    <div class="alert alert-warning">@Model.RoleDetailsDto.Role.Name rolünde hiç kullanıcı yok.</div>
+                }
+                else
+                {
+                    <table class="table table-sm table-bordered">
+                        @foreach (var user in Model.RoleDetailsDto.Members)
+                        {
+                            <tr>
+                                <td>
+                                    <input type="checkbox" class="form-check-input" name="IdsToRemove" value="@user.Id">
+                                    @user.UserName
+                                </td>
+                            </tr>
+                        }
+                    </table>
+                }
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Kaydet</button>
+    </form>
+}
