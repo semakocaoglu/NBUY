@@ -20,12 +20,17 @@ namespace ShoppingApp.Web.Controllers
         private readonly UserManager<User> _userManager;
         private readonly ICardService _cardManager;
         private readonly ICardItemService _cardItemManager;
-
+        private readonly IOrderService _orderManager;
         public CardController(UserManager<User> userManager, ICardService cardManager, ICardItemService cardItemManager)
         {
             _userManager = userManager;
             _cardManager = cardManager;
             _cardItemManager = cardItemManager;
+        }
+
+        public CardController(IOrderService orderManager)
+        {
+            _orderManager = orderManager;
         }
 
         public async Task<IActionResult> Index()
@@ -135,7 +140,27 @@ namespace ShoppingApp.Web.Controllers
             Order order = new Order();
             order.OrderNumber = "SA" new Random().Next(111111111, 999999999).ToString();
 
-            order.OrderState = EnumOrderState.Unpaid;
+            order.OrderState = EnumOrderState.Unpaid; //Bunu geçici olarak yapýyoruz, aslýnda buraya ödeme tamamlanmþ halde geleceðiz ve burann completed olmasýný saðlayacaðýz.
+            order.OrderType = EnumOrderType.CreditCard;
+            order.OrderDate = new DateTime();
+            order.FirstName = orderDto.FirstName;
+            order.LastName = orderDto.LastName;
+            order.Email = orderDto.Email;
+            order.Phone = orderDto.Phone;
+            order.City = orderDto.City;
+            order.Address = order.Address;
+            order.UserId = userId;
+            order.OrderItems = new List<OrderItem>();
+            foreach(var orderItem in orderDto.CardDto.CardItems)
+            {
+                var orderItem = new OrderItem();
+                orderItem.Price = item.ItemPrice;
+                orderItem.Quantity = orderItem.Quantity;
+                orderItem.ProductId = orderItem.ProductId;
+                order.OrderItems .Add(orderItem);   
+            }
+            await
+
 
         }
     }
