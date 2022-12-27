@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "sF7lNQ9YxBVD0gLb5Syb83JRFyIjtXjS1/R5dj3S6AVbnCeixV8Zhp4THKd51q3nFriZlGE/2Co/LHjEmziedQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\Week_13\\27.12.2022\\ShoppingApi\\ShoppingApi.Business\\ShoppingApi.Business.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\Week_13\\27.12.2022\\ShoppingApi\\ShoppinApi.Data\\ShoppingApi.Data.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\Week_13\\27.12.2022\\ShoppingApi\\ShoppinApi.Data\\ShoppingApi.Data.csproj",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}

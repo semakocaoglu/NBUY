@@ -1,0 +1,12 @@
+*************************27-12-2022 / APÝYE GEÇÝÞ***************************
+1- Web katmanýný remove yaptýk
+2- web klasörünü sildik.
+3- Replace all ile shoppingApp'i shoppingApi olarak deðþtirdik.
+4- Solution üzerinde new project diyip api dosyasý oluþturduk.
+5- postman uygulamasýný pc ye kurduk.
+6-  ControllerBase // controllerin de miras aldðý yerdir
+7- [Route("[controller]")] //controllerimin rota yapýlanmasý url yani örneðin [Route("api/[controller]")] ...
+8- Bir önceki dosyamda web de olan appsettting.jsondakileri buraya getirdim. 
+9- Program .cs dekileri de kopyaladým ama EmailService hata verdi çünkü onu web katmanýnda yapmýþtýk bu nedenle o dosyayý kopyalayýp Apý dosyasýna yapýþtýrdýk.
+
+    
