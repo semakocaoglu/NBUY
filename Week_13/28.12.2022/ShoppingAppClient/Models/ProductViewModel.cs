@@ -8,7 +8,9 @@
         public string Description { get; set; }
         public string ImageUrl { get; set; }
         public string Url { get; set; }
-        
+        public int[] SelectedCategory { get; set; }
+        public List<CategoryViewModel> Categories { get; set; }
+
 
 
 

@@ -15,13 +15,12 @@ https://www.mathcube.net/ozel-ders-7703
 
 
 ALT KATEGORİ
-*İlköğretim Takviye
-*Lise Takviye
-*Lise Takviye
-*Üniversite Takviye
-*Sınav Hazırlık
+*Matematik
+*Fizik
+*Kimya
+*İlkokula hazırlk
 *Yabancı Dil(İngilizce, Almanca)
-*Bilgisayar
+*Bilgisayar(C# , JavaScript)
 *Sanat(Dans, Piyano, Heykel, Resim, Tiyatro, Gitar, Keman)
 *Spor (Yüzme, Tenis, Pilates)
 *Direksiyon
@@ -35,21 +34,19 @@ EĞİTMEN
 1)İsim
 2)Soyad
 3)Resim
-4)Branş
+4)Kategori
 5)Yaş
 6)Cinsiyet
 7)Medeni Durum
 8)Açıklama
-9)Ders verme şekli
+9)Ders verme şekli (online , yüz yüze)
 10)Şehir
 11)Telefon
 12)E-mail
 13)Lisans Eğitimi
-14)Der verdiği mekanlar
-15)Ders verdiği şekiller(Birebir ders, Grup dersi, Snıf dersi)
 16)Özel Ders Tecrübesi
 17)Saatlik Ders Ücreti
-18)Ders Zaman Tercihi
+
 
 
 
@@ -62,10 +59,12 @@ EĞİTMEN
 6)Şehir
 7)Email
 8)Ders almak istediği alanlar
-9)Ders almak istediği mekanlar
 10)Ders Zaman Tercihi
 11)Saatlik Ders ücreti
 12)Telefon
 
 
-BRANŞ
+
+
+
+9)Ders almak istediği mekanlar

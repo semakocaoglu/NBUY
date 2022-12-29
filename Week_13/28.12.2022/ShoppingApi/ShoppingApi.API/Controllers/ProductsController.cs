@@ -69,10 +69,11 @@ namespace ShoppingApi.API.Controllers
                 Description = productDto.Description,
                 Price = productDto.Price,
                 ImageUrl = productDto.ImageUrl,
-                Url = Jobs.InitUrl(productDto.Name)
-
+                Url = Jobs.InitUrl(productDto.Name),
+               
             };
-            await _productService.CreateAsync(product);
+            int[] categories = int[] {};
+            await _productService.CreateAsync(product , productDto.Categories);
             //return Ok(product); //ilk başta böle yapmıştk
             productDto.Id = product.Id;
             productDto.Url = product
