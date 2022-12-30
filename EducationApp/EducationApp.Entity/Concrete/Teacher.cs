@@ -18,5 +18,11 @@ namespace EducationApp.Entity.Concrete
         public string Url { get; set; }
         public string City { get; set; }
         public string Email { get; set; }
+        public string Phone { get; set; }
+        public string LessonPlace { get; set; }
+        public string Description { get; set; }
+        public string EducationStatus { get; set; }
+        public string Experience { get; set; }
+        public decimal? Price { get; set; }
     }
 }

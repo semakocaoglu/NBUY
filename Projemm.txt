@@ -20,10 +20,10 @@ ALT KATEGORİ
 *Kimya
 *İlkokula hazırlk
 *Yabancı Dil(İngilizce, Almanca)
-*Bilgisayar(C# , JavaScript)
+*Bilgisayar(AutoCad, JavaScript)
 *Sanat(Dans, Piyano, Heykel, Resim, Tiyatro, Gitar, Keman)
 *Spor (Yüzme, Tenis, Pilates)
-*Direksiyon
+
 
 (üst kategori Id'si olmalı, neyin altındaki kategori ise onun id'si yazılır)
 
@@ -31,40 +31,38 @@ ALT KATEGORİ
 IDENTITY kullanımı (roller oluştur)
 
 EĞİTMEN
-1)İsim
-2)Soyad
-3)Resim
+1)İsim +
+2)Soyad +
+3)Resim +
 4)Kategori
-5)Yaş
-6)Cinsiyet
-7)Medeni Durum
-8)Açıklama
-9)Ders verme şekli (online , yüz yüze)
-10)Şehir
-11)Telefon
-12)E-mail
-13)Lisans Eğitimi
-16)Özel Ders Tecrübesi
-17)Saatlik Ders Ücreti
+5)Yaş +
+6)Cinsiyet +
+8)Açıklama +
+9)Ders verme şekli (online , yüz yüze) +
+10)Şehir +
+11)Telefon +
+12)E-mail +
+13)Eğitim DUrumu +
+16)Özel Ders Tecrübesi + 
+17)Saatlik Ders Ücreti +
 
 
 
 
 ÖĞRENCİLER
-1)İsim
-2)Soyad
-3)Cinsiyet
-4)Yaş
-5)Resim
-6)Şehir
-7)Email
-8)Ders almak istediği alanlar
-10)Ders Zaman Tercihi
-11)Saatlik Ders ücreti
-12)Telefon
-
+1)İsim +
+2)Soyad +
+3)Cinsiyet +
+4)Yaş +
+5)Resim +
+6)Şehir +
+7)Email +
+8)Ders almak istediği şekil (online, yüz yüze) +
+12)Telefon +
+13)Açıklama +
 
 
 
 
 9)Ders almak istediği mekanlar
+*Direksiyon

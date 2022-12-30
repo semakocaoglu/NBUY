@@ -8,5 +8,12 @@ namespace EducationApp.Entity.Concrete
 {
     public class TeacherCategory
     {
+        public int TeacherId { get; set; }
+        public Teacher Teacher { get; set; }
+        public int CategoryId { get; set; }
+        public Category Category { get; set; }
+
+
+
     }
 }

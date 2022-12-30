@@ -20,7 +20,7 @@
 
   <ItemGroup>
     <Folder Include="Abstract\" />
-    <Folder Include="Concrete\EfCore\Contexts\" />
+    <Folder Include="Concrete\EfCore\Repositories\" />
   </ItemGroup>
 
 </Project>
