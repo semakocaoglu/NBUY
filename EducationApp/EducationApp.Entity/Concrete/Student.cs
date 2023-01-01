@@ -1,4 +1,5 @@
 ﻿using EducationApp.Entity.Abstract;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,6 @@ namespace EducationApp.Entity.Concrete
 {
     public class Student :IEntityBase
     {
-
         public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
@@ -22,5 +22,6 @@ namespace EducationApp.Entity.Concrete
         public string Phone { get; set; }
         public string Description { get; set; }
         public string LessonPlace { get; set; }
+        public List<StudentCategory> StudentCategories { get; set; }
     }
 }

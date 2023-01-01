@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp\\EducationApp.Entity\\EducationApp.Entity.csproj": {}
+    "c:\\Users\\DELL\\Desktop\\Proje için\\EducationApp\\EducationApp.Entity\\EducationApp.Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp\\EducationApp.Entity\\EducationApp.Entity.csproj": {
+    "c:\\Users\\DELL\\Desktop\\Proje için\\EducationApp\\EducationApp.Entity\\EducationApp.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp\\EducationApp.Entity\\EducationApp.Entity.csproj",
+        "projectUniqueName": "c:\\Users\\DELL\\Desktop\\Proje için\\EducationApp\\EducationApp.Entity\\EducationApp.Entity.csproj",
         "projectName": "EducationApp.Entity",
-        "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp\\EducationApp.Entity\\EducationApp.Entity.csproj",
-        "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp\\EducationApp.Entity\\obj\\",
+        "projectPath": "c:\\Users\\DELL\\Desktop\\Proje için\\EducationApp\\EducationApp.Entity\\EducationApp.Entity.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\DELL\\Desktop\\Proje için\\EducationApp\\EducationApp.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,10 +40,6 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Identity": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.1, )"
@@ -65,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

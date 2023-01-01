@@ -15,5 +15,6 @@ namespace EducationApp.Entity.Concrete
 
 
 
+
     }
 }

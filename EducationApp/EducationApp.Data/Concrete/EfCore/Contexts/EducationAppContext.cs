@@ -17,17 +17,22 @@ namespace EducationApp.Data.Concrete.EfCore.Contexts
         public DbSet<Teacher> Teachers { get; set; }
         public DbSet<StudentCategory> StudentCategories { get; set; }
         public DbSet<TeacherCategory> TeacherCategories { get; set; }
+        public DbSet<TeacherStudent> TeacherStudents { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("Data Source=EducationApp.db");
+            optionsBuilder
+            .EnableSensitiveDataLogging()
+            .UseSqlite("Data Source=EducationApp.db");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new StudentConfig());
             modelBuilder.ApplyConfiguration(new TeacherConfig());
-            modelBuilder.ApplyConfiguration(new StudentCategoryConfig());
-            modelBuilder.ApplyConfiguration(new TeacherCategoryConfig());
+            modelBuilder.ApplyConfiguration(new CategoryConfig());
+            modelBuilder.ApplyConfiguration(new StudentCategoryConfict());
+            modelBuilder.ApplyConfiguration(new TeacherCategoryConfict());
+            modelBuilder.ApplyConfiguration(new TeacherStudentConfig());
 
         }
     }

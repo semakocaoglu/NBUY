@@ -24,5 +24,7 @@ namespace EducationApp.Entity.Concrete
         public string EducationStatus { get; set; }
         public string Experience { get; set; }
         public decimal? Price { get; set; }
+        public List<TeacherCategory> TeacherCategories { get; set; }
+        public List<StudentCategory> StudentCategories { get; set; }
     }
 }
