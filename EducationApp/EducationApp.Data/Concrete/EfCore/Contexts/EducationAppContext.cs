@@ -30,8 +30,8 @@ namespace EducationApp.Data.Concrete.EfCore.Contexts
             modelBuilder.ApplyConfiguration(new StudentConfig());
             modelBuilder.ApplyConfiguration(new TeacherConfig());
             modelBuilder.ApplyConfiguration(new CategoryConfig());
-            modelBuilder.ApplyConfiguration(new StudentCategoryConfict());
-            modelBuilder.ApplyConfiguration(new TeacherCategoryConfict());
+            modelBuilder.ApplyConfiguration(new StudentCategoryConfig());
+            modelBuilder.ApplyConfiguration(new TeacherCategoryConfig());
             modelBuilder.ApplyConfiguration(new TeacherStudentConfig());
 
         }

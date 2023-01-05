@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace EducationApp.Data.Config
 {
-    public class StudentCategoryConfict :IEntityTypeConfiguration<StudentCategory>
+    public class StudentCategoryConfig :IEntityTypeConfiguration<StudentCategory>
     {
         public void Configure(EntityTypeBuilder<StudentCategory> builder)
         {
