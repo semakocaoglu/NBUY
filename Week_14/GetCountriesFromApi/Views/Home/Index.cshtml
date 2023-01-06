@@ -1,8 +1,58 @@
-﻿@{
+﻿@model List<User>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Ad</th>
+            <th>Soyad</th>
+            <th>Email</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.first_name</td>
+                <td>@user.last_name</td>
+                <td>@user.email</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+@*@model List<Country>
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Ülke</th>
+            <th>Başkent</th>
+            <th>Bayrak</th>
+           
+        </tr>
+</thead>
+<tbody>
+    @foreach ( var country in Model)
+        {
+            <tr>
+                <td>@country.name</td>
+                <td>@country.capital</td>
+                <td>
+                    <img src="@country.flag" width="200" />
+                    </td>
+            </tr>
+        }
+    </tbody>
+
+</table>*@

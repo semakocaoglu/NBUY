@@ -1,10 +1,14 @@
 ﻿namespace GetCountriesFromApi.Models
 {
-    public class Country
+    public class Country      
     {
-        public string Name { get; set; }
-        public string FlagUrl { get; set; }
-        public string MapUrl { get; set; }
-
+        public string name { get; set; }
+        public string flag { get; set; }
+        public string capital { get; set; }
     }
 }
+
+
+
+
+//https://restcountries.com/
