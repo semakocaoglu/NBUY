@@ -66,3 +66,6 @@ C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\Week_12\22-12-2022\ShoppingApp\Shoppin
 C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\Week_12\22-12-2022\ShoppingApp\ShoppingApp.Business\obj\Debug\net7.0\refint\ShoppingApp.Business.dll
 C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\Week_12\22-12-2022\ShoppingApp\ShoppingApp.Business\obj\Debug\net7.0\ShoppingApp.Business.pdb
 C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\Week_12\22-12-2022\ShoppingApp\ShoppingApp.Business\obj\Debug\net7.0\ref\ShoppingApp.Business.dll
+C:\Users\DELL\Documents\GitHub\NBUY\Week_12\22-12-2022\ShoppingApp\ShoppingApp.Business\obj\Debug\net7.0\ShoppingApp.Business.dll
+C:\Users\DELL\Documents\GitHub\NBUY\Week_12\22-12-2022\ShoppingApp\ShoppingApp.Business\obj\Debug\net7.0\refint\ShoppingApp.Business.dll
+C:\Users\DELL\Documents\GitHub\NBUY\Week_12\22-12-2022\ShoppingApp\ShoppingApp.Business\obj\Debug\net7.0\ShoppingApp.Business.pdb

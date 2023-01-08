@@ -1,0 +1,15 @@
+﻿@using EducationApp.Entity.Concrete
+@model List<Category>
+<div class="list-group">
+    <a class="list-group-item list-group-item-action @(ViewBag.SelectedCategory==null ? "active" : "")"
+       asp-controller="Student"
+       asp-action="StudentList"
+       asp-route-categoryurl="">Tümünü Göster</a>
+    @foreach (var category in Model)
+    {
+        <a class="list-group-item list-group-item-action @(ViewBag.SelectedCategory==category.Url ? "active" : "")"
+       asp-controller="Student"
+       asp-action="StudentList"
+       asp-route-categoryurl=@category.Url>@category.Name</a>
+    }
+</div>

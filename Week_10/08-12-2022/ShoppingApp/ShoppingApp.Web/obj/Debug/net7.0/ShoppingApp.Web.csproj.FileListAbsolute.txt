@@ -71,3 +71,14 @@ C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\Week_10\08-12-2022\ShoppingApp\Shoppin
 C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\Week_10\08-12-2022\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ShoppingApp.Web.pdb
 C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\Week_10\08-12-2022\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ShoppingApp.Web.genruntimeconfig.cache
 C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\Week_10\08-12-2022\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ref\ShoppingApp.Web.dll
+C:\Users\DELL\Documents\GitHub\NBUY\Week_10\08-12-2022\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ShoppingApp.Web.csproj.AssemblyReference.cache
+C:\Users\DELL\Documents\GitHub\NBUY\Week_10\08-12-2022\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ShoppingApp.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Documents\GitHub\NBUY\Week_10\08-12-2022\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ShoppingApp.Web.AssemblyInfoInputs.cache
+C:\Users\DELL\Documents\GitHub\NBUY\Week_10\08-12-2022\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ShoppingApp.Web.AssemblyInfo.cs
+C:\Users\DELL\Documents\GitHub\NBUY\Week_10\08-12-2022\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ShoppingApp.Web.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\GitHub\NBUY\Week_10\08-12-2022\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ShoppingApp.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DELL\Documents\GitHub\NBUY\Week_10\08-12-2022\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ShoppingApp.Web.RazorAssemblyInfo.cache
+C:\Users\DELL\Documents\GitHub\NBUY\Week_10\08-12-2022\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ShoppingApp.Web.RazorAssemblyInfo.cs
+C:\Users\DELL\Documents\GitHub\NBUY\Week_10\08-12-2022\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ShoppingApp.Web.dll
+C:\Users\DELL\Documents\GitHub\NBUY\Week_10\08-12-2022\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\refint\ShoppingApp.Web.dll
+C:\Users\DELL\Documents\GitHub\NBUY\Week_10\08-12-2022\ShoppingApp\ShoppingApp.Web\obj\Debug\net7.0\ShoppingApp.Web.pdb
