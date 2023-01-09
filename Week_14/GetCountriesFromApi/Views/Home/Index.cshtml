@@ -1,34 +1,6 @@
-﻿@model List<User>
-<table class="table table-bordered">
-    <thead>
-        <tr>
-            <th>Ad</th>
-            <th>Soyad</th>
-            <th>Email</th>
+﻿
 
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var user in Model)
-        {
-            <tr>
-                <td>@user.first_name</td>
-                <td>@user.last_name</td>
-                <td>@user.email</td>
-            </tr>
-        }
-    </tbody>
-</table>
-
-
-
-
-
-
-
-
-
-@*@model List<Country>
+@model List<Country>
 @{
     ViewData["Title"] = "Home Page";
 }
@@ -46,8 +18,8 @@
     @foreach ( var country in Model)
         {
             <tr>
-                <td>@country.name</td>
-                <td>@country.capital</td>
+                <td>@country.Name</td>
+                <td>@country.Capital</td>
                 <td>
                     <img src="@country.flag" width="200" />
                     </td>
@@ -55,4 +27,4 @@
         }
     </tbody>
 
-</table>*@
+</table>
