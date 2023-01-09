@@ -16,7 +16,8 @@ namespace EducationApp.Business.Abstract
         void Delete(Category category);
         Task<List<Category>> GetUpCat();
         Task<List<Category>> GetSubCat(int id);
+        Task<List<Category>> GetCategoriesByStudent(Student student);
 
-       
+
     }
 }

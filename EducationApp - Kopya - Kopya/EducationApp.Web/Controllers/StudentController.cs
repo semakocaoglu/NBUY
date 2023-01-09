@@ -10,10 +10,12 @@ namespace EducationApp.Web.Controllers
     public class StudentController : Controller
     {
         private readonly IStudentService _studentManager;
+        private readonly ICategoryService _categoryManager;
 
-        public StudentController(IStudentService studentManager)
+        public StudentController(IStudentService studentManager, ICategoryService categoryManager)
         {
             _studentManager = studentManager;
+            _categoryManager = categoryManager;
         }
 
         public async Task<IActionResult> Index()
@@ -29,6 +31,7 @@ namespace EducationApp.Web.Controllers
             List<StudentDto> studentDtos = new List<StudentDto>();
             foreach (var student in students)
             {
+                List<Category> categories = await _categoryManager.GetCategoriesByStudent(student);
                 studentDtos.Add(new StudentDto
                 {
                     Id = student.Id,
@@ -43,10 +46,7 @@ namespace EducationApp.Web.Controllers
                     Phone = student.Phone,
                     Description = student.Description,
                     LessonPlace = student.LessonPlace,
-                    Categories = student
-                    .StudentCategories
-                    .Select(sc => sc.Category)
-                    .ToList()
+                    Categories = categories
 
 
                 });

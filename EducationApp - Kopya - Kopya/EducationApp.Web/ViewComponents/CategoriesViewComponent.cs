@@ -1,4 +1,5 @@
 ﻿using EducationApp.Business.Abstract;
+using EducationApp.Web.Models;
 using Microsoft.AspNetCore.Mvc;
 
 
@@ -21,9 +22,21 @@ namespace ShoppingApp.Web.ViewComponents
                 ViewBag.SelectedCategory = RouteData.Values["categoryurl"];
             }
             var categories = await _categoryManager.GetUpCat();
-            return View(categories);
+            var categoryDtos = new List<CategoryDto>();
+            foreach (var upCategory in categories)
+            {
+                categoryDtos.Add(new CategoryDto
+                {
+                    Id = upCategory.Id,
+                    Name = upCategory.Name,
+                    Description = upCategory.Description,
+                    UpCatId = upCategory.Id,
+                    Url = upCategory.Url,
+                    SubCategory = await _categoryManager.GetSubCat(upCategory.Id)
+                });
+            }
+            return View(categoryDtos);
         }
-
         
     }
 }

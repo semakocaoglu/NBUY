@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace EducationApp.Entity.Abstract
 {
-    public interface IEntityBase 
+    public class BaseUserEntity
     {
+        public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int Age { get; set; }

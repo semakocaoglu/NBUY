@@ -31,21 +31,19 @@ namespace EducationApp.Data.Concrete.EfCore.Repositories
             
         }
 
-        //public async Task<List<Category>> GetSubCat(int id)
-        //{
-        //    return await EducationAppContext
-        //        .Categories
-        //        .Where(c => c.UpCatId >0)
-        //        .Where(c => c.UpCatId == id )
-        //        .ToListAsync();
-                
-
-
-        //}
-
-        public Task<List<Category>> GetSubCat()
+        public async Task<List<Category>> GetSubCat(int id)
         {
-            throw new NotImplementedException();
+            return await EducationAppContext
+                .Categories
+                .Where(c => c.UpCatId == id)
+                .ToListAsync();
+        }
+
+        public async Task<List<Category>> GetCategoriesByStudent(Student student)
+        {
+            int[] categoryIds = await EducationAppContext.StudentCategories.Where(sc => sc.StudentId == student.Id).Select(sc => sc.CategoryId).ToArrayAsync();
+            List<Category> categories = await EducationAppContext.Categories.Where(c => categoryIds.Contains(c.Id)).ToListAsync();
+            return categories;
         }
     }
 }

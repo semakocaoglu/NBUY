@@ -21,9 +21,9 @@ namespace EducationApp.Data.Concrete.EfCore.Repositories
             get { return _context as EducationAppContext; }
         }
 
-        public Task<Student> GetStudentDetailsByUrlAsync(string studentUrl)
+        public async Task<Student> GetStudentDetailsByUrlAsync(string studentUrl)
         {
-            return EducationAppContext
+            return await EducationAppContext
                 .Students
                 .Where(s => s.Url == studentUrl)
                 .Include(s => s.StudentCategories)

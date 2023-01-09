@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ShoppingApp.Data",
+    "\\ShoppingApp.Data\\Concrete",
+    "\\ShoppingApp.Data\\Concrete\\EfCore",
+    "\\ShoppingApp.Data\\Concrete\\EfCore\\Contexts",
+    "\\ShoppingApp.Web\\Views",
+    "\\ShoppingApp.Web\\Views\\Home"
+  ],
+  "SelectedNode": "\\ShoppingApp.Data\\Concrete\\EfCore\\Contexts\\ShopAppContext.cs",
+  "PreviewInSolutionExplorer": false
+}

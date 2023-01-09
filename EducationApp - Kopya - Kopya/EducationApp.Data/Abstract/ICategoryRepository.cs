@@ -10,6 +10,7 @@ namespace EducationApp.Data.Abstract
     public interface ICategoryRepository : IRepository<Category>
     {
         Task<List<Category>> GetUpCat();
-        Task<List<Category>> GetSubCat();
+        Task<List<Category>> GetSubCat(int id);
+        Task<List<Category>> GetCategoriesByStudent(Student student);
     }
 }

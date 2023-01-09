@@ -1,4 +1,5 @@
 ﻿using EducationApp.Data.Config;
+using EducationApp.Data.Extensions;
 using EducationApp.Entity.Concrete;
 using EducationApp.Entity.Concrete.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
@@ -34,7 +35,7 @@ namespace EducationApp.Data.Concrete.EfCore.Contexts
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            
+            modelBuilder.SeedData();
             modelBuilder.ApplyConfiguration(new StudentConfig());
             modelBuilder.ApplyConfiguration(new TeacherConfig());
             modelBuilder.ApplyConfiguration(new CategoryConfig());

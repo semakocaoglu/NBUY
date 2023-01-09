@@ -37,9 +37,14 @@ namespace EducationApp.Business.Concrete
             return await _unitfOfWork.Categories.GetByIdAsync(id);
         }
 
+        public async Task<List<Category>> GetCategoriesByStudent(Student student)
+        {
+            return await _unitfOfWork.Categories.GetCategoriesByStudent(student);
+        }
+
         public async Task<List<Category>> GetSubCat(int id)
         {
-            return await _unitfOfWork.Categories.GetSubCat();
+            return await _unitfOfWork.Categories.GetSubCat(id);
         }
 
         public async Task<List<Category>> GetUpCat()
