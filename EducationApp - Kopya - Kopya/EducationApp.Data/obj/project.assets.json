@@ -1457,11 +1457,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Data\\EducationApp.Data.csproj",
+      "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Data\\EducationApp.Data.csproj",
       "projectName": "EducationApp.Data",
-      "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Data\\EducationApp.Data.csproj",
+      "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Data\\EducationApp.Data.csproj",
       "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Data\\obj\\",
+      "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1478,8 +1478,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Entity\\EducationApp.Entity.csproj": {
-              "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Entity\\EducationApp.Entity.csproj"
+            "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Entity\\EducationApp.Entity.csproj": {
+              "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Entity\\EducationApp.Entity.csproj"
             }
           }
         }

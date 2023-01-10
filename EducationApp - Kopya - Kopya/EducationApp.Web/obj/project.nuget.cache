@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lxEV8oDKFjGy0FEO+Iko3w7F/noLYENT7uvln+OUm39zMiqsk+IXgueUBTy3WH5ZD2YD5VuMdnicf29wQtIlPQ==",
+  "dgSpecHash": "lZ2u+fb0Gdfru7bRZKwi1ncvuJwbdh0igK2UcSJbRO2onKGIHN3rpP03AR9/+e8tRm1vSXYs3T1UpsYGVnOuIw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Web\\EducationApp.Web.csproj",
+  "projectFilePath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Web\\EducationApp.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SABAH\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\SABAH\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.1\\microsoft.aspnetcore.cryptography.internal.7.0.1.nupkg.sha512",

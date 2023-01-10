@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dKj+H3t1rvOhqL0YTapTDtLXOLGL3Duvb7CWHZ6guLs=",
+  "Hash": "88bbK6wUjuxBeV31ZR1zX1eIpcSQZ0l5tHtzPsn9xEg=",
   "Source": "EducationApp.Web",
   "BasePath": "_content/EducationApp.Web",
   "Mode": "Default",
@@ -340,12 +340,12 @@
       "OriginalItemSpec": "wwwroot\\images\\Category\\swimming.jpg"
     },
     {
-      "Identity": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Web\\wwwroot\\images\\FemaleStudent\\png-1.jpg",
+      "Identity": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Web\\wwwroot\\images\\FemaleStudent\\1.jpg",
       "SourceId": "EducationApp.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Web\\wwwroot\\",
       "BasePath": "_content/EducationApp.Web",
-      "RelativePath": "images/FemaleStudent/png-1.jpg",
+      "RelativePath": "images/FemaleStudent/1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -354,15 +354,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\FemaleStudent\\png-1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\FemaleStudent\\1.jpg"
     },
     {
-      "Identity": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Web\\wwwroot\\images\\FemaleStudent\\png-2.jpg",
+      "Identity": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Web\\wwwroot\\images\\FemaleStudent\\2.jpg",
       "SourceId": "EducationApp.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Web\\wwwroot\\",
       "BasePath": "_content/EducationApp.Web",
-      "RelativePath": "images/FemaleStudent/png-2.jpg",
+      "RelativePath": "images/FemaleStudent/2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -371,15 +371,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\FemaleStudent\\png-2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\FemaleStudent\\2.jpg"
     },
     {
-      "Identity": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Web\\wwwroot\\images\\FemaleStudent\\png-3.jpg",
+      "Identity": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Web\\wwwroot\\images\\FemaleStudent\\3.jpg",
       "SourceId": "EducationApp.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Web\\wwwroot\\",
       "BasePath": "_content/EducationApp.Web",
-      "RelativePath": "images/FemaleStudent/png-3.jpg",
+      "RelativePath": "images/FemaleStudent/3.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -388,15 +388,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\FemaleStudent\\png-3.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\FemaleStudent\\3.jpg"
     },
     {
-      "Identity": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Web\\wwwroot\\images\\FemaleStudent\\png-4.jpg",
+      "Identity": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Web\\wwwroot\\images\\FemaleStudent\\4.jpg",
       "SourceId": "EducationApp.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Web\\wwwroot\\",
       "BasePath": "_content/EducationApp.Web",
-      "RelativePath": "images/FemaleStudent/png-4.jpg",
+      "RelativePath": "images/FemaleStudent/4.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -405,15 +405,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\FemaleStudent\\png-4.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\FemaleStudent\\4.jpg"
     },
     {
-      "Identity": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Web\\wwwroot\\images\\FemaleStudent\\png-5.jpg",
+      "Identity": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Web\\wwwroot\\images\\FemaleStudent\\5.jpg",
       "SourceId": "EducationApp.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Web\\wwwroot\\",
       "BasePath": "_content/EducationApp.Web",
-      "RelativePath": "images/FemaleStudent/png-5.jpg",
+      "RelativePath": "images/FemaleStudent/5.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -422,15 +422,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\FemaleStudent\\png-5.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\FemaleStudent\\5.jpg"
     },
     {
-      "Identity": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Web\\wwwroot\\images\\FemaleStudent\\png-6.jpg",
+      "Identity": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Web\\wwwroot\\images\\FemaleStudent\\6.jpg",
       "SourceId": "EducationApp.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Web\\wwwroot\\",
       "BasePath": "_content/EducationApp.Web",
-      "RelativePath": "images/FemaleStudent/png-6.jpg",
+      "RelativePath": "images/FemaleStudent/6.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -439,15 +439,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\FemaleStudent\\png-6.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\FemaleStudent\\6.jpg"
     },
     {
-      "Identity": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Web\\wwwroot\\images\\FemaleStudent\\png-7.jpg",
+      "Identity": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Web\\wwwroot\\images\\FemaleStudent\\7.jpg",
       "SourceId": "EducationApp.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Web\\wwwroot\\",
       "BasePath": "_content/EducationApp.Web",
-      "RelativePath": "images/FemaleStudent/png-7.jpg",
+      "RelativePath": "images/FemaleStudent/7.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -456,15 +456,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\FemaleStudent\\png-7.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\FemaleStudent\\7.jpg"
     },
     {
-      "Identity": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Web\\wwwroot\\images\\FemaleStudent\\png-8.jpg",
+      "Identity": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Web\\wwwroot\\images\\FemaleStudent\\8.jpg",
       "SourceId": "EducationApp.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Web\\wwwroot\\",
       "BasePath": "_content/EducationApp.Web",
-      "RelativePath": "images/FemaleStudent/png-8.jpg",
+      "RelativePath": "images/FemaleStudent/8.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -473,7 +473,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\FemaleStudent\\png-8.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\FemaleStudent\\8.jpg"
     },
     {
       "Identity": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp - Kopya - Kopya\\EducationApp.Web\\wwwroot\\images\\FemaleTeacher\\png-1.jpg",
