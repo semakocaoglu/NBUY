@@ -1,0 +1,13 @@
+1)Single Responsibility Principle
+
+2)Open-Closed principle
+
+
+3)Liskovs Substitution Principle
+
+
+4)Interface Segregation Principle
+-Business katmanında abstract içerisinde service katmanları oluşturup Concrete içerisinde Manager dosyalarının miras almasını sağlamak
+-Web katmanında EmailServices dosyası içerisinde IEmailSender interface'i oluşturup Pop3EmailSender ve SmtpEmailSender classlarının ondan miras almasını sağlamak
+
+5)Dependency Inversion Principle
