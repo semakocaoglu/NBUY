@@ -11,3 +11,6 @@
 -Web katmanında EmailServices dosyası içerisinde IEmailSender interface'i oluşturup Pop3EmailSender ve SmtpEmailSender classlarının ondan miras almasını sağlamak
 
 5)Dependency Inversion Principle
+-Business katmanındaki Managerlarda kullanıldı.(unitofWork için)
+-CategoryControllerda (_categoryService)
+-HomeControllerda (_productManager)
