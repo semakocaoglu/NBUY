@@ -18,7 +18,7 @@ namespace EducationApp.Data.Config
             builder.ToTable("TeacherCategories");
 
             builder.HasData(
-                new TeacherCategory { TeacherId = 1, CategoryId = 5 },
+                new TeacherCategory { TeacherId = 1, CategoryId = 18 },
 
                 new TeacherCategory { TeacherId = 2, CategoryId = 1 },
 

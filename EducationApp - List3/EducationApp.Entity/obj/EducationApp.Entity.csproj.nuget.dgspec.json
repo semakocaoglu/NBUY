@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SABAH\\Desktop\\EducationApp - List2\\EducationApp.Entity\\EducationApp.Entity.csproj": {}
+    "C:\\Users\\SABAH\\Desktop\\EducationApp - List3\\EducationApp.Entity\\EducationApp.Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SABAH\\Desktop\\EducationApp - List2\\EducationApp.Entity\\EducationApp.Entity.csproj": {
+    "C:\\Users\\SABAH\\Desktop\\EducationApp - List3\\EducationApp.Entity\\EducationApp.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SABAH\\Desktop\\EducationApp - List2\\EducationApp.Entity\\EducationApp.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\SABAH\\Desktop\\EducationApp - List3\\EducationApp.Entity\\EducationApp.Entity.csproj",
         "projectName": "EducationApp.Entity",
-        "projectPath": "C:\\Users\\SABAH\\Desktop\\EducationApp - List2\\EducationApp.Entity\\EducationApp.Entity.csproj",
+        "projectPath": "C:\\Users\\SABAH\\Desktop\\EducationApp - List3\\EducationApp.Entity\\EducationApp.Entity.csproj",
         "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SABAH\\Desktop\\EducationApp - List2\\EducationApp.Entity\\obj\\",
+        "outputPath": "C:\\Users\\SABAH\\Desktop\\EducationApp - List3\\EducationApp.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",

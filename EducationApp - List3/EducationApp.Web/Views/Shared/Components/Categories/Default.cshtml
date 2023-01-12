@@ -3,27 +3,53 @@
 <div class=" justify-content-around w-75">
     @foreach (var category in Model)
     {
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-success p-1  bg-opacity-10 border-bottom shadow-lg mb-3 ">
-            
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item btn-group dropend  fst-italic fw-normal ">
-                            <a class="nav-link dropdown-toggle text-decoration-none" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                @category.Name
-                            </a>
-                            <ul class="dropdown-menu">
-                                @foreach (var subCategory in category.SubCategory)
-                                {
-                                    <li><a class="dropdown-item" href="#">@subCategory.Name</a></li>
-                                }
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm bg-success p-1  bg-opacity-10 text-info border-bottom shadow-lg mb-3 ">
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item btn-group dropend  fst-italic fw-normal ">
+                        <a class="nav-link dropdown-toggle text-decoration-none nav-item-action@(ViewBag.SelectedCategory==category.Url ? "active" : "")"  role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                       asp-controller="Student"
+                       asp-action="Index"
+                       asp-route-categoryurl=@category.Url>
+                            @category.Name
+                        </a>
+                        <ul class="dropdown-menu">
+                            @foreach (var subCategory in category.SubCategory)
+                            {
+                                <li><a class="dropdown-item" href="#">@subCategory.Name</a></li>
+                            }
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
         </nav>
     }
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

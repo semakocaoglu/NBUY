@@ -22,7 +22,7 @@ namespace EducationApp.Data.Config
                 new StudentCategory { StudentId = 2, CategoryId = 15 },
                 new StudentCategory { StudentId = 3, CategoryId = 1 },
                 new StudentCategory { StudentId = 4, CategoryId = 2 },
-                new StudentCategory { StudentId = 5, CategoryId = 5 },
+                new StudentCategory { StudentId = 5, CategoryId = 18 },
 
                 new StudentCategory { StudentId = 6, CategoryId = 8 },
                 new StudentCategory { StudentId = 6, CategoryId = 9 },

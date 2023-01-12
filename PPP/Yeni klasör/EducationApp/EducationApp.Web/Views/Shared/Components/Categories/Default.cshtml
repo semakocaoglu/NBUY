@@ -1,0 +1,68 @@
+﻿@using EducationApp.Web.Models
+@model List<CategoryDto>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand @(ViewBag.SelectedCategory==null ? "active" : "")"
+           asp-controller="Student"
+           asp-action="Index"
+           asp-route-categoryurl="">Tümünü Göster</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <li class="nav-item dropdown">
+                    @foreach (var category in Model)
+                    {
+                        <a class="nav-link dropdown-toggle  @(ViewBag.SelectedCategory==category.Url ? "active" : "")"
+                       asp-controller="Student"
+                       asp-action="Index"
+                       asp-route-categoryurl=@category.Url
+                        >@category.Name</a>
+
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            @foreach (var subCategory in category.SubCategory)
+                            {
+                                <li><a class="dropdown-item" href="#">@subCategory.Name</a></li>
+                            }
+                        </ul>
+                    }
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+
+
+
+
+@*<div class="list-group">
+    <a class="list-group-item list-group-item-action @(ViewBag.SelectedCategory==null ? "active" : "")"
+       asp-controller="Student"
+       asp-action="Index"
+       asp-route-categoryurl="">Tümünü Göster</a>
+
+        @foreach (var category in Model)
+        {
+            <a class="list-group-item list-group-item-action @(ViewBag.SelectedCategory==category.Url ? "active" : "")"
+           asp-controller="Student"
+           asp-action="Index"
+           asp-route-categoryurl=@category.Url>@category.Name</a>
+
+           <ul class="">
+            @foreach (var subCategory in category.SubCategory)
+            {
+                    <li class="">@subCategory.Name</li>
+            }
+            </ul>
+        }
+        </div>
+    *@
+

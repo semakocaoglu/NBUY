@@ -1,0 +1,136 @@
+C:\Users\DELL\Desktop\Proje için\EducationApp\EducationApp.Business\bin\Debug\net7.0\EducationApp.Business.deps.json
+C:\Users\DELL\Desktop\Proje için\EducationApp\EducationApp.Business\bin\Debug\net7.0\EducationApp.Business.dll
+C:\Users\DELL\Desktop\Proje için\EducationApp\EducationApp.Business\bin\Debug\net7.0\EducationApp.Business.pdb
+C:\Users\DELL\Desktop\Proje için\EducationApp\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\Proje için\EducationApp\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\Proje için\EducationApp\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\Proje için\EducationApp\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.AssemblyInfo.cs
+C:\Users\DELL\Desktop\Proje için\EducationApp\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Proje için\EducationApp\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.dll
+C:\Users\DELL\Desktop\Proje için\EducationApp\EducationApp.Business\obj\Debug\net7.0\refint\EducationApp.Business.dll
+C:\Users\DELL\Desktop\Proje için\EducationApp\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.pdb
+C:\Users\DELL\Desktop\Proje için\EducationApp\EducationApp.Business\obj\Debug\net7.0\ref\EducationApp.Business.dll
+C:\Users\DELL\Desktop\Proje için\EducationApp\EducationApp.Business\bin\Debug\net7.0\EducationApp.Data.dll
+C:\Users\DELL\Desktop\Proje için\EducationApp\EducationApp.Business\bin\Debug\net7.0\EducationApp.Entity.dll
+C:\Users\DELL\Desktop\Proje için\EducationApp\EducationApp.Business\bin\Debug\net7.0\EducationApp.Data.pdb
+C:\Users\DELL\Desktop\Proje için\EducationApp\EducationApp.Business\bin\Debug\net7.0\EducationApp.Entity.pdb
+C:\Users\DELL\Desktop\Proje için\EducationApp\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.csproj.CopyComplete
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp\EducationApp.Business\bin\Debug\net7.0\EducationApp.Business.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp\EducationApp.Business\bin\Debug\net7.0\EducationApp.Business.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp\EducationApp.Business\bin\Debug\net7.0\EducationApp.Business.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp\EducationApp.Business\bin\Debug\net7.0\EducationApp.Data.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp\EducationApp.Business\bin\Debug\net7.0\EducationApp.Entity.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp\EducationApp.Business\bin\Debug\net7.0\EducationApp.Data.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp\EducationApp.Business\bin\Debug\net7.0\EducationApp.Entity.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.csproj.CopyComplete
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp\EducationApp.Business\obj\Debug\net7.0\refint\EducationApp.Business.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp\EducationApp.Business\obj\Debug\net7.0\ref\EducationApp.Business.dll
+C:\Users\DELL\Desktop\EducationApp\EducationApp.Business\bin\Debug\net7.0\EducationApp.Business.deps.json
+C:\Users\DELL\Desktop\EducationApp\EducationApp.Business\bin\Debug\net7.0\EducationApp.Business.dll
+C:\Users\DELL\Desktop\EducationApp\EducationApp.Business\bin\Debug\net7.0\EducationApp.Business.pdb
+C:\Users\DELL\Desktop\EducationApp\EducationApp.Business\bin\Debug\net7.0\EducationApp.Data.dll
+C:\Users\DELL\Desktop\EducationApp\EducationApp.Business\bin\Debug\net7.0\EducationApp.Entity.dll
+C:\Users\DELL\Desktop\EducationApp\EducationApp.Business\bin\Debug\net7.0\EducationApp.Data.pdb
+C:\Users\DELL\Desktop\EducationApp\EducationApp.Business\bin\Debug\net7.0\EducationApp.Entity.pdb
+C:\Users\DELL\Desktop\EducationApp\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\EducationApp\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\EducationApp\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\EducationApp\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.AssemblyInfo.cs
+C:\Users\DELL\Desktop\EducationApp\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\EducationApp\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.csproj.CopyComplete
+C:\Users\DELL\Desktop\EducationApp\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.dll
+C:\Users\DELL\Desktop\EducationApp\EducationApp.Business\obj\Debug\net7.0\refint\EducationApp.Business.dll
+C:\Users\DELL\Desktop\EducationApp\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.pdb
+C:\Users\DELL\Desktop\EducationApp\EducationApp.Business\obj\Debug\net7.0\ref\EducationApp.Business.dll
+C:\Users\DELL\Desktop\EducationApp - Kopya\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\EducationApp - Kopya\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\EducationApp - Kopya\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\EducationApp - Kopya\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.AssemblyInfo.cs
+C:\Users\DELL\Desktop\EducationApp - Kopya\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\EducationApp - Kopya\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.dll
+C:\Users\DELL\Desktop\EducationApp - Kopya\EducationApp.Business\obj\Debug\net7.0\refint\EducationApp.Business.dll
+C:\Users\DELL\Desktop\EducationApp - Kopya\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.pdb
+C:\Users\DELL\Desktop\EducationApp - Kopya\EducationApp.Business\bin\Debug\net7.0\EducationApp.Business.deps.json
+C:\Users\DELL\Desktop\EducationApp - Kopya\EducationApp.Business\bin\Debug\net7.0\EducationApp.Business.dll
+C:\Users\DELL\Desktop\EducationApp - Kopya\EducationApp.Business\bin\Debug\net7.0\EducationApp.Business.pdb
+C:\Users\DELL\Desktop\EducationApp - Kopya\EducationApp.Business\bin\Debug\net7.0\EducationApp.Data.dll
+C:\Users\DELL\Desktop\EducationApp - Kopya\EducationApp.Business\bin\Debug\net7.0\EducationApp.Entity.dll
+C:\Users\DELL\Desktop\EducationApp - Kopya\EducationApp.Business\bin\Debug\net7.0\EducationApp.Data.pdb
+C:\Users\DELL\Desktop\EducationApp - Kopya\EducationApp.Business\bin\Debug\net7.0\EducationApp.Entity.pdb
+C:\Users\DELL\Desktop\EducationApp - Kopya\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.csproj.CopyComplete
+C:\Users\DELL\Desktop\EducationApp - Kopya\EducationApp.Business\obj\Debug\net7.0\ref\EducationApp.Business.dll
+C:\Users\DELL\Desktop\EducationApp - Kopya - Kopya\EducationApp.Business\bin\Debug\net7.0\EducationApp.Business.deps.json
+C:\Users\DELL\Desktop\EducationApp - Kopya - Kopya\EducationApp.Business\bin\Debug\net7.0\EducationApp.Business.dll
+C:\Users\DELL\Desktop\EducationApp - Kopya - Kopya\EducationApp.Business\bin\Debug\net7.0\EducationApp.Business.pdb
+C:\Users\DELL\Desktop\EducationApp - Kopya - Kopya\EducationApp.Business\bin\Debug\net7.0\EducationApp.Data.dll
+C:\Users\DELL\Desktop\EducationApp - Kopya - Kopya\EducationApp.Business\bin\Debug\net7.0\EducationApp.Entity.dll
+C:\Users\DELL\Desktop\EducationApp - Kopya - Kopya\EducationApp.Business\bin\Debug\net7.0\EducationApp.Data.pdb
+C:\Users\DELL\Desktop\EducationApp - Kopya - Kopya\EducationApp.Business\bin\Debug\net7.0\EducationApp.Entity.pdb
+C:\Users\DELL\Desktop\EducationApp - Kopya - Kopya\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\EducationApp - Kopya - Kopya\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\EducationApp - Kopya - Kopya\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\EducationApp - Kopya - Kopya\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.AssemblyInfo.cs
+C:\Users\DELL\Desktop\EducationApp - Kopya - Kopya\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\EducationApp - Kopya - Kopya\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.csproj.CopyComplete
+C:\Users\DELL\Desktop\EducationApp - Kopya - Kopya\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.dll
+C:\Users\DELL\Desktop\EducationApp - Kopya - Kopya\EducationApp.Business\obj\Debug\net7.0\refint\EducationApp.Business.dll
+C:\Users\DELL\Desktop\EducationApp - Kopya - Kopya\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.pdb
+C:\Users\DELL\Desktop\EducationApp - Kopya - Kopya\EducationApp.Business\obj\Debug\net7.0\ref\EducationApp.Business.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya - Kopya\EducationApp.Business\bin\Debug\net7.0\EducationApp.Business.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya - Kopya\EducationApp.Business\bin\Debug\net7.0\EducationApp.Business.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya - Kopya\EducationApp.Business\bin\Debug\net7.0\EducationApp.Business.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya - Kopya\EducationApp.Business\bin\Debug\net7.0\EducationApp.Data.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya - Kopya\EducationApp.Business\bin\Debug\net7.0\EducationApp.Entity.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya - Kopya\EducationApp.Business\bin\Debug\net7.0\EducationApp.Data.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya - Kopya\EducationApp.Business\bin\Debug\net7.0\EducationApp.Entity.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya - Kopya\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya - Kopya\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya - Kopya\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya - Kopya\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya - Kopya\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya - Kopya\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.csproj.CopyComplete
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya - Kopya\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya - Kopya\EducationApp.Business\obj\Debug\net7.0\refint\EducationApp.Business.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya - Kopya\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya - Kopya\EducationApp.Business\obj\Debug\net7.0\ref\EducationApp.Business.dll
+C:\Users\SABAH\Desktop\EducationApp - Kopya - Kopya\EducationApp.Business\bin\Debug\net7.0\EducationApp.Business.deps.json
+C:\Users\SABAH\Desktop\EducationApp - Kopya - Kopya\EducationApp.Business\bin\Debug\net7.0\EducationApp.Business.dll
+C:\Users\SABAH\Desktop\EducationApp - Kopya - Kopya\EducationApp.Business\bin\Debug\net7.0\EducationApp.Business.pdb
+C:\Users\SABAH\Desktop\EducationApp - Kopya - Kopya\EducationApp.Business\bin\Debug\net7.0\EducationApp.Data.dll
+C:\Users\SABAH\Desktop\EducationApp - Kopya - Kopya\EducationApp.Business\bin\Debug\net7.0\EducationApp.Entity.dll
+C:\Users\SABAH\Desktop\EducationApp - Kopya - Kopya\EducationApp.Business\bin\Debug\net7.0\EducationApp.Data.pdb
+C:\Users\SABAH\Desktop\EducationApp - Kopya - Kopya\EducationApp.Business\bin\Debug\net7.0\EducationApp.Entity.pdb
+C:\Users\SABAH\Desktop\EducationApp - Kopya - Kopya\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.csproj.AssemblyReference.cache
+C:\Users\SABAH\Desktop\EducationApp - Kopya - Kopya\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Desktop\EducationApp - Kopya - Kopya\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.AssemblyInfoInputs.cache
+C:\Users\SABAH\Desktop\EducationApp - Kopya - Kopya\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.AssemblyInfo.cs
+C:\Users\SABAH\Desktop\EducationApp - Kopya - Kopya\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Desktop\EducationApp - Kopya - Kopya\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.csproj.CopyComplete
+C:\Users\SABAH\Desktop\EducationApp - Kopya - Kopya\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.dll
+C:\Users\SABAH\Desktop\EducationApp - Kopya - Kopya\EducationApp.Business\obj\Debug\net7.0\refint\EducationApp.Business.dll
+C:\Users\SABAH\Desktop\EducationApp - Kopya - Kopya\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.pdb
+C:\Users\SABAH\Desktop\EducationApp - Kopya - Kopya\EducationApp.Business\obj\Debug\net7.0\ref\EducationApp.Business.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya 2\EducationApp.Business\bin\Debug\net7.0\EducationApp.Business.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya 2\EducationApp.Business\bin\Debug\net7.0\EducationApp.Business.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya 2\EducationApp.Business\bin\Debug\net7.0\EducationApp.Business.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya 2\EducationApp.Business\bin\Debug\net7.0\EducationApp.Data.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya 2\EducationApp.Business\bin\Debug\net7.0\EducationApp.Entity.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya 2\EducationApp.Business\bin\Debug\net7.0\EducationApp.Data.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya 2\EducationApp.Business\bin\Debug\net7.0\EducationApp.Entity.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya 2\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya 2\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya 2\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya 2\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya 2\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya 2\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.csproj.CopyComplete
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya 2\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya 2\EducationApp.Business\obj\Debug\net7.0\refint\EducationApp.Business.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya 2\EducationApp.Business\obj\Debug\net7.0\EducationApp.Business.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya 2\EducationApp.Business\obj\Debug\net7.0\ref\EducationApp.Business.dll

@@ -40,10 +40,10 @@ namespace EducationApp.Data.Config
                 new Category { Id = 3, Name = "Kimya", Description = "", Url = "kimya", UpCatId = 0 },
                 new Category { Id = 4, Name = "İlkokul Dersleri", Description = "", Url = "ilkokul-dersleri", UpCatId = 0 },
                 new Category { Id = 5, Name = "Yabancı Dil", Description = "", Url = "yabanci-dil", UpCatId = 0 },
-                 new Category { Id = 6, Name = "Almanca", Description = "", Url = "almanca", UpCatId = 4 },
+                 new Category { Id = 6, Name = "Almanca", Description = "", Url = "almanca", UpCatId = 5 },
                   new Category { Id = 7, Name = "Sanat", Description = "", Url = "sanat", UpCatId = 0 },
                    new Category { Id = 8, Name = "Dans", Description = "", Url = "dans", UpCatId = 7 },
-                    new Category { Id = 9, Name = "Piyano", Description = "", Url = "ingilizce", UpCatId = 7 },
+                    new Category { Id = 9, Name = "Piyano", Description = "", Url = "piyano", UpCatId = 7 },
                      new Category { Id = 10, Name = "Bilgisayar", Description = "", Url = "bilgisayar", UpCatId = 0 },
                       new Category { Id = 11, Name = "AutoCad", Description = "", Url = "autocad", UpCatId = 10 },
                        new Category { Id = 12, Name = "JavaScript", Description = "", Url = "javascript", UpCatId = 10 },
@@ -51,7 +51,8 @@ namespace EducationApp.Data.Config
                          new Category { Id = 14, Name = "Yüzme", Description = "", Url = "yüzme", UpCatId = 13 },
                           new Category { Id = 15, Name = "Tenis", Description = "", Url = "tenis", UpCatId = 13 },
                           new Category { Id = 16, Name = "Gitar", Description = "", Url = "gitar", UpCatId = 7 },
-                          new Category { Id = 17, Name = "Photoshop", Description = "", Url = "photoshop", UpCatId = 10 });
+                          new Category { Id = 17, Name = "Photoshop", Description = "", Url = "photoshop", UpCatId = 10 },
+                          new Category { Id = 18, Name = "İnglizce", Description = "", Url = "ingilizce", UpCatId = 15 });
 
 
 

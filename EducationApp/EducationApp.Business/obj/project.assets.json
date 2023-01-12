@@ -1344,19 +1344,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DELL\\.nuget\\packages\\": {}
+    "C:\\Users\\SABAH\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Documents\\GitHub\\NBUY\\EducationApp\\EducationApp.Business\\EducationApp.Business.csproj",
+      "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp\\EducationApp.Business\\EducationApp.Business.csproj",
       "projectName": "EducationApp.Business",
-      "projectPath": "C:\\Users\\DELL\\Documents\\GitHub\\NBUY\\EducationApp\\EducationApp.Business\\EducationApp.Business.csproj",
-      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\Documents\\GitHub\\NBUY\\EducationApp\\EducationApp.Business\\obj\\",
+      "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp\\EducationApp.Business\\EducationApp.Business.csproj",
+      "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp\\EducationApp.Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1370,8 +1370,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\DELL\\Documents\\GitHub\\NBUY\\EducationApp\\EducationApp.Data\\EducationApp.Data.csproj": {
-              "projectPath": "C:\\Users\\DELL\\Documents\\GitHub\\NBUY\\EducationApp\\EducationApp.Data\\EducationApp.Data.csproj"
+            "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp\\EducationApp.Data\\EducationApp.Data.csproj": {
+              "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\EducationApp\\EducationApp.Data\\EducationApp.Data.csproj"
             }
           }
         }
@@ -1401,7 +1401,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

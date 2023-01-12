@@ -91,7 +91,7 @@ namespace EducationApp.Data.Migrations
                             Id = 6,
                             Description = "",
                             Name = "Almanca",
-                            UpCatId = 4,
+                            UpCatId = 5,
                             Url = "almanca"
                         },
                         new
@@ -116,7 +116,7 @@ namespace EducationApp.Data.Migrations
                             Description = "",
                             Name = "Piyano",
                             UpCatId = 7,
-                            Url = "ingilizce"
+                            Url = "piyano"
                         },
                         new
                         {
@@ -181,6 +181,398 @@ namespace EducationApp.Data.Migrations
                             Name = "Photoshop",
                             UpCatId = 10,
                             Url = "photoshop"
+                        },
+                        new
+                        {
+                            Id = 18,
+                            Description = "",
+                            Name = "İnglizce",
+                            UpCatId = 15,
+                            Url = "ingilizce"
+                        });
+                });
+
+            modelBuilder.Entity("EducationApp.Entity.Concrete.Identity.Role", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ConcurrencyStamp")
+                        .IsConcurrencyToken()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Name")
+                        .HasMaxLength(256)
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("NormalizedName")
+                        .HasMaxLength(256)
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("NormalizedName")
+                        .IsUnique()
+                        .HasDatabaseName("RoleNameIndex");
+
+                    b.ToTable("AspNetRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "944a8655-f5ce-4812-a93f-36860d7a9fa5",
+                            Description = "Admin rolü",
+                            Name = "Admin",
+                            NormalizedName = "ADMIN"
+                        },
+                        new
+                        {
+                            Id = "4f7e3de1-ce8a-4cb5-a553-0f6830458659",
+                            Description = "User rolü",
+                            Name = "User",
+                            NormalizedName = "USER"
+                        });
+                });
+
+            modelBuilder.Entity("EducationApp.Entity.Concrete.Identity.User", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("AccessFailedCount")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("ConcurrencyStamp")
+                        .IsConcurrencyToken()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Email")
+                        .HasMaxLength(256)
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("EmailConfirmed")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<bool>("LockoutEnabled")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTimeOffset?>("LockoutEnd")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("NormalizedEmail")
+                        .HasMaxLength(256)
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("NormalizedUserName")
+                        .HasMaxLength(256)
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("PasswordHash")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("PhoneNumber")
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("PhoneNumberConfirmed")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("SecurityStamp")
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("TwoFactorEnabled")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("UserName")
+                        .HasMaxLength(256)
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("NormalizedEmail")
+                        .HasDatabaseName("EmailIndex");
+
+                    b.HasIndex("NormalizedUserName")
+                        .IsUnique()
+                        .HasDatabaseName("UserNameIndex");
+
+                    b.ToTable("AspNetUsers", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "fe91c03a-f751-42d0-9698-d8b98f3efe79",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "cc59a7f4-6c4d-42ee-89ab-121813ec3311",
+                            Email = "admin@gmail.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "ADMIN@GMAIL.COM",
+                            NormalizedUserName = "ADMIN",
+                            PasswordHash = "AQAAAAIAAYagAAAAEA6ysPa9qeRWdkPvxwV1DvSzSeHVoc6FBw/BUUXIJINNUqvdV+PrLUGhkJW9sMBLZQ==",
+                            PhoneNumber = "5555555555",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "d6e8850c-dc56-4f74-9842-158f69a0dcf2",
+                            TwoFactorEnabled = false,
+                            UserName = "admin"
+                        },
+                        new
+                        {
+                            Id = "bcf93610-9017-43ed-9477-c46d713fd6a9",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "3f8baeab-64ef-4269-836a-4af3223a263b",
+                            Email = "gamzeyildiz@gmail.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "GAMZEYLDIZ@GMAIL.COM",
+                            NormalizedUserName = "GAMZEYILDIZ",
+                            PasswordHash = "AQAAAAIAAYagAAAAEPQkQsv6rfBPWcdTfhRHPV5L+cT8rVi0kj8HdhuHhMZNaBEkziauxfdjkDV2oa28fQ==",
+                            PhoneNumber = "05256552535",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "1624d0ca-c9fb-4f28-9fdf-001723f4cda1",
+                            TwoFactorEnabled = false,
+                            UserName = "gamzeyildiz"
+                        },
+                        new
+                        {
+                            Id = "ac880911-c9d7-4a48-a453-d6ec70b5acc1",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "fd6cc0f6-8ebb-4852-8ce2-95cc3f12907a",
+                            Email = "ahmetakyilmaz@gmail.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "AHMETAKYILMAZ@GMAIL.COM",
+                            NormalizedUserName = "AHMETAKYILMAZ",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJkRcgoqlOYrHCIUtRLoPgDSVg0Oo2aFUgR6/FrCc/jNdznGhz0Nut8xH2939pSL2A==",
+                            PhoneNumber = "05368667989",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "a82e4db7-7b8a-4be6-833c-d4530eeaa060",
+                            TwoFactorEnabled = false,
+                            UserName = "ahmetakyilmaz"
+                        },
+                        new
+                        {
+                            Id = "4e39cab6-6aba-4dd5-9f2c-fdc57e688e87",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "08f14266-8fd8-4615-9feb-1e5292459e58",
+                            Email = "aysecandan@gmail.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "AYSECANDAN@GMAIL.COM",
+                            NormalizedUserName = "AYSECANDAN",
+                            PasswordHash = "AQAAAAIAAYagAAAAEKCnOVh2ylwJdBpJ/v6EabEZDrzE4htUr38C6uNkHXGiflSLC0975M+iZSUr9CjiIw==",
+                            PhoneNumber = "05256552535",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "05466f7c-9fcf-40d8-ac1a-0479122d0e5a",
+                            TwoFactorEnabled = false,
+                            UserName = "aysecandan"
+                        },
+                        new
+                        {
+                            Id = "8c7bb993-eba7-4005-8193-1713b1a6c449",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "d1e162b8-8a63-4921-b3c1-42777f7c7799",
+                            Email = "merveakman@gmail.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "MERVEAKMAN@GMAIL.COM",
+                            NormalizedUserName = "MERVEAKMAN",
+                            PasswordHash = "AQAAAAIAAYagAAAAEKT2hk+AheVEYZlkWo/4oF96/WUtnQk1e/4Vf2Wt70D/EKqtYHpXO5d+TL+3d8qDnA==",
+                            PhoneNumber = "05321498998",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "083a7361-5f3f-477e-b013-f98f67fc4127",
+                            TwoFactorEnabled = false,
+                            UserName = "merveakman"
+                        },
+                        new
+                        {
+                            Id = "fa5f8e33-0d11-4f44-8ebb-ed85264fcb66",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "7882c3f4-2863-4ed5-9ab0-217d63d35aff",
+                            Email = "alikara@gmail.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "ALIKARA@GMAIL.COM",
+                            NormalizedUserName = "ALIKARA",
+                            PasswordHash = "AQAAAAIAAYagAAAAEDa5r006APnUbw6XcSFJEKv0LYhmqSM7EbuAP+dODe67fQLISQiU4yjCCRwCjpeq0w==",
+                            PhoneNumber = "05359886547",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "0f6264ed-0244-4eee-ab99-10fe9ef0196d",
+                            TwoFactorEnabled = false,
+                            UserName = "alikara"
+                        },
+                        new
+                        {
+                            Id = "4f058378-0e31-4fca-a6cc-5bbb5e570de0",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "c7e402ff-16b3-4d27-b952-1b854427b5c6",
+                            Email = "aysesaglam@gmail.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "AYSESAGLAM@GMAIL.COM",
+                            NormalizedUserName = "AYSESAGLAM",
+                            PasswordHash = "AQAAAAIAAYagAAAAEIoO5Y8KvsCXyRomD0t3P2siN8BkBkmaoGVs2xM+3p/R4LX/UOJ5rIib9LVQR7LgBA==",
+                            PhoneNumber = "05256558998",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "2c85d0f8-83d1-4ff9-ad98-553f832f832e",
+                            TwoFactorEnabled = false,
+                            UserName = "aysesaglam"
+                        },
+                        new
+                        {
+                            Id = "5f14d4e7-6919-453f-851b-354c79c5f885",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "04fb56a6-9493-4b5e-99cb-83eafa5e9eb8",
+                            Email = "ahmetak@gmail.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "AHMETAK@GMAIL.COM",
+                            NormalizedUserName = "AHMETAK",
+                            PasswordHash = "AQAAAAIAAYagAAAAELo2L1dX0FZ8DM6rmxr5Pka3Q0Z9RL0Ndb13RyleJuSwTi1N920cOAoblhmzC/DBTQ==",
+                            PhoneNumber = "05359886547",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "d97825e8-8b93-4ee4-b9c1-6ebc6200523d",
+                            TwoFactorEnabled = false,
+                            UserName = "ahmetak"
+                        },
+                        new
+                        {
+                            Id = "60d89b6d-1230-451d-84bd-ee916fc05f91",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "e8ba6b26-1b76-4dd9-b151-e053db004909",
+                            Email = "beyzaguven@gmail.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "BEYZAGUVEN@GMAIL.COM",
+                            NormalizedUserName = "BEYZAGUVEN",
+                            PasswordHash = "AQAAAAIAAYagAAAAELR3iEraAmGXzAn1UaaoeCiDvGQYhLLBi14O6tr+fbnKWSvbyM7foXsULTPuZcsL1A==",
+                            PhoneNumber = "05359886547",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "d1cee964-2719-44c9-acd6-d6532d45f1aa",
+                            TwoFactorEnabled = false,
+                            UserName = "beyzaguven"
+                        },
+                        new
+                        {
+                            Id = "4cf9b33c-82b0-4fc9-9625-f24c761ae011",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "821381bd-24fd-47a6-837c-7ac69e40674a",
+                            Email = "busragunduz@gmail.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "BUSRAGUNDUZ@GMAIL.COM",
+                            NormalizedUserName = "BUSRAGUNDUZ",
+                            PasswordHash = "AQAAAAIAAYagAAAAECj7eQpD+K2j7C4c/GQzrMRifbUiQgK7C1xKBjFjqDWaZ8Jvp+5RahI9B8UuW0XgZQ==",
+                            PhoneNumber = "05256554545",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "7cd9a06f-08d8-4949-b068-f456970b3caa",
+                            TwoFactorEnabled = false,
+                            UserName = "busragunduz"
+                        },
+                        new
+                        {
+                            Id = "dd3e1b79-d964-4c3b-a152-7f8ff2f1efb4",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "bd5ff525-dbe4-4db7-85de-3b493532e3ff",
+                            Email = "mehmetyildirim@gmail.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "MEHMETYILDIRIM@GMAIL.COM",
+                            NormalizedUserName = "MEHMETYILDIRIM",
+                            PasswordHash = "AQAAAAIAAYagAAAAECdnxhK8jy7aXpgBIRdgFHEoBEQft4ESwYSnvLdprHegpcMjdnU7rTECfxLD2NwrGA==",
+                            PhoneNumber = "05256554545",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "ee98ec4a-988d-4b8a-acc6-4ce5685da680",
+                            TwoFactorEnabled = false,
+                            UserName = "mehmetyildirim"
+                        },
+                        new
+                        {
+                            Id = "763c10d1-b6fa-42c4-8f27-f61f3518d358",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "c341843b-9d73-44d6-93c4-bdf9692c3b54",
+                            Email = "aysegulguzel@gmail.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "AYSEGULGUZEL@GMAIL.COM",
+                            NormalizedUserName = "AYSEGULGUZEL",
+                            PasswordHash = "AQAAAAIAAYagAAAAEKSFtXXfDsPpRtKe5UGM28+qSvZmh4jN4h5iomHlp5kzAdcjftbLHjXPAPmdVOLxrA==",
+                            PhoneNumber = "05256554545",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "4aa13001-0731-4682-8cc5-b76ed4a4248e",
+                            TwoFactorEnabled = false,
+                            UserName = "aysegulguzel"
+                        },
+                        new
+                        {
+                            Id = "aaac5fa6-40b7-4cd1-a9b0-679103326886",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "9d8a4d0e-7ccf-4d79-a39e-9b493beb3453",
+                            Email = "efeyilmaz@gmail.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "EFEYILMAZ@GMAIL.COM",
+                            NormalizedUserName = "EFEYILMAZ",
+                            PasswordHash = "AQAAAAIAAYagAAAAEOKnKjs6/TjG8cy2B8idwx4wFjxaKRKOiuGzMnGPwvecgz+pVlAkH9pcvP/sHFE5LA==",
+                            PhoneNumber = "05256554545",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "5e9564a5-130b-4cf2-9b9c-5245528103ad",
+                            TwoFactorEnabled = false,
+                            UserName = "efeyilmaz"
+                        },
+                        new
+                        {
+                            Id = "20678268-f7ba-4705-9bc9-36caa26efea5",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "87ceaa90-1765-4b1b-8846-a1ee9f579c7c",
+                            Email = "arzuozcan@gmail.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "ARZUOZCAN@GMAIL.COM",
+                            NormalizedUserName = "ARZUOZCAN",
+                            PasswordHash = "AQAAAAIAAYagAAAAEI0Z/jWDN3a8K6Vct7a8ku21UBBWt6IbsnVhJCJ3Pzz1eVVzPM+yaHyyWSeFmWDqxg==",
+                            PhoneNumber = "05256554545",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "adf18a69-a848-4387-8589-2a42c9ed1d14",
+                            TwoFactorEnabled = false,
+                            UserName = "arzuozcan"
+                        },
+                        new
+                        {
+                            Id = "9e153d67-7338-46e9-b4a5-a713acdc3a87",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "f273fa29-2d49-4289-b7fe-e9e3d2cbb737",
+                            Email = "mugesecer@gmail.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "MUGESECER@GMAIL.COM",
+                            NormalizedUserName = "MUGESECER",
+                            PasswordHash = "AQAAAAIAAYagAAAAEIep+TJa7O3okjbJ4LGVaDiiNCqDXxnkKkaHGOhlhO38K+X+ERerTrZQkHXew5rLjg==",
+                            PhoneNumber = "05256554545",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "93b5f698-63fd-46a3-9378-aa10ee0f6ec0",
+                            TwoFactorEnabled = false,
+                            UserName = "mugesecer"
+                        },
+                        new
+                        {
+                            Id = "2c06cbac-e992-4c4d-85fa-443336e753ba",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "b05d9473-ba79-4e7b-aa0f-d21c9f01708c",
+                            Email = "duygukara@gmail.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "DUYGUKARA@GMAIL.COM",
+                            NormalizedUserName = "DUYGUKARA",
+                            PasswordHash = "AQAAAAIAAYagAAAAEMldPSAZLEa+CWRlP8D6HCc220DCqEZ5CVGSTjkDuSK7hkO8TePaT09z5vZwIiTrLQ==",
+                            PhoneNumber = "05256554545",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "fd0f9025-49ab-4358-a15e-c860b28749b6",
+                            TwoFactorEnabled = false,
+                            UserName = "duygukara"
                         });
                 });
 
@@ -201,11 +593,6 @@ namespace EducationApp.Data.Migrations
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasMaxLength(500)
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasMaxLength(50)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("FirstName")
@@ -233,17 +620,18 @@ namespace EducationApp.Data.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Phone")
-                        .IsRequired()
-                        .HasMaxLength(15)
-                        .HasColumnType("TEXT");
-
                     b.Property<string>("Url")
                         .IsRequired()
                         .HasMaxLength(250)
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Students", (string)null);
 
@@ -254,14 +642,13 @@ namespace EducationApp.Data.Migrations
                             Age = 20,
                             City = "İstanbul",
                             Description = "Merhaba, ben Gamze Yılmaz. Üniversite öğrencisiyim. Gitar çalmayı çok seviyorum.",
-                            Email = "gamzeyildiz@gmail.com",
                             FirstName = "Gamze",
                             Gender = "Kadın",
                             ImageUrl = "1.png",
                             LastName = "Yıldız",
                             LessonPlace = "Yüz Yüze",
-                            Phone = "05256552535",
-                            Url = "gamze-yildiz"
+                            Url = "gamze-yildiz",
+                            UserId = "bcf93610-9017-43ed-9477-c46d713fd6a9"
                         },
                         new
                         {
@@ -269,14 +656,13 @@ namespace EducationApp.Data.Migrations
                             Age = 25,
                             City = "İzmir",
                             Description = "Tenis öğrenmek istiyorum.",
-                            Email = "ahmetakyilmaz@gmail.com",
                             FirstName = "Ahmet",
                             Gender = "Erkek",
                             ImageUrl = "2.png",
                             LastName = "Akyılmaz",
                             LessonPlace = "Yüz Yüze",
-                            Phone = "05368667989",
-                            Url = "ahmet-akyilmaz"
+                            Url = "ahmet-akyilmaz",
+                            UserId = "ac880911-c9d7-4a48-a453-d6ec70b5acc1"
                         },
                         new
                         {
@@ -284,14 +670,13 @@ namespace EducationApp.Data.Migrations
                             Age = 16,
                             City = "Ankara",
                             Description = "Merhaba, ben Ayşe Candan. Lise öğrencisiyim. Matematik derslerime yardımcı bir öğretmen arıyorum",
-                            Email = "aysecandan@gmail.com",
                             FirstName = "Ayşe",
                             Gender = "Kadın",
-                            ImageUrl = "3.png",
+                            ImageUrl = "1.png",
                             LastName = "Candan",
                             LessonPlace = "Online",
-                            Phone = "05256552535",
-                            Url = "ayse-candan"
+                            Url = "ayse-candan",
+                            UserId = "4e39cab6-6aba-4dd5-9f2c-fdc57e688e87"
                         },
                         new
                         {
@@ -299,14 +684,13 @@ namespace EducationApp.Data.Migrations
                             Age = 18,
                             City = "Bursa",
                             Description = "Merhaba, ben Merve Akman. Fizik derslerinde bana yardımcı olabilecek bir öğretmen arıyorum",
-                            Email = "merveakman@gmail.com",
                             FirstName = "Merve",
                             Gender = "Kadın",
-                            ImageUrl = "4.png",
+                            ImageUrl = "1.png",
                             LastName = "Akman",
                             LessonPlace = "Online",
-                            Phone = "05321498998",
-                            Url = "merve-akman"
+                            Url = "merve-akman",
+                            UserId = "8c7bb993-eba7-4005-8193-1713b1a6c449"
                         },
                         new
                         {
@@ -314,14 +698,13 @@ namespace EducationApp.Data.Migrations
                             Age = 22,
                             City = "İstanbul",
                             Description = "Merhaba, ben Ali Kara. İngilizce derslerinde bana yardımcı olabilecek bir öğretmen arıyorum.",
-                            Email = "alikara@gmail.com",
                             FirstName = "Ali",
                             Gender = "Erkek",
-                            ImageUrl = "5.png",
+                            ImageUrl = "2.png",
                             LastName = "Kara",
                             LessonPlace = "Online",
-                            Phone = "05359886547",
-                            Url = "ali-kara"
+                            Url = "ali-kara",
+                            UserId = "fa5f8e33-0d11-4f44-8ebb-ed85264fcb66"
                         },
                         new
                         {
@@ -329,14 +712,13 @@ namespace EducationApp.Data.Migrations
                             Age = 35,
                             City = "İzmir",
                             Description = "Merhaba, ben Ayşe Sağlam. Çeşitli dans dersleri almak istiyorum. Aynı zamanda müzik alanına da çok ilgiliyim, bu sebepten piyano dersleri almak için de bir hoca arıyorum.",
-                            Email = "aysesaglam@gmail.com",
                             FirstName = "Ayşe",
                             Gender = "Kadın",
-                            ImageUrl = "6.png",
+                            ImageUrl = "1.png",
                             LastName = "Sağlam",
                             LessonPlace = "Yüz yüze",
-                            Phone = "05256558998",
-                            Url = "ayse-saglam"
+                            Url = "ayse-saglam",
+                            UserId = "4f058378-0e31-4fca-a6cc-5bbb5e570de0"
                         },
                         new
                         {
@@ -344,14 +726,13 @@ namespace EducationApp.Data.Migrations
                             Age = 17,
                             City = "Adana",
                             Description = "Merhaba, ben Ahmet Ak. Matematik ve Fizik alanlarında bana sınava hazırlık sürecinde yardımcı olacak hocalardan ders almak istiyorum.",
-                            Email = "ahmetak@gmail.com",
                             FirstName = "Ahmet",
                             Gender = "Erkek",
-                            ImageUrl = "7.png",
+                            ImageUrl = "2.png",
                             LastName = "Ak",
                             LessonPlace = "Online",
-                            Phone = "05359886547",
-                            Url = "ahmet-ak"
+                            Url = "ahmet-ak",
+                            UserId = "5f14d4e7-6919-453f-851b-354c79c5f885"
                         },
                         new
                         {
@@ -359,14 +740,13 @@ namespace EducationApp.Data.Migrations
                             Age = 20,
                             City = "İstanbul",
                             Description = "Merhaba, ben Beyza Güven. Mühendislik öğrencisiyim ve AutoCad eğitimi almak istiyorum. Bana bu konuda yardımcı olabilecek eğitmenlerle iletişime geçmek istiyorum.",
-                            Email = "beyzaguven@gmail.com",
                             FirstName = "Beyza",
                             Gender = "Kadın",
-                            ImageUrl = "8.png",
+                            ImageUrl = "1.png",
                             LastName = "Güven",
                             LessonPlace = "Online",
-                            Phone = "05359886547",
-                            Url = "beyza-guven"
+                            Url = "beyza-guven",
+                            UserId = "60d89b6d-1230-451d-84bd-ee916fc05f91"
                         });
                 });
 
@@ -378,14 +758,9 @@ namespace EducationApp.Data.Migrations
                     b.Property<int>("CategoryId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int?>("TeacherId")
-                        .HasColumnType("INTEGER");
-
                     b.HasKey("StudentId", "CategoryId");
 
                     b.HasIndex("CategoryId");
-
-                    b.HasIndex("TeacherId");
 
                     b.ToTable("StudentCategories", (string)null);
 
@@ -413,7 +788,7 @@ namespace EducationApp.Data.Migrations
                         new
                         {
                             StudentId = 5,
-                            CategoryId = 5
+                            CategoryId = 18
                         },
                         new
                         {
@@ -466,11 +841,6 @@ namespace EducationApp.Data.Migrations
                         .HasMaxLength(500)
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("TEXT");
-
                     b.Property<string>("Experience")
                         .IsRequired()
                         .HasMaxLength(10)
@@ -501,11 +871,6 @@ namespace EducationApp.Data.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Phone")
-                        .IsRequired()
-                        .HasMaxLength(15)
-                        .HasColumnType("TEXT");
-
                     b.Property<decimal?>("Price")
                         .IsRequired()
                         .HasMaxLength(50)
@@ -516,7 +881,13 @@ namespace EducationApp.Data.Migrations
                         .HasMaxLength(250)
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Teacher", (string)null);
 
@@ -528,16 +899,15 @@ namespace EducationApp.Data.Migrations
                             City = "İstanbul",
                             Description = "Hello! 4 yıllık kurum ve özel ders deneyimim sonucunda net bir şekilde söyleyebilirim ki öğretme işini çok severek yapıyorum.Çocuklarda ingilizce, genel ingilizce ve iş ingilizcesi başta olmak üzere birçok özel ders deneyimim oldu. Öğrencilerimden beklentim düzenli ve istekli çalışmaları. Kişiye özel dil öğrenme metodları ile öğrenmek istediğiniz dil konusunda size severek yardımcı olabilirim. Sınava hazırlık ve çeviri çalışmalarınız için de benimle iletişime geçebilirsiniz. ",
                             EducationStatus = "İstanbul Üniversitesi, İngilizce Dili ve Edebiyatı",
-                            Email = "busragunduz@gmail.com",
                             Experience = "4 yıl",
                             FirstName = "Büşra",
                             Gender = "Kadın",
-                            ImageUrl = "9.png",
+                            ImageUrl = "1.png",
                             LastName = "Gündüz",
                             LessonPlace = "Online",
-                            Phone = "05256554545",
                             Price = 200m,
-                            Url = "busra-gunduz"
+                            Url = "busra-gunduz",
+                            UserId = "4cf9b33c-82b0-4fc9-9625-f24c761ae011"
                         },
                         new
                         {
@@ -546,16 +916,15 @@ namespace EducationApp.Data.Migrations
                             City = "Ankara",
                             Description = "Çoğunlukla LGS ye hazırlanan öğrencilere Eğitim Koçluğu yaparak matematik dersleri veriyorum.4 yılı üniversitede öğrencilik döneminde olmak üzere toplam 25 yıl matematik dersi anlatma tecrübem vardır.1 adet dershane ve özel okullar için 8. sınıf sınavlara yönelik matematik kitabı yazdım. ",
                             EducationStatus = "Ankara Üniversitesi, Matematik",
-                            Email = "mehmetyildirim@gmail.com",
                             Experience = "8 yıl",
                             FirstName = "Mehmet",
                             Gender = "Erkek",
-                            ImageUrl = "10.png",
+                            ImageUrl = "2.png",
                             LastName = "Yıldırım",
                             LessonPlace = "Online",
-                            Phone = "05256554545",
                             Price = 250m,
-                            Url = "mehmet-yildirim"
+                            Url = "mehmet-yildirim",
+                            UserId = "dd3e1b79-d964-4c3b-a152-7f8ff2f1efb4"
                         },
                         new
                         {
@@ -564,16 +933,15 @@ namespace EducationApp.Data.Migrations
                             City = "İzmir",
                             Description = "Boş vakitlerimde ( haftanın her günü öğleden sonra) özel tenis ve yüzme dersleri veriyorum. ",
                             EducationStatus = "Zonguldak Bülent Ecevit Üniversitesi, Beden Eğitimi Ve Spor Öğretmenliği",
-                            Email = "aysegulguzel@gmail.com",
                             Experience = "4 yıl",
                             FirstName = "Ayşegül",
                             Gender = "Kadın",
-                            ImageUrl = "11.png",
+                            ImageUrl = "1.png",
                             LastName = "Güzel",
                             LessonPlace = "Yüz yüze",
-                            Phone = "05256554545",
                             Price = 300m,
-                            Url = "aysegul-guzel"
+                            Url = "aysegul-guzel",
+                            UserId = "763c10d1-b6fa-42c4-8f27-f61f3518d358"
                         },
                         new
                         {
@@ -582,16 +950,15 @@ namespace EducationApp.Data.Migrations
                             City = "İstanbul",
                             Description = "Merhaba, Elektro gitar, klasik gitar, caz armonisi, klasik armoni, değişken do tekniğinde kulak eğitimini Türkçe ve İngilizce, tüm dünyada kabul görmüş kaynaklar eşliğinde, makul fiyatlara alabilirsiniz. ",
                             EducationStatus = "Odtü",
-                            Email = "efeyilmaz@gmail.com",
                             Experience = "12 yıl",
                             FirstName = "Efe",
                             Gender = "Erkek",
-                            ImageUrl = "12.png",
+                            ImageUrl = "2.png",
                             LastName = "Yılmaz",
                             LessonPlace = "Yüz yüze",
-                            Phone = "05256554545",
                             Price = 250m,
-                            Url = "efe-yilmaz"
+                            Url = "efe-yilmaz",
+                            UserId = "aaac5fa6-40b7-4cd1-a9b0-679103326886"
                         },
                         new
                         {
@@ -600,16 +967,15 @@ namespace EducationApp.Data.Migrations
                             City = "Adana",
                             Description = "Önce Anadolu öğretmen lisesi ardından sakarya üniversitesi eğitim fakültesinde lisans eğitimimi tamamladım.2014 yılında mezun olduktan sonra hatrı sayılır Final kurumlarında uzun bir süre öğretmenlik yaptım.Çeşitli çocuk gelişimi ve kişisel gelişim belgelerim mevcut.Şu andada bu kurumda aktif öğretmen olarak çalışmaktayım.Derslerimde iddialı ve alanımda kendime fazlasıyla güvenmekteyim. ",
                             EducationStatus = "Sakarya Üniversitesi , Fizik",
-                            Email = "arzuozcan@gmail.com",
                             Experience = "10 yıl",
                             FirstName = "Arzu",
                             Gender = "Kadın",
-                            ImageUrl = "13.png",
+                            ImageUrl = "1.png",
                             LastName = "Özcan",
                             LessonPlace = "Online",
-                            Phone = "05256554545",
                             Price = 300m,
-                            Url = "arzu-ozcan"
+                            Url = "arzu-ozcan",
+                            UserId = "20678268-f7ba-4705-9bc9-36caa26efea5"
                         },
                         new
                         {
@@ -618,16 +984,15 @@ namespace EducationApp.Data.Migrations
                             City = "İzmir",
                             Description = "Klasik batı müziği keman bölümü okuyorum. Aynı zamanda piyano çalıyorum. 8 yıl bale ve modern dans eğitimi aldım. ",
                             EducationStatus = "İtü Devlet Konservatuar",
-                            Email = "mugesecer@gmail.com",
                             Experience = "15 yıl",
                             FirstName = "Müge",
                             Gender = "Kadın",
-                            ImageUrl = "14.png",
+                            ImageUrl = "1.png",
                             LastName = "Seçer",
                             LessonPlace = "Online",
-                            Phone = "05256554545",
                             Price = 300m,
-                            Url = "muge-secer"
+                            Url = "muge-secer",
+                            UserId = "9e153d67-7338-46e9-b4a5-a713acdc3a87"
                         },
                         new
                         {
@@ -636,16 +1001,15 @@ namespace EducationApp.Data.Migrations
                             City = "İstanbul",
                             Description = "2014 yılında Mimarlık bölümünü 3. olarak 3.06 ortalama ile bitirdim. Üniversite de okuduğum dönem boyunca üst sınıfların projelerini çizer ve modelleme işleri yapardım. Şuan İstanbul da özel bir şirkette çalışmaktayım. Yaklaşık 8 yıldır Mimarlık ve ya İç Mimarlık öğrencilerine özel ders vermekteyim. Autocad, Sketchup modelleme ve Photoshop programları uzmanlık alanımdır. Çalıştığım öğrencilerle Autocad tasarım ve proje çizimlerin dışında modelleme işleri ve jüri sunum için gerekli Photoshop işlerini de birlikte yürütmekteyiz. Ayrıca öğrencilerin ihtiyaçları doğrultusunda ders dışında her zaman telefondan irtibat halinde kalmaktayım.Çoğunlukla online olarak, öğrencinin tercihine göre google meets , zoom ve ya skype üzerinden ders verilmektedir. ",
                             EducationStatus = "İtü, Mimarlık",
-                            Email = "duygukara@gmail.com",
                             Experience = "15 yıl",
                             FirstName = "Duygu",
                             Gender = "Kadın",
-                            ImageUrl = "15.png",
+                            ImageUrl = "1.png",
                             LastName = "Kara",
                             LessonPlace = "Online",
-                            Phone = "05256554545",
                             Price = 300m,
-                            Url = "duygu-kara"
+                            Url = "duygu-kara",
+                            UserId = "2c06cbac-e992-4c4d-85fa-443336e753ba"
                         });
                 });
 
@@ -667,7 +1031,7 @@ namespace EducationApp.Data.Migrations
                         new
                         {
                             TeacherId = 1,
-                            CategoryId = 5
+                            CategoryId = 18
                         },
                         new
                         {
@@ -773,6 +1137,131 @@ namespace EducationApp.Data.Migrations
                         });
                 });
 
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("ClaimType")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ClaimValue")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("RoleId")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("AspNetRoleClaims", (string)null);
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("ClaimType")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ClaimValue")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("AspNetUserClaims", (string)null);
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
+                {
+                    b.Property<string>("LoginProvider")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ProviderKey")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ProviderDisplayName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("LoginProvider", "ProviderKey");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("AspNetUserLogins", (string)null);
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
+                {
+                    b.Property<string>("UserId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("RoleId")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("UserId", "RoleId");
+
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("AspNetUserRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            UserId = "fe91c03a-f751-42d0-9698-d8b98f3efe79",
+                            RoleId = "944a8655-f5ce-4812-a93f-36860d7a9fa5"
+                        },
+                        new
+                        {
+                            UserId = "bcf93610-9017-43ed-9477-c46d713fd6a9",
+                            RoleId = "4f7e3de1-ce8a-4cb5-a553-0f6830458659"
+                        });
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
+                {
+                    b.Property<string>("UserId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("LoginProvider")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Value")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("UserId", "LoginProvider", "Name");
+
+                    b.ToTable("AspNetUserTokens", (string)null);
+                });
+
+            modelBuilder.Entity("EducationApp.Entity.Concrete.Student", b =>
+                {
+                    b.HasOne("EducationApp.Entity.Concrete.Identity.User", "User")
+                        .WithMany("Students")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("EducationApp.Entity.Concrete.StudentCategory", b =>
                 {
                     b.HasOne("EducationApp.Entity.Concrete.Category", "Category")
@@ -787,13 +1276,20 @@ namespace EducationApp.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("EducationApp.Entity.Concrete.Teacher", null)
-                        .WithMany("StudentCategories")
-                        .HasForeignKey("TeacherId");
-
                     b.Navigation("Category");
 
                     b.Navigation("Student");
+                });
+
+            modelBuilder.Entity("EducationApp.Entity.Concrete.Teacher", b =>
+                {
+                    b.HasOne("EducationApp.Entity.Concrete.Identity.User", "User")
+                        .WithMany("Teachers")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("EducationApp.Entity.Concrete.TeacherCategory", b =>
@@ -834,6 +1330,64 @@ namespace EducationApp.Data.Migrations
                     b.Navigation("Teacher");
                 });
 
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
+                {
+                    b.HasOne("EducationApp.Entity.Concrete.Identity.Role", null)
+                        .WithMany()
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
+                {
+                    b.HasOne("EducationApp.Entity.Concrete.Identity.User", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
+                {
+                    b.HasOne("EducationApp.Entity.Concrete.Identity.User", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
+                {
+                    b.HasOne("EducationApp.Entity.Concrete.Identity.Role", null)
+                        .WithMany()
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("EducationApp.Entity.Concrete.Identity.User", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
+                {
+                    b.HasOne("EducationApp.Entity.Concrete.Identity.User", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("EducationApp.Entity.Concrete.Identity.User", b =>
+                {
+                    b.Navigation("Students");
+
+                    b.Navigation("Teachers");
+                });
+
             modelBuilder.Entity("EducationApp.Entity.Concrete.Student", b =>
                 {
                     b.Navigation("StudentCategories");
@@ -841,8 +1395,6 @@ namespace EducationApp.Data.Migrations
 
             modelBuilder.Entity("EducationApp.Entity.Concrete.Teacher", b =>
                 {
-                    b.Navigation("StudentCategories");
-
                     b.Navigation("TeacherCategories");
                 });
 #pragma warning restore 612, 618

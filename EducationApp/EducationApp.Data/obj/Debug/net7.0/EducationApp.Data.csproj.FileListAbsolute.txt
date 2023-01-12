@@ -32,3 +32,139 @@ C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp\EducationApp.Data\obj\Deb
 C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.pdb
 C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.genruntimeconfig.cache
 C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp\EducationApp.Data\obj\Debug\net7.0\ref\EducationApp.Data.dll
+C:\Users\DELL\Desktop\EducationApp\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.deps.json
+C:\Users\DELL\Desktop\EducationApp\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.runtimeconfig.json
+C:\Users\DELL\Desktop\EducationApp\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.dll
+C:\Users\DELL\Desktop\EducationApp\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.pdb
+C:\Users\DELL\Desktop\EducationApp\EducationApp.Data\bin\Debug\net7.0\EducationApp.Entity.dll
+C:\Users\DELL\Desktop\EducationApp\EducationApp.Data\bin\Debug\net7.0\EducationApp.Entity.pdb
+C:\Users\DELL\Desktop\EducationApp\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\EducationApp\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\EducationApp\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\EducationApp\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.AssemblyInfo.cs
+C:\Users\DELL\Desktop\EducationApp\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\EducationApp\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.csproj.CopyComplete
+C:\Users\DELL\Desktop\EducationApp\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.dll
+C:\Users\DELL\Desktop\EducationApp\EducationApp.Data\obj\Debug\net7.0\refint\EducationApp.Data.dll
+C:\Users\DELL\Desktop\EducationApp\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.pdb
+C:\Users\DELL\Desktop\EducationApp\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.genruntimeconfig.cache
+C:\Users\DELL\Desktop\EducationApp\EducationApp.Data\obj\Debug\net7.0\ref\EducationApp.Data.dll
+C:\Users\DELL\Desktop\EducationApp - Kopya\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.deps.json
+C:\Users\DELL\Desktop\EducationApp - Kopya\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.runtimeconfig.json
+C:\Users\DELL\Desktop\EducationApp - Kopya\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.dll
+C:\Users\DELL\Desktop\EducationApp - Kopya\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.pdb
+C:\Users\DELL\Desktop\EducationApp - Kopya\EducationApp.Data\bin\Debug\net7.0\EducationApp.Entity.dll
+C:\Users\DELL\Desktop\EducationApp - Kopya\EducationApp.Data\bin\Debug\net7.0\EducationApp.Entity.pdb
+C:\Users\DELL\Desktop\EducationApp - Kopya\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\EducationApp - Kopya\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\EducationApp - Kopya\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\EducationApp - Kopya\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.AssemblyInfo.cs
+C:\Users\DELL\Desktop\EducationApp - Kopya\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\EducationApp - Kopya\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.csproj.CopyComplete
+C:\Users\DELL\Desktop\EducationApp - Kopya\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.dll
+C:\Users\DELL\Desktop\EducationApp - Kopya\EducationApp.Data\obj\Debug\net7.0\refint\EducationApp.Data.dll
+C:\Users\DELL\Desktop\EducationApp - Kopya\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.pdb
+C:\Users\DELL\Desktop\EducationApp - Kopya\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.genruntimeconfig.cache
+C:\Users\DELL\Desktop\EducationApp - Kopya\EducationApp.Data\obj\Debug\net7.0\ref\EducationApp.Data.dll
+C:\Users\DELL\Desktop\EducationApp - Kopya - Kopya\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.deps.json
+C:\Users\DELL\Desktop\EducationApp - Kopya - Kopya\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.runtimeconfig.json
+C:\Users\DELL\Desktop\EducationApp - Kopya - Kopya\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.dll
+C:\Users\DELL\Desktop\EducationApp - Kopya - Kopya\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.pdb
+C:\Users\DELL\Desktop\EducationApp - Kopya - Kopya\EducationApp.Data\bin\Debug\net7.0\EducationApp.Entity.dll
+C:\Users\DELL\Desktop\EducationApp - Kopya - Kopya\EducationApp.Data\bin\Debug\net7.0\EducationApp.Entity.pdb
+C:\Users\DELL\Desktop\EducationApp - Kopya - Kopya\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\EducationApp - Kopya - Kopya\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\EducationApp - Kopya - Kopya\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\EducationApp - Kopya - Kopya\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.AssemblyInfo.cs
+C:\Users\DELL\Desktop\EducationApp - Kopya - Kopya\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\EducationApp - Kopya - Kopya\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.csproj.CopyComplete
+C:\Users\DELL\Desktop\EducationApp - Kopya - Kopya\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.dll
+C:\Users\DELL\Desktop\EducationApp - Kopya - Kopya\EducationApp.Data\obj\Debug\net7.0\refint\EducationApp.Data.dll
+C:\Users\DELL\Desktop\EducationApp - Kopya - Kopya\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.pdb
+C:\Users\DELL\Desktop\EducationApp - Kopya - Kopya\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.genruntimeconfig.cache
+C:\Users\DELL\Desktop\EducationApp - Kopya - Kopya\EducationApp.Data\obj\Debug\net7.0\ref\EducationApp.Data.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya - Kopya\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya - Kopya\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya - Kopya\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya - Kopya\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya - Kopya\EducationApp.Data\bin\Debug\net7.0\EducationApp.Entity.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya - Kopya\EducationApp.Data\bin\Debug\net7.0\EducationApp.Entity.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya - Kopya\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya - Kopya\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya - Kopya\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya - Kopya\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya - Kopya\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya - Kopya\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.csproj.CopyComplete
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya - Kopya\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya - Kopya\EducationApp.Data\obj\Debug\net7.0\refint\EducationApp.Data.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya - Kopya\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya - Kopya\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp - Kopya - Kopya\EducationApp.Data\obj\Debug\net7.0\ref\EducationApp.Data.dll
+C:\Users\SABAH\Desktop\EducationApp - List2\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.deps.json
+C:\Users\SABAH\Desktop\EducationApp - List2\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.runtimeconfig.json
+C:\Users\SABAH\Desktop\EducationApp - List2\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.dll
+C:\Users\SABAH\Desktop\EducationApp - List2\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.pdb
+C:\Users\SABAH\Desktop\EducationApp - List2\EducationApp.Data\bin\Debug\net7.0\EducationApp.Entity.dll
+C:\Users\SABAH\Desktop\EducationApp - List2\EducationApp.Data\bin\Debug\net7.0\EducationApp.Entity.pdb
+C:\Users\SABAH\Desktop\EducationApp - List2\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.csproj.AssemblyReference.cache
+C:\Users\SABAH\Desktop\EducationApp - List2\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Desktop\EducationApp - List2\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.AssemblyInfoInputs.cache
+C:\Users\SABAH\Desktop\EducationApp - List2\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.AssemblyInfo.cs
+C:\Users\SABAH\Desktop\EducationApp - List2\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Desktop\EducationApp - List2\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.csproj.CopyComplete
+C:\Users\SABAH\Desktop\EducationApp - List2\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.dll
+C:\Users\SABAH\Desktop\EducationApp - List2\EducationApp.Data\obj\Debug\net7.0\refint\EducationApp.Data.dll
+C:\Users\SABAH\Desktop\EducationApp - List2\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.pdb
+C:\Users\SABAH\Desktop\EducationApp - List2\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.genruntimeconfig.cache
+C:\Users\SABAH\Desktop\EducationApp - List2\EducationApp.Data\obj\Debug\net7.0\ref\EducationApp.Data.dll
+C:\Users\SABAH\Desktop\PPP\EducationApp - List3\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.deps.json
+C:\Users\SABAH\Desktop\PPP\EducationApp - List3\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.runtimeconfig.json
+C:\Users\SABAH\Desktop\PPP\EducationApp - List3\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.dll
+C:\Users\SABAH\Desktop\PPP\EducationApp - List3\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.pdb
+C:\Users\SABAH\Desktop\PPP\EducationApp - List3\EducationApp.Data\bin\Debug\net7.0\EducationApp.Entity.dll
+C:\Users\SABAH\Desktop\PPP\EducationApp - List3\EducationApp.Data\bin\Debug\net7.0\EducationApp.Entity.pdb
+C:\Users\SABAH\Desktop\PPP\EducationApp - List3\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.csproj.AssemblyReference.cache
+C:\Users\SABAH\Desktop\PPP\EducationApp - List3\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Desktop\PPP\EducationApp - List3\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.AssemblyInfoInputs.cache
+C:\Users\SABAH\Desktop\PPP\EducationApp - List3\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.AssemblyInfo.cs
+C:\Users\SABAH\Desktop\PPP\EducationApp - List3\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Desktop\PPP\EducationApp - List3\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.csproj.CopyComplete
+C:\Users\SABAH\Desktop\PPP\EducationApp - List3\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.dll
+C:\Users\SABAH\Desktop\PPP\EducationApp - List3\EducationApp.Data\obj\Debug\net7.0\refint\EducationApp.Data.dll
+C:\Users\SABAH\Desktop\PPP\EducationApp - List3\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.pdb
+C:\Users\SABAH\Desktop\PPP\EducationApp - List3\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.genruntimeconfig.cache
+C:\Users\SABAH\Desktop\PPP\EducationApp - List3\EducationApp.Data\obj\Debug\net7.0\ref\EducationApp.Data.dll
+C:\Users\SABAH\Desktop\EducationApp - List3\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.deps.json
+C:\Users\SABAH\Desktop\EducationApp - List3\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.runtimeconfig.json
+C:\Users\SABAH\Desktop\EducationApp - List3\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.dll
+C:\Users\SABAH\Desktop\EducationApp - List3\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.pdb
+C:\Users\SABAH\Desktop\EducationApp - List3\EducationApp.Data\bin\Debug\net7.0\EducationApp.Entity.dll
+C:\Users\SABAH\Desktop\EducationApp - List3\EducationApp.Data\bin\Debug\net7.0\EducationApp.Entity.pdb
+C:\Users\SABAH\Desktop\EducationApp - List3\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.csproj.AssemblyReference.cache
+C:\Users\SABAH\Desktop\EducationApp - List3\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Desktop\EducationApp - List3\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.AssemblyInfoInputs.cache
+C:\Users\SABAH\Desktop\EducationApp - List3\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.AssemblyInfo.cs
+C:\Users\SABAH\Desktop\EducationApp - List3\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Desktop\EducationApp - List3\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.csproj.CopyComplete
+C:\Users\SABAH\Desktop\EducationApp - List3\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.dll
+C:\Users\SABAH\Desktop\EducationApp - List3\EducationApp.Data\obj\Debug\net7.0\refint\EducationApp.Data.dll
+C:\Users\SABAH\Desktop\EducationApp - List3\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.pdb
+C:\Users\SABAH\Desktop\EducationApp - List3\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.genruntimeconfig.cache
+C:\Users\SABAH\Desktop\EducationApp - List3\EducationApp.Data\obj\Debug\net7.0\ref\EducationApp.Data.dll
+C:\Users\SABAH\Desktop\EducationApp\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.deps.json
+C:\Users\SABAH\Desktop\EducationApp\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.runtimeconfig.json
+C:\Users\SABAH\Desktop\EducationApp\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.dll
+C:\Users\SABAH\Desktop\EducationApp\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.pdb
+C:\Users\SABAH\Desktop\EducationApp\EducationApp.Data\bin\Debug\net7.0\EducationApp.Entity.dll
+C:\Users\SABAH\Desktop\EducationApp\EducationApp.Data\bin\Debug\net7.0\EducationApp.Entity.pdb
+C:\Users\SABAH\Desktop\EducationApp\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.csproj.AssemblyReference.cache
+C:\Users\SABAH\Desktop\EducationApp\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Desktop\EducationApp\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.AssemblyInfoInputs.cache
+C:\Users\SABAH\Desktop\EducationApp\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.AssemblyInfo.cs
+C:\Users\SABAH\Desktop\EducationApp\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Desktop\EducationApp\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.csproj.CopyComplete
+C:\Users\SABAH\Desktop\EducationApp\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.dll
+C:\Users\SABAH\Desktop\EducationApp\EducationApp.Data\obj\Debug\net7.0\refint\EducationApp.Data.dll
+C:\Users\SABAH\Desktop\EducationApp\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.pdb
+C:\Users\SABAH\Desktop\EducationApp\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.genruntimeconfig.cache
+C:\Users\SABAH\Desktop\EducationApp\EducationApp.Data\obj\Debug\net7.0\ref\EducationApp.Data.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SABAH\\Desktop\\EducationApp - List2\\EducationApp.Web\\EducationApp.Web.csproj": {}
+    "C:\\Users\\SABAH\\Desktop\\EducationApp - List3\\EducationApp.Web\\EducationApp.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SABAH\\Desktop\\EducationApp - List2\\EducationApp.Business\\EducationApp.Business.csproj": {
+    "C:\\Users\\SABAH\\Desktop\\EducationApp - List3\\EducationApp.Business\\EducationApp.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SABAH\\Desktop\\EducationApp - List2\\EducationApp.Business\\EducationApp.Business.csproj",
+        "projectUniqueName": "C:\\Users\\SABAH\\Desktop\\EducationApp - List3\\EducationApp.Business\\EducationApp.Business.csproj",
         "projectName": "EducationApp.Business",
-        "projectPath": "C:\\Users\\SABAH\\Desktop\\EducationApp - List2\\EducationApp.Business\\EducationApp.Business.csproj",
+        "projectPath": "C:\\Users\\SABAH\\Desktop\\EducationApp - List3\\EducationApp.Business\\EducationApp.Business.csproj",
         "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SABAH\\Desktop\\EducationApp - List2\\EducationApp.Business\\obj\\",
+        "outputPath": "C:\\Users\\SABAH\\Desktop\\EducationApp - List3\\EducationApp.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\SABAH\\Desktop\\EducationApp - List2\\EducationApp.Data\\EducationApp.Data.csproj": {
-                "projectPath": "C:\\Users\\SABAH\\Desktop\\EducationApp - List2\\EducationApp.Data\\EducationApp.Data.csproj"
+              "C:\\Users\\SABAH\\Desktop\\EducationApp - List3\\EducationApp.Data\\EducationApp.Data.csproj": {
+                "projectPath": "C:\\Users\\SABAH\\Desktop\\EducationApp - List3\\EducationApp.Data\\EducationApp.Data.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\SABAH\\Desktop\\EducationApp - List2\\EducationApp.Data\\EducationApp.Data.csproj": {
+    "C:\\Users\\SABAH\\Desktop\\EducationApp - List3\\EducationApp.Data\\EducationApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SABAH\\Desktop\\EducationApp - List2\\EducationApp.Data\\EducationApp.Data.csproj",
+        "projectUniqueName": "C:\\Users\\SABAH\\Desktop\\EducationApp - List3\\EducationApp.Data\\EducationApp.Data.csproj",
         "projectName": "EducationApp.Data",
-        "projectPath": "C:\\Users\\SABAH\\Desktop\\EducationApp - List2\\EducationApp.Data\\EducationApp.Data.csproj",
+        "projectPath": "C:\\Users\\SABAH\\Desktop\\EducationApp - List3\\EducationApp.Data\\EducationApp.Data.csproj",
         "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SABAH\\Desktop\\EducationApp - List2\\EducationApp.Data\\obj\\",
+        "outputPath": "C:\\Users\\SABAH\\Desktop\\EducationApp - List3\\EducationApp.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -87,8 +87,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\SABAH\\Desktop\\EducationApp - List2\\EducationApp.Entity\\EducationApp.Entity.csproj": {
-                "projectPath": "C:\\Users\\SABAH\\Desktop\\EducationApp - List2\\EducationApp.Entity\\EducationApp.Entity.csproj"
+              "C:\\Users\\SABAH\\Desktop\\EducationApp - List3\\EducationApp.Entity\\EducationApp.Entity.csproj": {
+                "projectPath": "C:\\Users\\SABAH\\Desktop\\EducationApp - List3\\EducationApp.Entity\\EducationApp.Entity.csproj"
               }
             }
           }
@@ -134,14 +134,14 @@
         }
       }
     },
-    "C:\\Users\\SABAH\\Desktop\\EducationApp - List2\\EducationApp.Entity\\EducationApp.Entity.csproj": {
+    "C:\\Users\\SABAH\\Desktop\\EducationApp - List3\\EducationApp.Entity\\EducationApp.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SABAH\\Desktop\\EducationApp - List2\\EducationApp.Entity\\EducationApp.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\SABAH\\Desktop\\EducationApp - List3\\EducationApp.Entity\\EducationApp.Entity.csproj",
         "projectName": "EducationApp.Entity",
-        "projectPath": "C:\\Users\\SABAH\\Desktop\\EducationApp - List2\\EducationApp.Entity\\EducationApp.Entity.csproj",
+        "projectPath": "C:\\Users\\SABAH\\Desktop\\EducationApp - List3\\EducationApp.Entity\\EducationApp.Entity.csproj",
         "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SABAH\\Desktop\\EducationApp - List2\\EducationApp.Entity\\obj\\",
+        "outputPath": "C:\\Users\\SABAH\\Desktop\\EducationApp - List3\\EducationApp.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -195,14 +195,14 @@
         }
       }
     },
-    "C:\\Users\\SABAH\\Desktop\\EducationApp - List2\\EducationApp.Web\\EducationApp.Web.csproj": {
+    "C:\\Users\\SABAH\\Desktop\\EducationApp - List3\\EducationApp.Web\\EducationApp.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SABAH\\Desktop\\EducationApp - List2\\EducationApp.Web\\EducationApp.Web.csproj",
+        "projectUniqueName": "C:\\Users\\SABAH\\Desktop\\EducationApp - List3\\EducationApp.Web\\EducationApp.Web.csproj",
         "projectName": "EducationApp.Web",
-        "projectPath": "C:\\Users\\SABAH\\Desktop\\EducationApp - List2\\EducationApp.Web\\EducationApp.Web.csproj",
+        "projectPath": "C:\\Users\\SABAH\\Desktop\\EducationApp - List3\\EducationApp.Web\\EducationApp.Web.csproj",
         "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SABAH\\Desktop\\EducationApp - List2\\EducationApp.Web\\obj\\",
+        "outputPath": "C:\\Users\\SABAH\\Desktop\\EducationApp - List3\\EducationApp.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -219,8 +219,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\SABAH\\Desktop\\EducationApp - List2\\EducationApp.Business\\EducationApp.Business.csproj": {
-                "projectPath": "C:\\Users\\SABAH\\Desktop\\EducationApp - List2\\EducationApp.Business\\EducationApp.Business.csproj"
+              "C:\\Users\\SABAH\\Desktop\\EducationApp - List3\\EducationApp.Business\\EducationApp.Business.csproj": {
+                "projectPath": "C:\\Users\\SABAH\\Desktop\\EducationApp - List3\\EducationApp.Business\\EducationApp.Business.csproj"
               }
             }
           }
