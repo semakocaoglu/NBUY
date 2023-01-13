@@ -1,0 +1,41 @@
+Somee.com
+SQL server ile çalışıyoruz:
+1)Migration ve connection string düzgünse 
+
+Somee'da
+1)Cntrol Panel
+2)Kaydol
+Açılan panelden Websites ---> Create Website
+version: .NET Core(all version)
+adını düzenleyip Create Website yap
+
+File Manager
+default asp dosyası ---> upload'dan da dosya yükleyebilirsin YA DA
+Web katmanından -> bin -> Debug içindekileri ziplemeliyiz.
+Upload anzip kısmnından ziplenen dosya gönderilir.
+
+*Sol tarafta Database
+Delete Database yap yeniden kur.
+Create yap
+Database isim ver ---->Create database
+Databse kısmına tıkla
+Adresi kopyala
+appsettingse Server= MSSql connection ksmına yapıştır.TrustServerCertificate eklendi sonuna
+Login name'i kopyala --> appsettingsteki Integrated kısmını sil ve user= yazıp oraya yapıştuır.  
+Login password'u kopyala appsetingste password= yaz yapıştr
+YA DA
+alttaki linkin hepsini kopyala ve appsettingsteki MSSqlConnection kısmna yapıştr.
+
+Bu değişikliklerden sonra yeniden migration yap
+
+Stuidio'da Webkatmanında iken yukarıdan bild sekmesi --> publish Shopping.Web seçildi.
+Açılan pencereden Folder seçerek next --> bin/Release/ ksmını browse masaüstüne yeni klasör Release adında oluştur. -->
+Publish komutu
+
+Masaüstü release klasörünü sağ tuş skıştrılmış klasör yap. Somee'ya bu zip dosyasını göndereceğiz
+
+Somee'da File Manager seç , Upload komutunu seç ,en sağdan upload andzip zip dosyasını seç
+
+
+HATAYI ALIRSAK:
+

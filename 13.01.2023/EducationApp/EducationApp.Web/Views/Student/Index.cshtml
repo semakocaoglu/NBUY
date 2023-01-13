@@ -1,0 +1,31 @@
+﻿@using EducationApp.Web.Models;
+@model List<StudentDto>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="display-5">Ders Almak İsteyenler</div>
+
+<div class="container">
+    <div class="row mt-4">
+        <div class="col-3">
+            @await Component.InvokeAsync("Categories")
+
+
+
+
+            <div class="col-9">
+
+                @foreach (var studentDto in Model)
+                {
+
+                    @await Html.PartialAsync("_StudentPartial", studentDto)
+
+                }
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
