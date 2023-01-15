@@ -22,3 +22,15 @@ C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp\EducationApp.Entity\obj\D
 C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp\EducationApp.Entity\obj\Debug\net7.0\refint\EducationApp.Entity.dll
 C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.pdb
 C:\Users\SABAH\Documents\GitHub\NBUY\NBUY\EducationApp\EducationApp.Entity\obj\Debug\net7.0\ref\EducationApp.Entity.dll
+C:\Users\DELL\Documents\GitHub\NBUY\Projemmm\EducationApp\EducationApp.Entity\bin\Debug\net7.0\EducationApp.Entity.deps.json
+C:\Users\DELL\Documents\GitHub\NBUY\Projemmm\EducationApp\EducationApp.Entity\bin\Debug\net7.0\EducationApp.Entity.dll
+C:\Users\DELL\Documents\GitHub\NBUY\Projemmm\EducationApp\EducationApp.Entity\bin\Debug\net7.0\EducationApp.Entity.pdb
+C:\Users\DELL\Documents\GitHub\NBUY\Projemmm\EducationApp\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.csproj.AssemblyReference.cache
+C:\Users\DELL\Documents\GitHub\NBUY\Projemmm\EducationApp\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Documents\GitHub\NBUY\Projemmm\EducationApp\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.AssemblyInfoInputs.cache
+C:\Users\DELL\Documents\GitHub\NBUY\Projemmm\EducationApp\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.AssemblyInfo.cs
+C:\Users\DELL\Documents\GitHub\NBUY\Projemmm\EducationApp\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\GitHub\NBUY\Projemmm\EducationApp\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.dll
+C:\Users\DELL\Documents\GitHub\NBUY\Projemmm\EducationApp\EducationApp.Entity\obj\Debug\net7.0\refint\EducationApp.Entity.dll
+C:\Users\DELL\Documents\GitHub\NBUY\Projemmm\EducationApp\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.pdb
+C:\Users\DELL\Documents\GitHub\NBUY\Projemmm\EducationApp\EducationApp.Entity\obj\Debug\net7.0\ref\EducationApp.Entity.dll

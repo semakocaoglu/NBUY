@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\Projemmm\\EducationApp - Kopya - Kopya\\EducationApp.Data\\EducationApp.Data.csproj": {}
+    "C:\\Users\\DELL\\Documents\\GitHub\\NBUY\\Projemmm\\EducationApp - Kopya - Kopya\\EducationApp.Data\\EducationApp.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\Projemmm\\EducationApp - Kopya - Kopya\\EducationApp.Data\\EducationApp.Data.csproj": {
+    "C:\\Users\\DELL\\Documents\\GitHub\\NBUY\\Projemmm\\EducationApp - Kopya - Kopya\\EducationApp.Data\\EducationApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\Projemmm\\EducationApp - Kopya - Kopya\\EducationApp.Data\\EducationApp.Data.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Documents\\GitHub\\NBUY\\Projemmm\\EducationApp - Kopya - Kopya\\EducationApp.Data\\EducationApp.Data.csproj",
         "projectName": "EducationApp.Data",
-        "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\Projemmm\\EducationApp - Kopya - Kopya\\EducationApp.Data\\EducationApp.Data.csproj",
-        "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\Projemmm\\EducationApp - Kopya - Kopya\\EducationApp.Data\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\Documents\\GitHub\\NBUY\\Projemmm\\EducationApp - Kopya - Kopya\\EducationApp.Data\\EducationApp.Data.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Documents\\GitHub\\NBUY\\Projemmm\\EducationApp - Kopya - Kopya\\EducationApp.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\Projemmm\\EducationApp - Kopya - Kopya\\EducationApp.Entity\\EducationApp.Entity.csproj": {
-                "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\Projemmm\\EducationApp - Kopya - Kopya\\EducationApp.Entity\\EducationApp.Entity.csproj"
+              "C:\\Users\\DELL\\Documents\\GitHub\\NBUY\\Projemmm\\EducationApp - Kopya - Kopya\\EducationApp.Entity\\EducationApp.Entity.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Documents\\GitHub\\NBUY\\Projemmm\\EducationApp - Kopya - Kopya\\EducationApp.Entity\\EducationApp.Entity.csproj"
               }
             }
           }
@@ -71,21 +71,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\Projemmm\\EducationApp - Kopya - Kopya\\EducationApp.Entity\\EducationApp.Entity.csproj": {
+    "C:\\Users\\DELL\\Documents\\GitHub\\NBUY\\Projemmm\\EducationApp - Kopya - Kopya\\EducationApp.Entity\\EducationApp.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\Projemmm\\EducationApp - Kopya - Kopya\\EducationApp.Entity\\EducationApp.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Documents\\GitHub\\NBUY\\Projemmm\\EducationApp - Kopya - Kopya\\EducationApp.Entity\\EducationApp.Entity.csproj",
         "projectName": "EducationApp.Entity",
-        "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\Projemmm\\EducationApp - Kopya - Kopya\\EducationApp.Entity\\EducationApp.Entity.csproj",
-        "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\NBUY\\Projemmm\\EducationApp - Kopya - Kopya\\EducationApp.Entity\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\Documents\\GitHub\\NBUY\\Projemmm\\EducationApp - Kopya - Kopya\\EducationApp.Entity\\EducationApp.Entity.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Documents\\GitHub\\NBUY\\Projemmm\\EducationApp - Kopya - Kopya\\EducationApp.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -132,7 +132,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
