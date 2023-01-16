@@ -11,6 +11,6 @@ namespace EducationApp.Data.Abstract
     {
         Task<List<Student>> GetStudentsByCategoryAsync(string category);
         Task<Student> GetStudentDetailsByUrlAsync(string studentUrl);
-       
+        Task<List<Student>> GetAllStudentsWithCategory();
     }
 }

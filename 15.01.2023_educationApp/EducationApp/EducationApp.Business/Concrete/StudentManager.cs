@@ -24,6 +24,11 @@ namespace EducationApp.Business.Concrete
             return await _unitOfWork.Students.GetAllAsync();
         }
 
+        public async Task<List<Student>> GetAllStudentsWithCategory()
+        {
+            return await _unitOfWork.Students.GetAllStudentsWithCategory();
+        }
+
         public async Task<Student> GetByIdAsync(int id)
         {
             return await _unitOfWork.Students.GetByIdAsync(id);

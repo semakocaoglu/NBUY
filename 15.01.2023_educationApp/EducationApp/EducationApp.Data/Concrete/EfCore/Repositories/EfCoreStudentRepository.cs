@@ -21,6 +21,16 @@ namespace EducationApp.Data.Concrete.EfCore.Repositories
             get { return _context as EducationAppContext; }
         }
 
+        public async Task<List<Student>> GetAllStudentsWithCategory()
+        {
+            var students = await EducationAppContext
+                .Students
+                .Include(s => s.StudentCategories)
+                .ThenInclude(sc => sc.Category)
+                .ToListAsync();
+            return students;
+        }
+
         public async Task<Student> GetStudentDetailsByUrlAsync(string studentUrl)
         {
             return await EducationAppContext

@@ -13,7 +13,8 @@ namespace EducationApp.Business.Abstract
         Task<List<Student>> GetAllAsync();
         Task<List<Student>> GetStudentsByCategoryAsync (string category);
         Task<Student> GetStudentDetailsByUrlAsync(string studentUrl);
+        Task<List<Student>> GetAllStudentsWithCategory();
 
-       
+
     }
 }
