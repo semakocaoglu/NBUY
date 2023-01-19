@@ -1,0 +1,3 @@
+--visual studio formatlandığn migration hatası alrsak;
+
+dotnet tool install --global dotnet-ef (yükle)
