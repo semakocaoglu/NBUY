@@ -1,0 +1,36 @@
+﻿@model TeacherAddDto
+<h1>Yeni Öğretmen Ekle</h1>
+<hr />
+
+<form asp-area="Admin"
+      asp-controller="Teacher"
+      asp-action="Create"
+      method="post"
+      enctype="multipart/form-data">
+
+    <div class="row">
+
+        <div class="col-4 mb-3">
+            <label asp-for="FirstName" class="form-label"></label>
+            <input class="form-control" asp-for="FirstName">
+            <span asp-validation-for="FirstName" class="text-danger"></span>
+        </div>
+        <div class="col-4 mb-3">
+            <label asp-for="LastName" class="form-label"></label>
+            <input class="form-control" asp-for="LastName">
+            <span asp-validation-for="LastName" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4 mb-3">
+            <label asp-for="Age" class="form-label"></label>
+            <input type="number" min="0" max="100" />
+            
+        </div>
+
+    </div>
+
+
+
+
+</form>
