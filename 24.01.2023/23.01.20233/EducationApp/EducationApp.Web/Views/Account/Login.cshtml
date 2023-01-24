@@ -1,0 +1,41 @@
+﻿@model LoginDto
+
+
+    
+<div class="row mt-5 py-4 ">
+    
+    <form class="d-flex justify-content-center" asp-controller="Account"
+          asp-action="Login"
+          method="post">
+        
+        <input type="hidden" name="ReturnUrl" value="@Model.ReturnUrl" />
+        <div class="card p-4 bg-success bg-opacity-10 shadow-lg " style="width:400px;">
+            <h1>Giriş Yap</h1>
+            <div class="">
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <div class="mb-3">
+                    <label asp-for="Email" class="form-label"></label>
+                    <input class="form-control bg-opacity-25 bg-secondary" asp-for="Email">
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Password" class="form-label"></label>
+                    <input class="form-control bg-opacity-25 bg-secondary" asp-for="Password">
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="">
+                <button type="submit" class="btn btn-primary">Giriş Yap</button>
+                <a type="button" class="btn btn-success"
+                   asp-controller="Home"
+                   asp-action="Index">Vazgeç</a>
+                </div>
+                <div class="pt-4">
+                <a class=""
+                   asp-controller="Account"
+                   asp-action="ForgotPassword">Şifremi Unuttum</a>
+                </div>
+               
+            </div>
+        </div>
+    </form>
+</div>
