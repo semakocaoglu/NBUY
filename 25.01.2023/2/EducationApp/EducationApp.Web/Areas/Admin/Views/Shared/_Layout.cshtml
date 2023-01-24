@@ -1,0 +1,25 @@
+﻿
+<!DOCTYPE html >
+
+<html style="">
+<head style="">
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <title>@ViewBag.Title</title>
+
+</head>
+<body style="">
+    @await Html.PartialAsync("_Navbar")
+    <div class="container">
+        <div class="text-start m-3">
+            <h3 class=" display-6 fw-normal">
+                <a class="text-decoration-none text-primary" asp-area="Admin" asp-controller="Home" asp-action="Index">Admin Panel</a>
+            </h3>
+        </div>
+        <div>
+            @RenderBody()
+        </div>
+    </div>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
