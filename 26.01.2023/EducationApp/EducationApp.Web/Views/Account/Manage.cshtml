@@ -1,0 +1,104 @@
+﻿@model UserManageDto
+
+<div>
+
+    <h5>Profiliniz Güncelleniyor...</h5>
+    <div>
+        <form asp-area=""
+              asp-controller="Account"
+              asp-action="Manage"
+              method="post"
+              enctype="multipart/form-data">
+
+            <div class="row">
+                <div class="col-4">
+                </div>
+                <div class="col-8">
+                    <div class="row">
+                        <div class="col-6">
+                            <label asp-for="FirstName" class="form-label ">Ad</label>
+                            <input type="text" class="form-control bg-opacity-25 bg-secondary" asp-for="FirstName">
+                            <span asp-validation-for="FirstName" class="text-danger"></span>
+                        </div>
+                        <div class="col-6">
+                            <label asp-for="LastName" class="form-label ">Soyad</label>
+                            <input type="text" class="form-control bg-opacity-25 bg-secondary" asp-for="LastName">
+                            <span asp-validation-for="LastName" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <label asp-for="UserName" class="form-label ">Kullanıcı Adı</label>
+                            <input type="text" class="form-control bg-opacity-25 bg-secondary" asp-for="UserName">
+                            <span asp-validation-for="UserName" class="text-danger"></span>
+                        </div>
+                        <div class="col-6">
+                            <label asp-for="Email" class="form-label ">Email</label>
+                            <input type="text" class="form-control bg-opacity-25 bg-secondary" asp-for="Email">
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <label asp-for="Age" class="form-label ">Yaş</label>
+                            <input type="number" class="form-control bg-opacity-25 bg-secondary" asp-for="Age">
+                            <span asp-validation-for="Age" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-6">
+                            <label asp-for="Gender" class="form-label">Cinsiyet</label>
+                            <select asp-for="Gender" class="form-control bg-opacity-25 bg-secondary" asp-items="@Model.GenderList" class="form-select">
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <label asp-for="Experience" class="form-label ">Experience</label>
+                            <input type="text" class="form-control bg-opacity-25 bg-secondary" asp-for="Experience">
+                            <span asp-validation-for="Experience" class="text-danger"></span>
+                        </div>
+                        <div class="col-6">
+                            <label asp-for="Price" class="form-label ">Saatlik Ücret</label>
+                            <input type="number" class="form-control bg-opacity-25 bg-secondary" asp-for="Price">
+                            <span asp-validation-for="Price" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <label asp-for="LessonPlace" class="form-label">Uygulama Şekli</label>
+                            <select asp-for="LessonPlace" class="form-control bg-opacity-25 bg-secondary" asp-items="@Model.LessonPlaceList" class="form-select">
+                            </select>
+                        </div>
+                        <div class="col-6">
+                            <label asp-for="City" class="form-label ">Şehir</label>
+                            <input type="text" class="form-control bg-opacity-25 bg-secondary" asp-for="City">
+                            <span asp-validation-for="City" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label asp-for="Description" class="form-label ">Hakkımda</label>
+                        <textarea class="form-control bg-opacity-25 bg-secondary " rows="4" asp-for="Description"></textarea>
+                    </div>
+
+
+
+
+                    <button type="submit" class="btn btn-primary mt-4">Güncelle</button>
+                    <a type="button" class="btn btn-light mt-4"
+                       asp-area=""
+                       asp-controller="Home"
+                       asp-action="Index">Vazgeç</a>
+
+
+
+                </div>
+
+
+
+
+            </div>
+        </form>
+    </div>
+</div>
