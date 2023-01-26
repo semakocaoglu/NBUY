@@ -1,0 +1,119 @@
+﻿@model UserManageDto
+
+<div>
+
+    <h3>Profiliniz Güncelleniyor...</h3>
+    <div class="card shadow-lg p-4 mt-4" >
+
+     
+        <form asp-area=""
+              asp-controller="Account"
+              asp-action="Manage"
+              method="post">
+              <input type="hidden" asp-for="Role" />
+           <div >
+            <div class="row">
+                <div class="col-4">
+                    <div class="card-img pt-4 pe-5 mt-4  text-center ">
+                        <img class="rounded-circle" src="/images/@Model.ImageUrl" style="width:250px; height:250px;" />
+                    </div>
+                    <div class="mt-4 ms-5">
+                    <input class="ms-5 ps-3" type="file" asp-for="ImageFile" accept="image/" />
+                    <div >
+                        <label for="ImageFile" class="btn btn-info mt-2 ">Profil Fotoğrafını Değiştir</label>
+                        <label id="img-url">@Model.ImageUrl</label>
+                    </div>
+                    <span asp-validation-for="ImageFile" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="row">
+                            <div class="col-6 mb-2">
+                                <label asp-for="FirstName" class="form-label fw-bolder ">Ad</label>
+                                <input type="text" class="form-control bg-opacity-25  bg-secondary " asp-for="FirstName">
+                            <span asp-validation-for="FirstName" class="text-danger"></span>
+                        </div>
+                            <div class="col-6 mb-2">
+                            <label asp-for="LastName" class="form-label fw-bolder ">Soyad</label>
+                            <input type="text" class="form-control bg-opacity-25   bg-secondary" asp-for="LastName">
+                            <span asp-validation-for="LastName" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-6 mb-2">
+                            <label asp-for="UserName" class="form-label fw-bolder ">Kullanıcı Adı</label>
+                            <input type="text" class="form-control bg-opacity-25   bg-secondary" asp-for="UserName">
+                            <span asp-validation-for="UserName" class="text-danger"></span>
+                        </div>
+                            <div class="col-6 mb-2">
+                            <label asp-for="Email" class="form-label fw-bolder">Email</label>
+                            <input type="text" class="form-control bg-opacity-25 bg-secondary" asp-for="Email">
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-6 mb-2">
+                            <label asp-for="Age" class="form-label fw-bolder">Yaş</label>
+                            <input type="number" class="form-control bg-opacity-25 bg-secondary" asp-for="Age">
+                            <span asp-validation-for="Age" class="text-danger"></span>
+                        </div>
+
+                            <div class="col-6 mb-2">
+                            <label asp-for="Gender" class="form-label fw-bolder">Cinsiyet</label>
+                            <select asp-for="Gender" class="form-control bg-opacity-25 bg-secondary" asp-items="@Model.GenderList" class="form-select">
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-6 mb-2">
+                            <label asp-for="Experience" class="form-label fw-bolder">Experience</label>
+                            <input type="text" class="form-control bg-opacity-25 bg-secondary" asp-for="Experience">
+                            <span asp-validation-for="Experience" class="text-danger"></span>
+                        </div>
+                        <div class="col-6 mb-2">
+                            <label asp-for="Price" class="form-label fw-bolder ">Saatlik Ücret</label>
+                            <input type="number" class="form-control bg-opacity-25 bg-secondary" asp-for="Price">
+                            <span asp-validation-for="Price" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6 mb-2">
+                            <label asp-for="LessonPlace" class="form-label fw-bolder">Uygulama Şekli</label>
+                            <select asp-for="LessonPlace" class="form-control bg-opacity-25 bg-secondary" asp-items="@Model.LessonPlaceList" class="form-select">
+                            </select>
+                        </div>
+                            <div class="col-6 mb-2">
+                            <label asp-for="City" class="form-label fw-bolder ">Şehir</label>
+                            <input type="text" class="form-control bg-opacity-25 bg-secondary" asp-for="City">
+                            <span asp-validation-for="City" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                        <div class="mb-2">
+                        <label asp-for="Description" class="form-label fw-bolder ">Hakkımda</label>
+                        <textarea class="form-control bg-opacity-25 bg-secondary " rows="4" asp-for="Description"></textarea>
+                    </div>
+
+
+
+
+                    <button type="submit" class="btn btn-primary mt-4">Bilgilerimi Güncelle</button>
+                    <a type="button" class="btn btn-light mt-4"
+                       asp-area=""
+                       asp-controller="Home"
+                       asp-action="Index">Vazgeç</a>
+
+
+
+                </div>
+
+
+
+
+            </div>
+
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,56 @@
+﻿@model CategoryListDto
+<hr />
+<a class="btn btn-outline-primary"
+   asp-area="Admin"
+   asp-controller="Category"
+   asp-action="Create">Yeni Ders Ekle</a>
+<hr />
+<table class="table table-responsive table-bordered shadow-lg">
+    <thead class="bg-success bg-opacity-10  ">
+        <tr>
+            <th>Id</th>
+            <th>Dersin Adı</th>
+            <th>Dersin Üst Kategorisi</th>
+            <th>Popüler Ders Mi?</th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var category in Model.Categories)
+        {
+            <tr>
+                <td>@category.Id</td>
+                <td>@category.Name</td>
+                <td>@(Model.Categories.Where(c => c.Id == category.UpCatId).Select(c => c.Name).FirstOrDefault() ?? "-")</td>
+                @*<td>@category.PopularCategory</td>*@
+                <td>
+                   
+                <form id="isPopularCategoryForm_@category.Id"
+                  asp-area="Admin"
+                  asp-controller="Category"
+                  asp-action="UpdatePopularCategory"
+                  asp-route-id="@category.Id">
+                        <input onchange="document.getElementById('isPopularCategoryForm_@category.Id').submit();"
+                       type="checkbox"
+                       class="form-check-input"
+                       value="@category.PopularCategory"
+                       @(category.PopularCategory? "checked" : "") />
+                </form>
+                
+                </td>
+                <td>
+                    <a class="btn btn-warning btn-sm"
+                   asp-area="Admin"
+                   asp-controller="Category"
+                   asp-action="Edit"
+                   asp-route-id=@category.Id>Düzenle</a>
+                    <a class="btn btn-danger btn-sm"
+                   asp-area="Admin"
+                   asp-controller="Category"
+                   asp-action="Delete"
+                   asp-route-id=@category.Id>Sil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
