@@ -40,6 +40,12 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapControllerRoute(
+    name: "teachers",
+    pattern: "category/{categoryurl?}",
+    defaults: new { controller = "Teacher", action = "Index" }
+    );
+
+app.MapControllerRoute(
     name: "students",
     pattern: "students",
     defaults: new { controller = "Student", action = "Index" }
@@ -51,6 +57,18 @@ app.MapControllerRoute(
     defaults: new { controller = "Teacher", action = "Index" }
 
     );
+app.MapControllerRoute(
+    name: "teacherdetails",
+    pattern: "teachers/{teacherurl}",
+    defaults: new { controller = "Teacher", action = "TeacherDetails" }
+    );
+
+app.MapControllerRoute(
+    name: "studentdetails",
+    pattern: "students/{studenterurl}",
+    defaults: new { controller = "Student", action = "StudentDetails" }
+    );
+
 
 app.MapAreaControllerRoute(
     name: "Admin",

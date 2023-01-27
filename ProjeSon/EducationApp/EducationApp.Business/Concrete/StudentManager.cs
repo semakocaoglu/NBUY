@@ -49,9 +49,10 @@ namespace EducationApp.Business.Concrete
 
         
 
-        public Task<Student> GetStudentDetailsByUrlAsync(string studentUrl)
+        public async Task<Student> GetStudentDetailsByUrlAsync(string studentUrl)
         {
-            throw new NotImplementedException();
+            return await _unitOfWork.Students.GetStudentDetailsByUrlAsync(studentUrl);
+          
         }
 
         public async Task<List<Student>> GetStudentsByCategoryAsync(string category)

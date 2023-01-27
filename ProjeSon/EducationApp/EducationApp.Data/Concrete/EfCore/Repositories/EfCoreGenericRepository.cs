@@ -38,6 +38,7 @@ namespace EducationApp.Data.Concrete.EfCore.Repositories
         public async Task<TEntity> GetByIdAsync(int id)
         {
             return await _context.Set<TEntity>().FindAsync(id);
+          
         }
 
         public void Update(TEntity entity)

@@ -28,7 +28,12 @@
                     </div>
                 </div>
                 <div class="col-2 ">
-                    <a class="btn btn-warning  ">İncele</a>
+                    <a class="btn btn-warning  "
+                       asp-area=""
+                       asp-controller="Student"
+                       asp-action="StudentDetails" 
+                       asp-route-studenturl="@Model.Url" 
+                    >İncele</a>
                 </div>
 
                 </div>

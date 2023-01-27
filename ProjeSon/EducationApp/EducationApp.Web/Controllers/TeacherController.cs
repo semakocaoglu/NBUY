@@ -48,13 +48,13 @@ namespace EducationApp.Web.Controllers
             }
             return View(teacherDtos);
         }
-        public async Task<IActionResult> TeacherDetails(string teacherUrl)
+        public async Task<IActionResult> TeacherDetails(string teacherurl)
         {
-            if (teacherUrl == null)
+            if (teacherurl == null)
             {
                 return NotFound();
             }
-            var teacher = await _teacherManager.GetTeacherDetailsByUrlAsync(teacherUrl);
+            var teacher = await _teacherManager.GetTeacherDetailsByUrlAsync(teacherurl);
             TeacherDetailsDto teacherDetailsDto = new TeacherDetailsDto
             {
                 Id = teacher.Id,
@@ -67,6 +67,9 @@ namespace EducationApp.Web.Controllers
                 City = teacher.City,
                 Description = teacher.Description,
                 Price = teacher.Price,
+                LessonPlace = teacher.LessonPlace,
+                EducationStatus= teacher.EducationStatus,
+                Experience = teacher.Experience,
               
                 Categories = teacher
                     .TeacherCategories

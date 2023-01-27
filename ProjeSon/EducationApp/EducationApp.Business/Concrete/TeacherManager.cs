@@ -50,9 +50,9 @@ namespace EducationApp.Business.Concrete
             return await _unitOfWork.Teachers.GetTeacherWithCategories(id);
         }
 
-        public Task<Teacher> GetTeacherDetailsByUrlAsync(string teacherUrl)
+        public async Task<Teacher> GetTeacherDetailsByUrlAsync(string teacherUrl)
         {
-            throw new NotImplementedException();
+            return await _unitOfWork.Teachers.GetTeacherDetailsByUrlAsync(teacherUrl);
         }
 
         public async Task<List<Teacher>> GetTeachersByCategoryAsync(string category)

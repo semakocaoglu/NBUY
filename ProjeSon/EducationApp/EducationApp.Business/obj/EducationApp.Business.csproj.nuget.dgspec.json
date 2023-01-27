@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\Desktop\\EducationApp\\EducationApp.Business\\EducationApp.Business.csproj": {}
+    "C:\\Users\\DELL\\Desktop\\ProjeSon\\EducationApp\\EducationApp.Business\\EducationApp.Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\Desktop\\EducationApp\\EducationApp.Business\\EducationApp.Business.csproj": {
+    "C:\\Users\\DELL\\Desktop\\ProjeSon\\EducationApp\\EducationApp.Business\\EducationApp.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\EducationApp\\EducationApp.Business\\EducationApp.Business.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\ProjeSon\\EducationApp\\EducationApp.Business\\EducationApp.Business.csproj",
         "projectName": "EducationApp.Business",
-        "projectPath": "C:\\Users\\DELL\\Desktop\\EducationApp\\EducationApp.Business\\EducationApp.Business.csproj",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\ProjeSon\\EducationApp\\EducationApp.Business\\EducationApp.Business.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\Desktop\\EducationApp\\EducationApp.Business\\obj\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\ProjeSon\\EducationApp\\EducationApp.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\DELL\\Desktop\\EducationApp\\EducationApp.Data\\EducationApp.Data.csproj": {
-                "projectPath": "C:\\Users\\DELL\\Desktop\\EducationApp\\EducationApp.Data\\EducationApp.Data.csproj"
+              "C:\\Users\\DELL\\Desktop\\ProjeSon\\EducationApp\\EducationApp.Data\\EducationApp.Data.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Desktop\\ProjeSon\\EducationApp\\EducationApp.Data\\EducationApp.Data.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\DELL\\Desktop\\EducationApp\\EducationApp.Data\\EducationApp.Data.csproj": {
+    "C:\\Users\\DELL\\Desktop\\ProjeSon\\EducationApp\\EducationApp.Data\\EducationApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\EducationApp\\EducationApp.Data\\EducationApp.Data.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\ProjeSon\\EducationApp\\EducationApp.Data\\EducationApp.Data.csproj",
         "projectName": "EducationApp.Data",
-        "projectPath": "C:\\Users\\DELL\\Desktop\\EducationApp\\EducationApp.Data\\EducationApp.Data.csproj",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\ProjeSon\\EducationApp\\EducationApp.Data\\EducationApp.Data.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\Desktop\\EducationApp\\EducationApp.Data\\obj\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\ProjeSon\\EducationApp\\EducationApp.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -87,8 +87,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\DELL\\Desktop\\EducationApp\\EducationApp.Entity\\EducationApp.Entity.csproj": {
-                "projectPath": "C:\\Users\\DELL\\Desktop\\EducationApp\\EducationApp.Entity\\EducationApp.Entity.csproj"
+              "C:\\Users\\DELL\\Desktop\\ProjeSon\\EducationApp\\EducationApp.Entity\\EducationApp.Entity.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Desktop\\ProjeSon\\EducationApp\\EducationApp.Entity\\EducationApp.Entity.csproj"
               }
             }
           }
@@ -138,14 +138,14 @@
         }
       }
     },
-    "C:\\Users\\DELL\\Desktop\\EducationApp\\EducationApp.Entity\\EducationApp.Entity.csproj": {
+    "C:\\Users\\DELL\\Desktop\\ProjeSon\\EducationApp\\EducationApp.Entity\\EducationApp.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\EducationApp\\EducationApp.Entity\\EducationApp.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\ProjeSon\\EducationApp\\EducationApp.Entity\\EducationApp.Entity.csproj",
         "projectName": "EducationApp.Entity",
-        "projectPath": "C:\\Users\\DELL\\Desktop\\EducationApp\\EducationApp.Entity\\EducationApp.Entity.csproj",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\ProjeSon\\EducationApp\\EducationApp.Entity\\EducationApp.Entity.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\Desktop\\EducationApp\\EducationApp.Entity\\obj\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\ProjeSon\\EducationApp\\EducationApp.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",

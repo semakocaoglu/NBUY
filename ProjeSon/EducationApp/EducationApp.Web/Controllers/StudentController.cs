@@ -48,6 +48,40 @@ namespace EducationApp.Web.Controllers
 
         }
 
+        public async Task<IActionResult> StudentDetails(string studenturl)
+        {
+            if (studenturl == null)
+            {
+                return NotFound();
+            }
+            var student = await _studentManager.GetStudentDetailsByUrlAsync(studenturl);
+            StudentDetailsDto studentDetailsDto = new StudentDetailsDto
+            {
+                Id = student.Id,
+                FirstName = student.FirstName,
+                LastName = student.LastName,
+                Age = student.Age,
+                Gender = student.Gender,
+                ImageUrl = student.ImageUrl,
+                Url = student.Url,
+                City = student.City,
+                Description = student.Description, 
+                LessonPlace = student.LessonPlace,
+               
+                Categories = student
+                    .StudentCategories
+                    .Select(tc => tc.Category)
+                    .ToList()
+            };
+
+            return View(studentDetailsDto);
+        }
+
+
+
+
+
+
 
     }
 }

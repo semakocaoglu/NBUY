@@ -9,6 +9,30 @@
     <link rel="stylesheet" href="~/EducationApp.Web.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" asp-append-version="true" />
 
+    <style>
+        .foto-zoom {
+            position: relative;
+            -webkit-transform: scale(1);
+            -ms-transform: scale(1);
+            -moz-transform: scale(1);
+            transition: all .3s ease-in;
+            -moz-transition: all .3s ease-in;
+            -webkit-transition: all .3s ease-in;
+            -ms-transition: all .3s ease-in;
+        }
+
+        .foto-zoom:hover {
+            z-index: 2;
+            -webkit-transform: scale(1.5);
+            -ms-transform: scale(1.5);
+            -moz-transform: scale(1.5);
+            transform: scale(1.5);
+        }
+
+
+
+    </style>
+
 </head>
 <body>
     @await Html.PartialAsync("_Navbar")

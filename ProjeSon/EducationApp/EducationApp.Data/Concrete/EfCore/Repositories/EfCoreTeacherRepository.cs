@@ -4,8 +4,10 @@ using EducationApp.Entity.Concrete;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Linq.Expressions;
 using System.Linq;
 using System.Text;
+
 using System.Threading.Tasks;
 
 namespace EducationApp.Data.Concrete.EfCore.Repositories
@@ -35,9 +37,9 @@ namespace EducationApp.Data.Concrete.EfCore.Repositories
             await EducationAppContext.SaveChangesAsync();
         }
 
-        public async Task<Teacher> GetTeacherDetailsByUrlAsync(string teacherUrl)
+        public Task<Teacher> GetTeacherDetailsByUrlAsync(string teacherUrl)
         {
-            return await EducationAppContext
+            return EducationAppContext
                  .Teachers
                  .Where(t => t.Url == teacherUrl)
                  .Include(t => t.TeacherCategories)

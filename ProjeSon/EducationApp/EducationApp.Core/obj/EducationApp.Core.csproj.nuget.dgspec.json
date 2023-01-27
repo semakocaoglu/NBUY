@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\Desktop\\EducationApp\\EducationApp.Core\\EducationApp.Core.csproj": {}
+    "C:\\Users\\DELL\\Desktop\\ProjeSon\\EducationApp\\EducationApp.Core\\EducationApp.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\Desktop\\EducationApp\\EducationApp.Core\\EducationApp.Core.csproj": {
+    "C:\\Users\\DELL\\Desktop\\ProjeSon\\EducationApp\\EducationApp.Core\\EducationApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\EducationApp\\EducationApp.Core\\EducationApp.Core.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\ProjeSon\\EducationApp\\EducationApp.Core\\EducationApp.Core.csproj",
         "projectName": "EducationApp.Core",
-        "projectPath": "C:\\Users\\DELL\\Desktop\\EducationApp\\EducationApp.Core\\EducationApp.Core.csproj",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\ProjeSon\\EducationApp\\EducationApp.Core\\EducationApp.Core.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\Desktop\\EducationApp\\EducationApp.Core\\obj\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\ProjeSon\\EducationApp\\EducationApp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",

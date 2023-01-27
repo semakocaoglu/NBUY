@@ -283,7 +283,7 @@ namespace EducationApp.Web.Controllers
                     });
                     #endregion
 
-                    var teacherswith = await _teacherManager.GetTeacherWithCategories(teacher.Id);
+                    var teacherWithCategories = await _teacherManager.GetTeacherWithCategories(teacher.Id);
 
                     UserManageDto userManageDto = new UserManageDto
                     {
@@ -354,7 +354,7 @@ namespace EducationApp.Web.Controllers
 
 
 
-                    var studentwith = await _studentManager.GetStudentWithCategories(student.Id);
+                    var studentWithCategories = await _studentManager.GetStudentWithCategories(student.Id);
                     UserManageDto userManageDto = new UserManageDto
                     {
 
