@@ -1,0 +1,56 @@
+﻿@using EducationApp.Web.Models
+@model TeacherDetailsDto
+
+
+
+<div class="row mt-5">
+    <div class="col-4">
+        <div class="card-img  pe-5 mt-4  text-center ">
+            <img class="rounded-circle" src="/images/@Model.ImageUrl" style="width:250px; height:250px;" />
+        </div>
+    </div>
+    <div class="col-6">
+        <h1 class="text-warning ">@Model.FirstName @Model.LastName</h1>
+        <div>@Model.Gender , @Model.Age yaşında</div>
+        <div>@Model.City </div>
+
+        <hr />
+        <div class="">
+            <div class="d-flex">
+                <div class="text-danger fw-bolder">Ders Verme Şekli: </div>
+                <div class="ms-2">@Model.LessonPlace</div>
+
+                <div class="text-danger fw-bolder ms-5">Saatlik Ücret: </div>
+                <div class="ms-2">@Model.Price TL</div>
+
+                <div class="text-danger fw-bolder ms-5">Deneyim: </div>
+                <div class="ms-2">@Model.Experience</div>
+
+            </div>
+        </div>
+        <hr />
+
+        <hr />
+        <div>
+            <div class="text-danger fw-bold ">Ders Verdiği Alan / Alanlar: </div>
+            @foreach (var category in Model.Categories)
+            {
+                <a href="#" class="text-dark  btn-link p-0 mb-3 text-decoration-none">@category.Name</a>
+            }
+
+        </div>
+        <hr />
+
+        <hr />
+        <div class="text-danger fw-bold ">Eğitim:</div>
+        <div>@Model.EducationStatus</div>
+
+        <hr />
+
+        <hr />
+        <div class="text-danger fw-bold ">Hakkında</div>
+        <div>@Model.Description</div>
+        <hr />
+
+    </div>
+

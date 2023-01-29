@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZKkdb8TBTODc2AF6ZzPvwzVUKIH1bI+m1Q57mDs09YuMYzvHi5z8i6+KV2uWqPTi+PAFHiXVatr88NIxMcmT+A==",
+  "dgSpecHash": "hXTpHQw9uNnauClfZkGl12Pzx1RqjvA6HBLnquybWjZaTCgairLd5Lo3C9+Tta3L3FwoHY2kGn8s8cp+R4Po5g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\Desktop\\EducationApp\\EducationApp.Core\\EducationApp.Core.csproj",
+  "projectFilePath": "C:\\Users\\DELL\\Documents\\GitHub\\NBUY\\26.01.2023\\EducationApp\\EducationApp.Core\\EducationApp.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",

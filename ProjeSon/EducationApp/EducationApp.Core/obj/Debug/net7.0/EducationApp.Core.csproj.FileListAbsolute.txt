@@ -22,3 +22,15 @@ C:\Users\DELL\Desktop\ProjeSon\EducationApp\EducationApp.Core\obj\Debug\net7.0\E
 C:\Users\DELL\Desktop\ProjeSon\EducationApp\EducationApp.Core\obj\Debug\net7.0\refint\EducationApp.Core.dll
 C:\Users\DELL\Desktop\ProjeSon\EducationApp\EducationApp.Core\obj\Debug\net7.0\EducationApp.Core.pdb
 C:\Users\DELL\Desktop\ProjeSon\EducationApp\EducationApp.Core\obj\Debug\net7.0\ref\EducationApp.Core.dll
+C:\Users\DELL\Desktop\ProjeSon\SemaKocaoglu_EducationApp\EducationApp.Core\bin\Debug\net7.0\EducationApp.Core.deps.json
+C:\Users\DELL\Desktop\ProjeSon\SemaKocaoglu_EducationApp\EducationApp.Core\bin\Debug\net7.0\EducationApp.Core.dll
+C:\Users\DELL\Desktop\ProjeSon\SemaKocaoglu_EducationApp\EducationApp.Core\bin\Debug\net7.0\EducationApp.Core.pdb
+C:\Users\DELL\Desktop\ProjeSon\SemaKocaoglu_EducationApp\EducationApp.Core\obj\Debug\net7.0\EducationApp.Core.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\ProjeSon\SemaKocaoglu_EducationApp\EducationApp.Core\obj\Debug\net7.0\EducationApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\ProjeSon\SemaKocaoglu_EducationApp\EducationApp.Core\obj\Debug\net7.0\EducationApp.Core.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\ProjeSon\SemaKocaoglu_EducationApp\EducationApp.Core\obj\Debug\net7.0\EducationApp.Core.AssemblyInfo.cs
+C:\Users\DELL\Desktop\ProjeSon\SemaKocaoglu_EducationApp\EducationApp.Core\obj\Debug\net7.0\EducationApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\ProjeSon\SemaKocaoglu_EducationApp\EducationApp.Core\obj\Debug\net7.0\EducationApp.Core.dll
+C:\Users\DELL\Desktop\ProjeSon\SemaKocaoglu_EducationApp\EducationApp.Core\obj\Debug\net7.0\refint\EducationApp.Core.dll
+C:\Users\DELL\Desktop\ProjeSon\SemaKocaoglu_EducationApp\EducationApp.Core\obj\Debug\net7.0\EducationApp.Core.pdb
+C:\Users\DELL\Desktop\ProjeSon\SemaKocaoglu_EducationApp\EducationApp.Core\obj\Debug\net7.0\ref\EducationApp.Core.dll

@@ -773,11 +773,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\EducationApp\\EducationApp.Entity\\EducationApp.Entity.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\Documents\\GitHub\\NBUY\\26.01.2023\\EducationApp\\EducationApp.Entity\\EducationApp.Entity.csproj",
       "projectName": "EducationApp.Entity",
-      "projectPath": "C:\\Users\\DELL\\Desktop\\EducationApp\\EducationApp.Entity\\EducationApp.Entity.csproj",
+      "projectPath": "C:\\Users\\DELL\\Documents\\GitHub\\NBUY\\26.01.2023\\EducationApp\\EducationApp.Entity\\EducationApp.Entity.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\Desktop\\EducationApp\\EducationApp.Entity\\obj\\",
+      "outputPath": "C:\\Users\\DELL\\Documents\\GitHub\\NBUY\\26.01.2023\\EducationApp\\EducationApp.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",

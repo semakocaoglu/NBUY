@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "G/ZV/MUIe/Oy1PndNJbo3XOhezVMmAmZr9lPAX1c1sM=",
+  "Hash": "XkoP9hb5eHDxyoY4DL//r/W5aO7qsiRvvlUekXvGTmA=",
   "Source": "EducationApp.Web",
   "BasePath": "_content/EducationApp.Web",
   "Mode": "Default",
@@ -508,6 +508,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\b4f76df1-b606-4829-bcc5-c319c6059f2e.png"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\ProjeSon\\EducationApp\\EducationApp.Web\\wwwroot\\images\\c0e6f0f3-450f-4bf5-9add-b1437b12a953.png",
+      "SourceId": "EducationApp.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\ProjeSon\\EducationApp\\EducationApp.Web\\wwwroot\\",
+      "BasePath": "_content/EducationApp.Web",
+      "RelativePath": "images/c0e6f0f3-450f-4bf5-9add-b1437b12a953.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\c0e6f0f3-450f-4bf5-9add-b1437b12a953.png"
     },
     {
       "Identity": "C:\\Users\\DELL\\Desktop\\ProjeSon\\EducationApp\\EducationApp.Web\\wwwroot\\images\\cc4235f5-8eaa-4f74-89fa-4712fa927408.png",

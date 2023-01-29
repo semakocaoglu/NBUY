@@ -46,11 +46,8 @@ namespace EducationApp.Web.Areas.Admin.Controllers
             {
                 var category = new Category
                 {
-                    Name = categoryAddDto.Name,
-                    Description = categoryAddDto.Description,
-                   
-
-
+                    Name = categoryAddDto.Name
+                    
 
                 };
                 await _categoryService.CreateAsync(category);

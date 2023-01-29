@@ -1,0 +1,76 @@
+﻿using EducationApp.Business.Abstract;
+using EducationApp.Entity.Concrete;
+using EducationApp.Web.Areas.Admin.Models.Dtos;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+
+namespace EducationApp.Web.Areas.Admin.Controllers
+{
+    [Authorize]
+    [Area("Admin")]
+    public class CategoryController : Controller
+    {
+        private readonly ICategoryService _categoryService;
+
+        public CategoryController(ICategoryService categoryService) 
+        {
+            _categoryService = categoryService;
+        }
+
+        
+        public async Task<IActionResult> Index()
+        {
+            var categories = await _categoryService.GetAllAsync();
+            var categoryListDto = new CategoryListDto
+            {
+                Categories = categories
+            };
+            ViewBag.SelectedMenu = "Category";
+            ViewBag.Title = "Dersler";
+            return View(categoryListDto);
+
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpGet]
+        public async Task<IActionResult> Create()
+        {
+            var upcategories = await _categoryService.GetUpCat();
+            var CategoryAddDto = new CategoryAddDto
+            {
+                UpCategories = upcategories
+            };
+            return View(CategoryAddDto);
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpPost]
+        public async Task<IActionResult> Create(CategoryAddDto categoryAddDto)
+        {
+            if (ModelState.IsValid)
+            {
+                var category = new Category
+                {
+                    Name = categoryAddDto.Name
+                    
+
+                };
+                await _categoryService.CreateAsync(category);
+                return RedirectToAction("Index");
+
+            }
+            return View();
+        }
+
+        public async Task<IActionResult> UpdatePopularCategory(int id)
+        {
+            var category = await _categoryService.GetByIdAsync(id);
+            if (category == null) { return NotFound(); }
+            await _categoryService.UpdatePopularCategory(category);
+            return RedirectToAction("Index");
+        }
+
+
+
+    }
+}

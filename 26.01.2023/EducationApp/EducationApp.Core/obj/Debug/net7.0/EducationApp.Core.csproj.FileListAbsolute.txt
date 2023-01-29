@@ -10,3 +10,15 @@ C:\Users\DELL\Desktop\EducationApp\EducationApp.Core\obj\Debug\net7.0\EducationA
 C:\Users\DELL\Desktop\EducationApp\EducationApp.Core\obj\Debug\net7.0\refint\EducationApp.Core.dll
 C:\Users\DELL\Desktop\EducationApp\EducationApp.Core\obj\Debug\net7.0\EducationApp.Core.pdb
 C:\Users\DELL\Desktop\EducationApp\EducationApp.Core\obj\Debug\net7.0\ref\EducationApp.Core.dll
+C:\Users\DELL\Documents\GitHub\NBUY\26.01.2023\EducationApp\EducationApp.Core\bin\Debug\net7.0\EducationApp.Core.deps.json
+C:\Users\DELL\Documents\GitHub\NBUY\26.01.2023\EducationApp\EducationApp.Core\bin\Debug\net7.0\EducationApp.Core.dll
+C:\Users\DELL\Documents\GitHub\NBUY\26.01.2023\EducationApp\EducationApp.Core\bin\Debug\net7.0\EducationApp.Core.pdb
+C:\Users\DELL\Documents\GitHub\NBUY\26.01.2023\EducationApp\EducationApp.Core\obj\Debug\net7.0\EducationApp.Core.csproj.AssemblyReference.cache
+C:\Users\DELL\Documents\GitHub\NBUY\26.01.2023\EducationApp\EducationApp.Core\obj\Debug\net7.0\EducationApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Documents\GitHub\NBUY\26.01.2023\EducationApp\EducationApp.Core\obj\Debug\net7.0\EducationApp.Core.AssemblyInfoInputs.cache
+C:\Users\DELL\Documents\GitHub\NBUY\26.01.2023\EducationApp\EducationApp.Core\obj\Debug\net7.0\EducationApp.Core.AssemblyInfo.cs
+C:\Users\DELL\Documents\GitHub\NBUY\26.01.2023\EducationApp\EducationApp.Core\obj\Debug\net7.0\EducationApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\GitHub\NBUY\26.01.2023\EducationApp\EducationApp.Core\obj\Debug\net7.0\EducationApp.Core.dll
+C:\Users\DELL\Documents\GitHub\NBUY\26.01.2023\EducationApp\EducationApp.Core\obj\Debug\net7.0\refint\EducationApp.Core.dll
+C:\Users\DELL\Documents\GitHub\NBUY\26.01.2023\EducationApp\EducationApp.Core\obj\Debug\net7.0\EducationApp.Core.pdb
+C:\Users\DELL\Documents\GitHub\NBUY\26.01.2023\EducationApp\EducationApp.Core\obj\Debug\net7.0\ref\EducationApp.Core.dll

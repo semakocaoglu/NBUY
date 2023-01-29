@@ -1634,11 +1634,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\EducationApp\\EducationApp.Web\\EducationApp.Web.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\Documents\\GitHub\\NBUY\\26.01.2023\\EducationApp\\EducationApp.Web\\EducationApp.Web.csproj",
       "projectName": "EducationApp.Web",
-      "projectPath": "C:\\Users\\DELL\\Desktop\\EducationApp\\EducationApp.Web\\EducationApp.Web.csproj",
+      "projectPath": "C:\\Users\\DELL\\Documents\\GitHub\\NBUY\\26.01.2023\\EducationApp\\EducationApp.Web\\EducationApp.Web.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\Desktop\\EducationApp\\EducationApp.Web\\obj\\",
+      "outputPath": "C:\\Users\\DELL\\Documents\\GitHub\\NBUY\\26.01.2023\\EducationApp\\EducationApp.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1655,11 +1655,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\DELL\\Desktop\\EducationApp\\EducationApp.Business\\EducationApp.Business.csproj": {
-              "projectPath": "C:\\Users\\DELL\\Desktop\\EducationApp\\EducationApp.Business\\EducationApp.Business.csproj"
+            "C:\\Users\\DELL\\Documents\\GitHub\\NBUY\\26.01.2023\\EducationApp\\EducationApp.Business\\EducationApp.Business.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Documents\\GitHub\\NBUY\\26.01.2023\\EducationApp\\EducationApp.Business\\EducationApp.Business.csproj"
             },
-            "C:\\Users\\DELL\\Desktop\\EducationApp\\EducationApp.Core\\EducationApp.Core.csproj": {
-              "projectPath": "C:\\Users\\DELL\\Desktop\\EducationApp\\EducationApp.Core\\EducationApp.Core.csproj"
+            "C:\\Users\\DELL\\Documents\\GitHub\\NBUY\\26.01.2023\\EducationApp\\EducationApp.Core\\EducationApp.Core.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Documents\\GitHub\\NBUY\\26.01.2023\\EducationApp\\EducationApp.Core\\EducationApp.Core.csproj"
             }
           }
         }
